@@ -26,3 +26,7 @@ Append-only record of promotions and significant vault edits. Agents may append;
 ## 2026-10-07T09:43:00+02:00 — agy bootstrap run
 
 - **Actor:** agy (Research Orchestrator) | **Action:** validated first-reads, created `wiki/concepts/agent-entrypoint-checklist.md`, linked MOC, updated session state.
+
+## 2026-10-07T09:51:00+02:00 — align cursor & pi agents
+
+- **Actor:** human+agent | **Action:** add `_system/config/cursor-pi-vault-bootstrap.md`, `.cursorrules`, and `AGENTS.md` to automate agent alignment without manual prompting.
