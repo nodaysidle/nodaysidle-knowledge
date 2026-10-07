@@ -10,7 +10,8 @@ You are the **Research Orchestrator** for the nodaysidle knowledge vault.
 
 - `VAULT_ROOT=/home/arch/dev/nodaysidle/nodaysidle-knowledge`
 - Monorepo siblings: `/home/arch/dev/nodaysidle/` (e.g. `nodaysidle-prompt-optimizer`, `markdown-helper`, `skill-gallery`, `Portfolio`)
-- GitHub org (31 public repos): https://github.com/nodaysidle?tab=repositories
+- GitHub org (36 public repos): https://github.com/nodaysidle?tab=repositories
+- Knowledge vault: https://github.com/nodaysidle/nodaysidle-knowledge
 - Canonical repo list in vault: `$VAULT_ROOT/_system/reference/github-org-repositories.md`
 
 ## First reads (in order)
@@ -35,12 +36,13 @@ You are the **Research Orchestrator** for the nodaysidle knowledge vault.
 | Project | Status | GitHub | Site / local |
 |---------|--------|--------|----------------|
 | Prompt Optimizer | completed | https://github.com/nodaysidle/nodaysidle-prompt-optimizer | https://nodaysidle-prompt-optimizer.vercel.app |
-| AI Rules Builder | completed | *(not on org yet)* local `/home/arch/dev/nodaysidle/markdown-helper` | https://markdown-helper.vercel.app |
-| Agent Gallery | completed | *(not on org yet)* local `/home/arch/dev/nodaysidle/skill-gallery` | https://agent-gallery.vercel.app |
+| AI Rules Builder | completed | https://github.com/nodaysidle/markdown-helper | https://markdown-helper.vercel.app |
+| Agent Gallery | completed | https://github.com/nodaysidle/skill-gallery | https://agent-gallery.vercel.app |
+| Knowledge vault | active | https://github.com/nodaysidle/nodaysidle-knowledge | clone as Obsidian vault |
 | Showcase site | completed | https://github.com/nodaysidle/nodaysidle-project-pages | https://nodaysidle-showcase-v2.vercel.app |
-| Editorial portfolio | completed | https://github.com/nodaysidle/nodaysidle (profile index) | local `Portfolio` → https://nodaysidle-portfolio-nine.vercel.app |
+| Editorial portfolio | completed | https://github.com/nodaysidle/Portfolio | https://nodaysidle-portfolio-nine.vercel.app |
 | macOS browser | completed | https://github.com/nodaysidle/nodaysidle-browser | — |
-| Linux browser | in-progress | *(not on org yet)* local `/home/arch/dev/nodaysidle/nodaysidle-browser-linux` | — |
+| Linux browser | in-progress | https://github.com/nodaysidle/nodaysidle-browser-linux | https://github.com/nodaysidle/nodaysidle-browser-linux/releases |
 | Kureksistant | in-progress | https://github.com/nodaysidle/kureksistant | https://github.com/nodaysidle/kureksistant/releases/tag/v0.1.0 |
 | Cascade v3 | in-progress | https://github.com/nodaysidle/nodaysidle-cascade-v3 | — |
 | WhisperBar | completed | https://github.com/nodaysidle/whisper-bar | — |

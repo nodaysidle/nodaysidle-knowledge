@@ -16,6 +16,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 ## Core notes
 
 - [[wiki/concepts/knowledge-vault-overview]]
+- [[wiki/concepts/agent-entrypoint-checklist]]
 
 ## GitHub org
 
