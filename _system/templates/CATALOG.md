@@ -7,10 +7,10 @@ Index of `_system/templates` entries. All paths are relative to the vault root.
 | File | Name | Status | GitHub |
 |------|------|--------|--------|
 | [[catalog/nodaysidle-prompt-optimizer]] | Prompt Optimizer | completed | [repo](https://github.com/nodaysidle/nodaysidle-prompt-optimizer) |
-| [[catalog/markdown-helper]] | AI Rules Builder | completed | local only → [[_system/reference/github-org-repositories]] |
-| [[catalog/skill-gallery]] | Agent Gallery | completed | local only → [[_system/reference/github-org-repositories]] |
-| [[catalog/portfolio-site]] | Portfolio / showcase | completed | [project-pages](https://github.com/nodaysidle/nodaysidle-project-pages) + local `Portfolio` |
-| [[catalog/nodaysidle-browser-linux]] | nodaysidle (Linux browser) | in-progress | local only (see org index) |
+| [[catalog/markdown-helper]] | AI Rules Builder | completed | https://github.com/nodaysidle/markdown-helper |
+| [[catalog/skill-gallery]] | Agent Gallery | completed | https://github.com/nodaysidle/skill-gallery |
+| [[catalog/portfolio-site]] | Portfolio / showcase | completed | [Portfolio](https://github.com/nodaysidle/Portfolio) + [project-pages](https://github.com/nodaysidle/nodaysidle-project-pages) |
+| [[catalog/nodaysidle-browser-linux]] | nodaysidle (Linux browser) | in-progress | https://github.com/nodaysidle/nodaysidle-browser-linux |
 | [[catalog/kurekizmo]] | Kureksistant (Kurek) | in-progress | https://github.com/nodaysidle/kureksistant |
 | [[catalog/nodaysidle-browser]] | NODAYSIDLE Browser (macOS) | completed | https://github.com/nodaysidle/nodaysidle-browser |
 | [[catalog/cascade-v3]] | Cascade v3 | in-progress | https://github.com/nodaysidle/nodaysidle-cascade-v3 |

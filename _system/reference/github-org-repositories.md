@@ -2,7 +2,7 @@
 type: reference
 source_url: https://github.com/nodaysidle?tab=repositories
 synced: 2026-10-07
-public_repo_count: 31
+public_repo_count: 36
 tags:
   - reference
   - github
@@ -14,7 +14,7 @@ Canonical list from the [public repositories tab](https://github.com/nodaysidle?
 
 ```bash
 curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" \
-  | jq -r '.[] | "- [\(.name)](\(.html_url))" + (if .homepage then " — " + .homepage else "" end)' | sort
+  | jq -r '.[] | "- [\(.name)](\(.html_url))" + (if .homepage != null and .homepage != "" then " — " + .homepage else "" end)' | sort
 ```
 
 ## Published on GitHub
@@ -27,15 +27,18 @@ curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" 
 - [hermes-agent](https://github.com/nodaysidle/hermes-agent) — https://hermes-agent.nousresearch.com
 - [hermes-gpt](https://github.com/nodaysidle/hermes-gpt) — https://hermes-gpt.tonysimons.dev
 - [kureksistant](https://github.com/nodaysidle/kureksistant) — https://github.com/nodaysidle/kureksistant
+- [markdown-helper](https://github.com/nodaysidle/markdown-helper) — https://markdown-helper.vercel.app
 - [monospace-notes](https://github.com/nodaysidle/monospace-notes)
 - [nodaysidian](https://github.com/nodaysidle/nodaysidian)
 - [nodaysidle](https://github.com/nodaysidle/nodaysidle) — profile README and public project index
 - [nodaysidle-browser](https://github.com/nodaysidle/nodaysidle-browser)
+- [nodaysidle-browser-linux](https://github.com/nodaysidle/nodaysidle-browser-linux)
 - [nodaysidle-cascade-v3](https://github.com/nodaysidle/nodaysidle-cascade-v3)
 - [nodaysidle-cistilka](https://github.com/nodaysidle/nodaysidle-cistilka)
 - [nodaysidle-cloudscribe](https://github.com/nodaysidle/nodaysidle-cloudscribe)
 - [nodaysidle-echocore-pro](https://github.com/nodaysidle/nodaysidle-echocore-pro)
 - [nodaysidle-flowstate](https://github.com/nodaysidle/nodaysidle-flowstate)
+- [nodaysidle-knowledge](https://github.com/nodaysidle/nodaysidle-knowledge) — research vault (this repo)
 - [nodaysidle-lumiere](https://github.com/nodaysidle/nodaysidle-lumiere)
 - [nodaysidle-project-pages](https://github.com/nodaysidle/nodaysidle-project-pages) — https://nodaysidle-showcase-v2.vercel.app
 - [nodaysidle-prompt-optimizer](https://github.com/nodaysidle/nodaysidle-prompt-optimizer)
@@ -46,20 +49,13 @@ curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" 
 - [nodaysrecording](https://github.com/nodaysidle/nodaysrecording)
 - [nodaystypst](https://github.com/nodaysidle/nodaystypst)
 - [pocket-drafts](https://github.com/nodaysidle/pocket-drafts)
+- [Portfolio](https://github.com/nodaysidle/Portfolio) — https://nodaysidle-portfolio-nine.vercel.app
 - [scribeflowpro](https://github.com/nodaysidle/scribeflowpro)
+- [skill-gallery](https://github.com/nodaysidle/skill-gallery) — https://agent-gallery.vercel.app
 - [small-count](https://github.com/nodaysidle/small-count)
 - [synapse-notes](https://github.com/nodaysidle/synapse-notes)
 - [whisper-bar](https://github.com/nodaysidle/whisper-bar)
 
-## Local workspace, not on GitHub (yet)
+## Local clones (sibling monorepo)
 
-These exist under `/home/arch/dev/nodaysidle/` with verified Vercel or local builds; **no matching public repo** as of 2026-10-07:
-
-| Local folder | Product | Live site |
-|--------------|---------|-----------|
-| `markdown-helper` | AI Rules Builder | https://markdown-helper.vercel.app |
-| `skill-gallery` | Agent Gallery | https://agent-gallery.vercel.app |
-| `Portfolio` | Editorial portfolio (build from profile JSON) | https://nodaysidle-portfolio-nine.vercel.app |
-| `nodaysidle-browser-linux` | Linux WebKit browser | releases pending public repo |
-
-When published, add rows to `catalog/` and move entries into the list above.
+When using a multi-repo checkout under `~/dev/nodaysidle/`, catalog `local_path: ../{folder}` may differ from the GitHub repo name (e.g. `kurekizmo` → `kureksistant`).
