@@ -62,3 +62,7 @@ The optimizer supports four distinct prompt paradigms (`user`, `system`, `image`
 - **Local Clone:** `/home/arch/dev/nodaysidle/nodaysidle-prompt-optimizer`
 - **Production Host:** Vercel (`https://nodaysidle-prompt-optimizer.vercel.app`)
 - **Licence:** MIT
+
+## Backlog & Future Enhancements
+
+- [[inbox/2026-10-08-prompt-optimizer-multi-provider-engine]] — Multi-provider rewriter backend (DeepSeek, Gemini, OpenAI).
