@@ -17,6 +17,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 
 - [[wiki/concepts/knowledge-vault-overview]]
 - [[wiki/concepts/agent-entrypoint-checklist]]
+- [[wiki/concepts/decision-models-microsoft-vs-jev]] (Microsoft-Decision-1 vs TypeSafe Jev architecture & benchmarks)
 
 ## nodaysidle-browser-linux
 
@@ -38,9 +39,10 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 - [[wiki/concepts/nodaysidle-sonora-overview]] · [[_system/templates/catalog/nodaysidle-sonora]]
 - [[wiki/concepts/synapse-notes-overview]] · [[_system/templates/catalog/synapse-notes]]
 
-## whisper-bar · shareguard
+## whisper-bar · voice-anywhere · shareguard
 
 - [[_system/templates/catalog/whisper-bar]] · [[_system/templates/catalog/nodaysidle-shareguard]] (catalog only; no sources ingested yet)
+- [[wiki/concepts/nodaysidle-voice-anywhere-overview]] (Android accessibility dictation, Superwhisper interaction, hold-to-talk, auto typing detection)
 
 ## nodaysrammar
 

@@ -44,24 +44,32 @@ The optimizer supports four distinct prompt paradigms (`user`, `system`, `image`
      - `[LIGHTING & ATMOSPHERE]`: Dynamic light progression, reflections, volumetric lighting, and color grading.
      - `[NEGATIVE / ARTIFACT GUARDS]`: Excludes static pauses, unnatural morphing, jitter, rubbery limbs, and sudden camera snapping.
 
-## TypeSafe Jev System One Integration
+## Decision Intelligence Engines (Microsoft-Decision-1 + TypeSafe Jev)
 
-- **Preflight Diagnostics (~80ms):**
-  - Evaluates inputs using Jev primitives: `score` (0..3 clarity), `noul` (ambiguity, lack of negative constraints, lack of persona/role, injection/jailbreak risk), and `choice` (suggested category).
-  - For video prompts: runs dedicated questions for temporal motion dynamics (`lacks_temporal_action`) and cinematographic camera path (`lacks_camera_movement`).
-  - Diagnostic flaws are injected directly into DeepSeek rewrite instructions, making rewrites targeted rather than generic.
+- **Dual-Engine Architecture (Updated 2026-10-10):**
+  - **Primary Engine — Microsoft-Decision-1 (OpenRouter `/api/alpha/decisions`):**
+    - Post-trained Qwen3.5-9B model delivering **~85ms median latency** on structured decision tasks.
+    - Resolves public web concurrency bottlenecks and account thread limits on Vercel.
+    - Evaluates 8 questions in a single parallel snap call: `clarity` (0..3 score rubric), `is_ambiguous` (noul), `lacks_constraints` (noul), `lacks_role` (noul), `injection_risk` (noul), `suggested_kind` (choice), plus video-specific `lacks_temporal_action` and `lacks_camera_movement`.
+  - **Fallback Engine — TypeSafe Jev:**
+    - High-calibration System One model (`jev-1.13.0`, 93.7 calibration score) engaged if OpenRouter key is absent.
+  - **Zero-Cost Fallback — Deterministic Heuristics:**
+    - Built-in regex and lexical tokenizer engaged if no cloud keys are provided.
 - **Quality Gate:**
-  - Post-generation Jev evaluation verifying core intent preservation (`intent_preserved >= 0.7`) and guarding against cognitive bloat/over-engineering (`over_engineered <= 0.6`).
-- **Interactive UI:**
-  - Live health audit score (0-100), health gauge, and dimension tiles (switching to "Camera & Motion" when auditing video prompts).
-  - Side-by-side view, word-level diff viewer (`diff` tokenization), and live testing playground.
+  - Post-generation evaluation verifying core intent preservation (`intent_preserved >= 0.7`) and guarding against bloat (`over_engineered <= 0.6`).
+- **Interactive UI & Client Settings:**
+  - Live health audit score (0-100), health gauge, and dimension tiles.
+  - Dedicated **OpenRouter** and **TypeSafe** settings cards with local browser key storage (`localStorage`).
+  - Side-by-side view, word-level diff viewer (`diff` tokenization), and live playground.
 
 ## Verification & Deployment
 
 - **Repository:** `https://github.com/nodaysidle/nodaysidle-prompt-optimizer` (branch `master`)
 - **Local Clone:** `/home/arch/dev/nodaysidle/nodaysidle-prompt-optimizer`
 - **Production Host:** Vercel (`https://nodaysidle-prompt-optimizer.vercel.app`)
+- **Latest Production Release (2026-10-10):** Commit `818eed1` deployed via Vercel CLI (`Ready in 33s`), live verified on `/api/diagnose` with `x-openrouter-key`.
 - **Licence:** MIT
+- **Comparative Note:** [[wiki/concepts/decision-models-microsoft-vs-jev]]
 
 ## Backlog & Future Enhancements
 

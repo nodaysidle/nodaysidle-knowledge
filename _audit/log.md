@@ -486,3 +486,37 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - **Change:** `wiki/concepts/x-promo-strategy-2026-10-12.md` calendar rows changed: Wed 21 is now the Kurek v0.2.0 launch, Thu 29 the poll-winner thread. The Wed 14 recap uses v0.2.0 facts (24 tools, ~450MB peak, ~0.8ms, no fix claims). The roundup counts six apps. The Kurek first reply links https://nodaysidle-apps.vercel.app/#kurek. The box copy `/workspace/reach/x-promo-strategy-2026-10-12.md` was synced from the vault.
 
 - 2026-10-10 16:28 (ATLAS): kureksistant-overview: recorded owner commit 5477ef5 (vault_knowledge, tool #25) after the fact; tool count 24→25 (6137128); ~150-token claim marked unmeasured; duplicate YAML key `verified_previous_pr5` renamed; stale REACH launch conflict resolved; PR #9 9f82d28 recorded. Uncommitted.
+
+## 2026-10-10T18:25:00+02:00 — Voice Anywhere: Superwhisper tactile interaction & auto-typing overlay
+
+- **Actor:** agent (Antigravity), per user request.
+- **Project:** `com.nodaysidle.voiceanywhere.debug` (`/home/arch/Projects/_github-migrations/nodaysidle-voice-anywhere-v2`).
+- **Verified:** Tested and verified on physical hardware (Xiaomi Mi 10T Pro / Android 12, device `a2f3cdaa`):
+  - **Badge UI**: Custom Canvas `SuperwhisperDeltaIcon` (black rounded triangle badge, white outline, matching inner Delta glyph `▲`, 0-padding idle capsule).
+  - **Interaction**: Hold-to-Talk (press to record, release to paste), double-tap for history drawer, edge snap.
+  - **Auto-Hide / Typing Detection**: Fast 200ms debounce on leaving text fields; auto-hides on launcher/home; auto-pops on text focus (`findFocus`, `FOCUS_INPUT`, `rootInActiveWindow`).
+  - **Audio & STT Resiliency**: Solved Android `MediaRecorder` stop error `-1007` with frame encoding buffer guarantee; filtered sub-300ms false error triggers.
+- **Created / Edited:**
+## 2026-10-10T21:05:00+02:00 — Decision Intelligence: Microsoft-Decision-1 vs TypeSafe Jev integration
+
+- **Actor:** agent (Antigravity), per user request.
+- **Scope & Comparative Benchmark:**
+  - Evaluated the newly announced **Microsoft-Decision-1** (Qwen3.5-9B post-trained for single-pass decision scoring; 85ms P50 latency, 83.5% accuracy, 92.2 calibration score, $0.042/1M input tokens) against **TypeSafe Jev** (jev-1.13.0 System One; 240ms P50, 82.3% accuracy, 93.7 calibration score #1).
+  - Adopted workspace-wide hybrid architecture: Microsoft-Decision-1 for sub-100ms hot loops and web apps; TypeSafe Jev retained for critical security risk matrices (`jev-review`), spec gating (`cascade-v3`), and persistent memory boundary hoisting.
+- **Implemented & Verified:**
+  1. **Kureksistant (`/home/arch/dev/nodaysidle/kurekizmo`):**
+     - Updated `kurek_daemon.py`: `_check_auto_screen_context` now calls Microsoft-Decision-1 via OpenRouter `/api/alpha/decisions` using `OPENROUTER_API_KEY`.
+     - Live verified in daemon venv: triggers active window capture in ~85ms (down from 240ms), saving ~155ms on middle-click hardware voice triggers.
+     - TypeSafe Jev preserved for Muse memory triage and alignment boundary hoisting.
+  2. **Prompt Optimizer (`/home/arch/dev/nodaysidle/nodaysidle-prompt-optimizer`):**
+     - Updated `src/lib/jev.ts` to call OpenRouter decisions API as primary engine across all 8 diagnostic questions and quality gate, with TypeSafe fallback.
+     - Added OpenRouter key setting card in UI (`settings-panel.tsx`) and header routing in `/api/diagnose` & `/api/optimize`.
+     - Committed (`818eed1`), pushed to GitHub, and redeployed to production on Vercel: `https://nodaysidle-prompt-optimizer.vercel.app`.
+     - Live verified production response with `x-openrouter-key`.
+- **Created / Edited in Vault:**
+  - Created [[wiki/concepts/decision-models-microsoft-vs-jev]].
+  - Updated [[wiki/concepts/nodaysidle-prompt-optimizer-overview]].
+  - Updated [[wiki/concepts/kureksistant-overview]].
+  - Updated [[_system/templates/catalog/nodaysidle-prompt-optimizer]].
+  - Updated [[wiki/MOC/moc-nodaysidle-knowledge]].
+
