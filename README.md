@@ -100,6 +100,10 @@ export VAULT_ROOT="$(pwd)"   # vault root after clone
 | Showcase | [nodaysidle-project-pages](https://github.com/nodaysidle/nodaysidle-project-pages) | https://nodaysidle-showcase-v2.vercel.app |
 | Editorial portfolio build | [Portfolio](https://github.com/nodaysidle/Portfolio) | https://nodaysidle-portfolio-nine.vercel.app |
 
+> ⚠️ **Stale as of 2026-10-08:** the owner confirmed https://nodaysidle-portfolio-nine.vercel.app (Vercel project `nodaysidle-portfolio`) as the official showcase. The "Showcase" row above (nodaysidle-project-pages → showcase-v2) is stale and not canonical. See [_system/templates/catalog/portfolio-site.md](_system/templates/catalog/portfolio-site.md).
+
+> **2026-10-08 23:41:** new **downloads showcase** at https://nodaysidle-apps.vercel.app ([nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps)). The editorial portfolio above (public `Portfolio` repo → portfolio-nine) is still the official portfolio. See [_system/templates/catalog/nodaysidle-apps.md](_system/templates/catalog/nodaysidle-apps.md).
+
 ## License
 
 MIT © [nodaysidle](https://github.com/nodaysidle)

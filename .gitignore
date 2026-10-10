@@ -2,3 +2,6 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .trash/
+
+# Obsidian plugin code and settings (may hold API keys, e.g. local-rest-api)
+.obsidian/plugins/

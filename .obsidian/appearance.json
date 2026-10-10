@@ -1,4 +1,6 @@
 {
   "theme": "obsidian",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "accentColor": "#f55ccc",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font"
 }
