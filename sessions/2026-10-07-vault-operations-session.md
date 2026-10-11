@@ -102,3 +102,7 @@ tags:
 Promotion still requires human `review_status: approved` on briefs. Never delete `sources/raw/`.
 
 - **Process (2026-10-09 11:56, per user):** teammate bots report to Execution Operator, and the owner talks only to Execution Operator.
+
+- 2026-10-11 19:07: SWEEP Oct 11 18:13 weekly catalog sweep recorded in [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]]. OPEN: (1) nodaysidle-browser (macOS) v2026.7.23 has 0 assets, install covers source builds only, not shippable; (2) browser-linux install links the releases index, not the AppImage; (3) nodaysidle-browser and synapse-notes have no demo GIF; (4) nodaysrammar, kureksistant, ShareGuard and browser-linux missing from the portfolio (nodaysidle-portfolio-nine), whose Browser card points at a release with no downloads. CLEARED: whisper-bar and shareguard README install links; sonora release notes. Uncommitted.
+
+- 2026-10-11 19:38: nodaysidle/Portfolio PR #1 squash-merged as 9b9a0d8 (Oct 11 19:32, per Execution Operator, user-approved), deploying to nodaysidle-portfolio-nine.vercel.app. Added 4 cards, portfolio now 9 projects: nodaysrammar v1.0.1 (MIT), Kurek v0.2.0 (CC BY-NC 4.0), ShareGuard v0.1.2 (proprietary, no apps-site card), Browser for Linux v0.1.0 (no licence claim). macOS Browser card unchanged, renumbered 05/09 (its release still has no assets). Closes SWEEP Oct 11 gap 4 except the Browser-card download issue.

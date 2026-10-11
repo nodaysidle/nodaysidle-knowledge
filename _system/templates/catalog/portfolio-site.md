@@ -52,3 +52,7 @@ Canonical **presentation** layer for featured GitHub projects (`data/presentatio
 - **Unchanged:** nodaysidle/Portfolio, the Vercel project `nodaysidle-portfolio` and nodaysidle-portfolio-nine.vercel.app were left untouched and remain the **official portfolio**.
 - **New downloads showcase:** https://nodaysidle-apps.vercel.app ([nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps)), live 2026-10-08 ~23:40. It offers Cascade, Sonora, WhisperBar and NODAYSIDLE Browser for Linux. See [[_system/templates/catalog/nodaysidle-apps]].
 - showcase-v2 / nodaysidle-project-pages remain stale and not canonical.
+
+## Update 2026-10-11 19:38 (ATLAS)
+
+- nodaysidle/Portfolio PR #1 squash-merged as 9b9a0d8 (Oct 11 19:32, per Execution Operator, user-approved), deploying to nodaysidle-portfolio-nine.vercel.app. Added 4 cards, portfolio now 9 projects: nodaysrammar v1.0.1 (MIT), Kurek v0.2.0 (CC BY-NC 4.0), ShareGuard v0.1.2 (proprietary, no apps-site card), Browser for Linux v0.1.0 (no licence claim). macOS Browser card unchanged, renumbered 05/09 (its release still has no assets). Closes SWEEP Oct 11 gap 4 except the Browser-card download issue.
