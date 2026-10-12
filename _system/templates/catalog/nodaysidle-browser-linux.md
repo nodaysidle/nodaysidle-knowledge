@@ -36,3 +36,5 @@ Focused browsing surface for Omarchy/Hyprland workflows. Research topics: packag
   - ⚠️ **Mild open:** README Install links the [releases index](https://github.com/nodaysidle/nodaysidle-browser-linux/releases) + filename, not the direct `.../download/v0.1.0/nodaysidle-browser-x86_64.AppImage` URL.
   - ⚠️ **Open (owner):** still no licence; apps card says "No licence specified".
   - Details: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
+
+- 2026-10-12 03:50 (ATLAS): browser-linux PR #2 merged as 31ede82: README install now links the AppImage directly (closes reconcile 2026-10-11 conflict 5).

@@ -40,3 +40,5 @@ Autonomous assistant and workstation radar. Local folder name `kurekizmo`; upstr
   - Details: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
 
 - 2026-10-12 03:32 decision: Owner decisions 2026-10-12 (via Execution Operator): (1) macOS NODAYSIDLE Browser card to be hidden from the portfolio (no Macs available); (2) nodaysrammar stays off the Chrome Web Store for now (cost, no ROI; sideload only); (3) Kurek security fixes (unauthenticated HTTP :8790, exec() in actions/desktop.py) parked while the owner tests; he is prototyping phone-based remote control of Kurek. ⚠️ Risk: remote control would expose the unauthenticated control API and model-generated exec() beyond localhost; fix auth before exposing it.
+
+- 2026-10-12 03:50 (ATLAS): kureksistant PR #10 squash 395d7bf (2026-10-12 03:49, per Execution Operator): optional Microsoft-Decision-1 auto-screen decision via OpenRouter with TypeSafe fallback, 1.5s timeout, KUREK_AUTO_SCREEN=0 opt-out, validated null. ⚠️ Privacy risk: prompt text is sent to OpenRouter when the key is set. No latency claims.

@@ -62,3 +62,5 @@ Canonical **presentation** layer for featured GitHub projects (`data/presentatio
 - Live HTTP check re-confirmed 9 cards on https://nodaysidle-portfolio-nine.vercel.app (matches the 19:38 Portfolio PR #1 note above).
 - Apps site still 6 tools; ShareGuard remains portfolio-only (no apps card).
 - Full catalog reconcile: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]. SWEEP portfolio-missing rows marked superseded in [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]].
+
+- 2026-10-12 03:50 (ATLAS): Portfolio PR #2 merged as 4a542d0: macOS NODAYSIDLE Browser card hidden per owner decision 2026-10-12; portfolio now 8 projects (closes reconcile 2026-10-11 conflict 3 for the portfolio).

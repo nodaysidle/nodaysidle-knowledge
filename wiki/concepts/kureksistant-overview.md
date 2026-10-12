@@ -222,3 +222,5 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 
 - ✅ On portfolio-nine as card **07 / 09** (Portfolio PR #1 `9b9a0d8`). Apps card 06 and v0.2.0 release unchanged.
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+
+- 2026-10-12 03:50 (ATLAS): kureksistant PR #10 squash 395d7bf (2026-10-12 03:49, per Execution Operator): optional Microsoft-Decision-1 auto-screen decision via OpenRouter with TypeSafe fallback, 1.5s timeout, KUREK_AUTO_SCREEN=0 opt-out, validated null. ⚠️ Privacy risk: prompt text is sent to OpenRouter when the key is set. No latency claims.
