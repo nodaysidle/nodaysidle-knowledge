@@ -25,3 +25,7 @@ Portfolio group: **Native apps**. Research angles: speech APIs, privacy, on-devi
   - ⚠️ **Conflict:** the README says MIT, but GitHub detects no licence file. ✅ Resolved 2026-10-08 22:58: an MIT `LICENSE` was added via [PR #3](https://github.com/nodaysidle/whisper-bar/pull/3) (`2108144`), recorded by SHIP in the reconcile artifact.
   - **Downloads showcase (2026-10-08 23:41):** listed on https://nodaysidle-apps.vercel.app (v1.1.2, macOS Apple Silicon DMG). See [[_system/templates/catalog/nodaysidle-apps]].
   - Details: [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]].
+
+- ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+  - SWEEP Oct 11: Oct 8 SHIP install gap **cleared** and re-verified (README Installation → v1.1.2 `WhisperBar.dmg`). Still on portfolio (02/09) and apps site (card 03).
+  - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]

@@ -217,3 +217,8 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 - **Tools: 25** (`6137128` adds `actions/vault_knowledge.py`; README/AGENTS say 25).
 - **[PR #9](https://github.com/nodaysidle/kureksistant/pull/9) `9f82d28`** (squash, ~16:20, per Execution Operator): hardens `vault_knowledge` reads against path traversal, adds an env var for the vault path (no longer hardcoded), and fixes short queries. Installed on the owner's machine 16:27: journal "Loaded 25 actions", service active, `api_keys.json` unchanged (per Execution Operator, not re-checked by ATLAS).
 - **Still open:** ⚠️ unauthenticated HTTP :8790; ⚠️ `actions/desktop.py` exec(); end-to-end latency and the ~150-token anchor are unmeasured.
+
+## ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+
+- ✅ On portfolio-nine as card **07 / 09** (Portfolio PR #1 `9b9a0d8`). Apps card 06 and v0.2.0 release unchanged.
+- [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]

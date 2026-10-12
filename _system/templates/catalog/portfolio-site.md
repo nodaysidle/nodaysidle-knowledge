@@ -56,3 +56,9 @@ Canonical **presentation** layer for featured GitHub projects (`data/presentatio
 ## Update 2026-10-11 19:38 (ATLAS)
 
 - nodaysidle/Portfolio PR #1 squash-merged as 9b9a0d8 (Oct 11 19:32, per Execution Operator, user-approved), deploying to nodaysidle-portfolio-nine.vercel.app. Added 4 cards, portfolio now 9 projects: nodaysrammar v1.0.1 (MIT), Kurek v0.2.0 (CC BY-NC 4.0), ShareGuard v0.1.2 (proprietary, no apps-site card), Browser for Linux v0.1.0 (no licence claim). macOS Browser card unchanged, renumbered 05/09 (its release still has no assets). Closes SWEEP Oct 11 gap 4 except the Browser-card download issue.
+
+## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile cross-check
+
+- Live HTTP check re-confirmed 9 cards on https://nodaysidle-portfolio-nine.vercel.app (matches the 19:38 Portfolio PR #1 note above).
+- Apps site still 6 tools; ShareGuard remains portfolio-only (no apps card).
+- Full catalog reconcile: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]. SWEEP portfolio-missing rows marked superseded in [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]].

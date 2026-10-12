@@ -70,3 +70,9 @@ Synapse Notes is a voice-first Android notes app (Capacitor 8, `com.synapse.note
   - So the README's "no screen calls it" is accurate at HEAD and was left unchanged, to avoid writing false docs. Needs the user to confirm.
 - **#5 Versioning:** accepted, no change.
 - **#6 Doc pointers:** all three fixed (root AGENTS.md reading list, the docs/internal/AGENTS.md codemap location, the docs/AGENTS.md child index).
+
+## ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+
+- On portfolio-nine (card 04/09). Latest v0.4.3 APK OK.
+- ⚠️ **Open (REEL):** no demo GIF in the repo tree.
+- [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]

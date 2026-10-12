@@ -1,8 +1,8 @@
 ---
 type: reference
 source_url: https://github.com/nodaysidle?tab=repositories
-synced: 2026-10-07
-public_repo_count: 36
+synced: 2026-10-11
+public_repo_count: 38
 tags:
   - reference
   - github
@@ -31,6 +31,7 @@ curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" 
 - [monospace-notes](https://github.com/nodaysidle/monospace-notes)
 - [nodaysidian](https://github.com/nodaysidle/nodaysidian)
 - [nodaysidle](https://github.com/nodaysidle/nodaysidle) — profile README and public project index
+- [nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps) — https://nodaysidle-apps.vercel.app
 - [nodaysidle-browser](https://github.com/nodaysidle/nodaysidle-browser)
 - [nodaysidle-browser-linux](https://github.com/nodaysidle/nodaysidle-browser-linux)
 - [nodaysidle-cascade-v3](https://github.com/nodaysidle/nodaysidle-cascade-v3)
@@ -46,6 +47,7 @@ curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" 
 - [nodaysidle-sonora](https://github.com/nodaysidle/nodaysidle-sonora)
 - [nodaysidle-voice-anywhere-v2](https://github.com/nodaysidle/nodaysidle-voice-anywhere-v2)
 - [nodaysidle-vois](https://github.com/nodaysidle/nodaysidle-vois)
+- [nodaysrammar](https://github.com/nodaysidle/nodaysrammar)
 - [nodaysrecording](https://github.com/nodaysidle/nodaysrecording)
 - [nodaystypst](https://github.com/nodaysidle/nodaystypst)
 - [pocket-drafts](https://github.com/nodaysidle/pocket-drafts)
@@ -115,3 +117,11 @@ Append-only. The public API (`/users/nodaysidle/repos`) now returns **37** publi
 ## Update 2026-10-09 10:32 (UTC+2): new public repo nodaysrammar
 
 Append-only. The public API now returns **38** public repos (37 at 2026-10-08 23:41). The new one is [nodaysrammar](https://github.com/nodaysidle/nodaysrammar), a Chrome MV3 grammar checker created 2026-10-09 10:02, MIT, no homepage. Its local folder is `../chrome-extension` (the folder name differs from the repo name). See [[_system/templates/catalog/nodaysrammar]].
+
+## Update 2026-10-11 20:10 (UTC+2): public list re-synced to 38
+
+Append-only. Verified with `gh api users/nodaysidle` (`public_repos: 38`) and `/users/nodaysidle/repos`.
+
+- Frontmatter `public_repo_count` set to **38** (was 36 at 2026-10-07; Update sections already noted 37 then 38).
+- Added missing bullets to the Published list: [nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps), [nodaysrammar](https://github.com/nodaysidle/nodaysrammar). Earlier Update sections (2026-10-08 23:41, 2026-10-09 10:32) already recorded them; the bullet list was out of sync.
+- Weekly reconcile: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].

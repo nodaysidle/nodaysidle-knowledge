@@ -55,4 +55,10 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 - **Repo:** public. The default branch is **`master`** (not `main`), HEAD `a813e70` (README promo GIF, PR #1, merged 2026-10-07 22:55). No open PRs, no GitHub homepage URL. The GitHub API detects no licence.
 - **Latest release:** v0.1.0 (2026-10-07 09:38) with `nodaysidle-browser-x86_64.AppImage`, SHA-256 `f6d82efa…4404`. The release body already says "Host-dependent AppImage" and gives that SHA-256, so the optional release-body edit (session next action 6) is no longer needed.
 - **Demo GIF:** `docs/browser-linux.gif` is in the README and loads.
-- **Showcase:** ⚠️ not on the official portfolio (nodaysidle-portfolio-nine.vercel.app). Its "NODAYSIDLE Browser" card links the macOS [nodaysidle-browser](https://github.com/nodaysidle/nodaysidle-browser), not this repo. It is not on showcase-v2 either.
+- **Showcase:** ⚠️ **(Superseded 2026-10-11 20:10):** not on the official portfolio (nodaysidle-portfolio-nine.vercel.app). Its "NODAYSIDLE Browser" card links the macOS [nodaysidle-browser](https://github.com/nodaysidle/nodaysidle-browser), not this repo. It is not on showcase-v2 either.
+
+## ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+
+- ✅ On portfolio-nine as card **09 / 09** (Portfolio PR #1 `9b9a0d8`). macOS Browser remains a separate card (05/09).
+- Still on nodaysidle-apps (Browser for Linux). Mild: README Install → releases index, not direct AppImage URL. Licence still missing.
+- [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]

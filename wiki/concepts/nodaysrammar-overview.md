@@ -87,7 +87,7 @@ Verified on GitHub by Grok Bot (SHIP) after the owner-approved release (approved
 - **Manifest 1.0.1:** name "NODAYSIDLE nodaysrammar - On-Device Multilingual Grammar Checker". Permissions are **`storage` only**, and the content script runs on `<all_urls>`. There are no `host_permissions` and no `web_accessible_resources`.
 - **Blocklist:** the content script checks `chrome.storage.sync` before attaching listeners and detaches on change. The README Privacy section mentions Chrome Sync.
 - **Docs:** no ONNX/WASM, "production" or `/home/arch` claims remain apart from the historical `docs/RELEASE-NOTES-v1.0.0.md`. The English rule list matches `inference-engine.js`. Display name is "NODAYSIDLE nodaysrammar". Install is: download zip → `sha256sum -c` → unzip → `chrome://extensions` → Developer mode → Load unpacked. Not on the Chrome Web Store.
-- **Still open:** not listed on the nodaysidle-apps showcase or portfolio-nine. No GitHub homepage. Repo topics still include `onnx` and `webassembly`. ✅ 2026-10-09 11:56: on nodaysidle-apps (card 05, `aab4c1d`), homepage set, `onnx`/`webassembly` dropped from the topics. Still not on portfolio-nine.
+- **⚠️ **(Superseded 2026-10-11 20:10 re portfolio):** Still open:** not listed on the nodaysidle-apps showcase or portfolio-nine. No GitHub homepage. Repo topics still include `onnx` and `webassembly`. ✅ 2026-10-09 11:56: on nodaysidle-apps (card 05, `aab4c1d`), homepage set, `onnx`/`webassembly` dropped from the topics. ⚠️ **(Superseded 2026-10-11 20:10 re portfolio):** Still not on portfolio-nine.
 
 ### Contradictions resolved by v1.0.1
 
@@ -99,3 +99,8 @@ Verified on GitHub by Grok Bot (SHIP) after the owner-approved release (approved
 ## Update 2026-10-09 11:56 (UTC+2): CI hardening, homepage, showcase
 
 Status: **active, released** (v1.0.1 Latest). The 10:58 section above covers PR #1 and the resolved contradictions; this adds only what changed since. PR #2 `81082cf` (11:09) hardened CI: `contents: read`, and browser tests fail instead of being skipped. The repo homepage is now https://nodaysidle-apps.vercel.app. Topics are chrome-extension, grammar-checker, local-first, manifest-v3, privacy, spell-checker (`onnx` and `webassembly` dropped). nodaysrammar is card 05 "Chrome / Chromium (MV3)" on nodaysidle-apps ([PR #2](https://github.com/nodaysidle/nodaysidle-apps/pull/2) `aab4c1d`, 11:52; 12/12 links return 302). The display name "NODAYSIDLE nodaysrammar" has no "g" on purpose. **Still open:** not on the Chrome Web Store (sideload only); the owner's local `../chrome-extension` is at `4f41689` and needs `git pull` (origin `main` = `81082cf`). Verified by Grok Bot (ATLAS): GitHub API, re-downloaded zip SHA-256 `31d86ad8…6e6d` matches, live site checked.
+
+## ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+
+- ✅ On portfolio-nine as card **06 / 09** (Portfolio PR #1 `9b9a0d8`). Apps card 05 unchanged. v1.0.1 assets re-verified.
+- [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]

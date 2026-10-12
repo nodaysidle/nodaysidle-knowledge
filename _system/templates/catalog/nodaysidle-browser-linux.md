@@ -26,6 +26,13 @@ Focused browsing surface for Omarchy/Hyprland workflows. Research topics: packag
 - **Local clone:** `../nodaysidle-browser-linux`
 
 - **Status 2026-10-08 (verified 22:30 UTC+2):** public. The default branch is **`master`**, HEAD `a813e70` (README promo GIF, PR #1). Latest release [v0.1.0](https://github.com/nodaysidle/nodaysidle-browser-linux/releases/tag/v0.1.0) with `nodaysidle-browser-x86_64.AppImage`; the release body already gives the host-dependent note and the SHA-256. No open PRs, no GitHub homepage.
-  - **Not** on the official portfolio (portfolio-nine). Its "NODAYSIDLE Browser" card is the macOS [[_system/templates/catalog/nodaysidle-browser]].
+  - ⚠️ **(Superseded 2026-10-11 20:10):** **Not** on the official portfolio (portfolio-nine). Its "NODAYSIDLE Browser" card is the macOS [[_system/templates/catalog/nodaysidle-browser]].
   - **Downloads showcase (2026-10-08 23:41):** listed on https://nodaysidle-apps.vercel.app as "NODAYSIDLE Browser for Linux" (v0.1.0, Linux x86_64 AppImage). ⚠️ **Open (owner decision):** the repo still has no licence, so the card says "No licence specified". See [[_system/templates/catalog/nodaysidle-apps]].
   - Details: [[wiki/concepts/nodaysidle-browser-linux-overview]] · [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]].
+
+- ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+  - ✅ On official portfolio as card **09 / 09** ("NODAYSIDLE Browser for Linux") after Portfolio PR #1 `9b9a0d8`. The separate "NODAYSIDLE Browser" card (05/09) remains the macOS [[_system/templates/catalog/nodaysidle-browser]].
+  - Still on downloads showcase (card 04). Latest [v0.1.0](https://github.com/nodaysidle/nodaysidle-browser-linux/releases/tag/v0.1.0) AppImage verified.
+  - ⚠️ **Mild open:** README Install links the [releases index](https://github.com/nodaysidle/nodaysidle-browser-linux/releases) + filename, not the direct `.../download/v0.1.0/nodaysidle-browser-x86_64.AppImage` URL.
+  - ⚠️ **Open (owner):** still no licence; apps card says "No licence specified".
+  - Details: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].

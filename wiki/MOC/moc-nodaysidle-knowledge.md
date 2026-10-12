@@ -50,13 +50,15 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 - **Status 2026-10-09 11:56:** active, released [v1.0.1](https://github.com/nodaysidle/nodaysrammar/releases/tag/v1.0.1) (`ce2cbd7`, CI `81082cf`). Card 05 on nodaysidle-apps. Sideload only (not on the Chrome Web Store).
 - [[artifacts/nodaysrammar/repo-check-2026-10-09]] (GitHub check 2026-10-09 10:32: v1.0.0, MIT, release has no assets; ⚠️ the ONNX Runtime and trained-model claims are not backed by the code) *(✅ 2026-10-09 11:56: all fixed in v1.0.1.)*
 
-## Repo status (2026-10-08)
+## Repo status
 
+- [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]: weekly reconcile 2026-10-11 ~20:10 UTC+2 (catalog apps + showcases + org list; ask-gemini comparison)
+- [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]]: SWEEP Sunday catalog (portfolio-missing rows superseded after Portfolio PR #1)
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]]: whisper-bar, cascade-v3, sonora, shareguard and browser-linux, API-verified 2026-10-08 22:30 UTC+2 (visibility, releases, open PRs, showcase coverage, conflicts)
 
 ## Showcases
 
-- Official portfolio: [[_system/templates/catalog/portfolio-site]] (nodaysidle-portfolio-nine.vercel.app, deploys from public `Portfolio`)
+- Official portfolio: [[_system/templates/catalog/portfolio-site]] (nodaysidle-portfolio-nine.vercel.app, deploys from public `Portfolio`; **9 apps** since Portfolio PR #1 `9b9a0d8` on 2026-10-11)
 - Downloads showcase (live 2026-10-08 23:41): [[_system/templates/catalog/nodaysidle-apps]] (nodaysidle-apps.vercel.app) *(5 tools since 2026-10-09 11:56: nodaysrammar added as card 05, `aab4c1d`.)* *(**6 tools since 2026-10-10 07:35:** Kurek v0.2.0 is card 06, `46251cb`. The six are Cascade, Sonora, WhisperBar, Browser for Linux, nodaysrammar and Kurek.)*
 - Stale: showcase-v2 / nodaysidle-project-pages
 
@@ -87,5 +89,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 ## Artifacts
 
 - (create under `artifacts/vault-operations/` on demand)
+- [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+- [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]]
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]]
 - [[artifacts/kureksistant/audit-2026-10-08]]

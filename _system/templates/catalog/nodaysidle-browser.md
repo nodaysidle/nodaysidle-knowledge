@@ -21,3 +21,9 @@ Sister product to the Linux browser; portfolio summary in `../Portfolio/data/pre
 
 - **Repo:** [github.com/nodaysidle/nodaysidle-browser](https://github.com/nodaysidle/nodaysidle-browser)
 - **Local clone:** `../nodaysidle-browser`
+
+- ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+  - On official portfolio as card **05 / 09** ("NODAYSIDLE Browser", Swift/WebKit). **Not** on nodaysidle-apps.
+  - ⚠️ **Open (SHIP):** latest release [v2026.7.23](https://github.com/nodaysidle/nodaysidle-browser/releases/tag/v2026.7.23) has **0 downloadable assets**; body is theme-alignment only; README install is source-build only.
+  - ⚠️ **Open (REEL):** no demo GIF in the repository tree (git tree search for gif/demo/media returned empty).
+  - Details: [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]] · [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].

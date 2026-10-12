@@ -25,3 +25,7 @@ Featured on the portfolio as “Cascade”. Use this catalog entry when research
   - ⚠️ **Conflict:** SWEEP says the repo was private on 2026-10-07; the vault recorded it public at 2026-10-07 13:55.
   - **Downloads showcase (2026-10-08 23:41):** listed on https://nodaysidle-apps.vercel.app (v3.1.0, macOS arm64 + Linux). See [[_system/templates/catalog/nodaysidle-apps]].
   - Details: [[wiki/concepts/cascade-v3-overview]] · [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]].
+
+- ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
+  - Live re-check: v3.1.0 still Latest with 4 assets; on portfolio (01/09) and apps (card 01). Visibility-history conflict remains **open**.
+  - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
