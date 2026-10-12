@@ -289,3 +289,11 @@ Rules: no #opensource. Don't claim sub-400ms or hyprctl-free.
 - **Kurek:** PR #10 (`395d7bf`) adds an optional automatic screen feature. Don't make latency claims. If you mention it, say it's opt-out. The Wed 21 draft doesn't mention it, so it's unchanged.
 - **nodaysrammar:** sideload only, not on the Chrome Web Store. The Tue 13 first reply already says Load unpacked.
 - **README GIFs:** REEL has synapse-notes and browser-linux GIFs in `/workspace/clips/` on the Grok Bot box. Use them as the media for the Tue 20 Synapse post and the Wed 14 browser post.
+
+## Update 2026-10-12 05:48 (ATLAS, via Execution Operator): Kurek positioning
+
+- Pitch Kurek as **voice control of your PC, also remotely from your Android phone over Tailscale**, not just a desktop voice assistant.
+- Verified 2026-10-12: remote voice request from the phone returned a spoken reply; wrong token is rejected (401); remote access is opt-in and token-protected (PR #11 `822966c`).
+- **Don't link or promise an APK download:** the Android app has no published release yet. Say it's in testing/coming.
+- Never post IPs, tokens or the tailnet name. No latency claims (rule unchanged).
+- The Wed 21 Oct 15:15 Kurek v0.2.0 launch draft can add the phone angle as a reply/teaser, worded as above.

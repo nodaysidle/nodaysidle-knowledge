@@ -4,7 +4,7 @@ note_kind: concept
 topic_slug: kureksistant
 status: active
 created: 2026-10-07
-updated: 2026-10-10
+updated: 2026-10-12
 verified: 2026-10-10T16:28:00+02:00
 verified_previous_v020: 2026-10-10T06:11:00+02:00
 verified_previous_v020_check: 2026-10-10T06:10:00+02:00
@@ -21,6 +21,8 @@ tags:
 ## Summary
 
 Kureksistant is a headless Python voice-assistant daemon on `127.0.0.1:8790` for Arch Linux/Hyprland, with a secondary macOS menu-bar path. It is summoned by middle-click or the Fn key. Reasoning uses DeepSeek-Flash, voice uses xAI Grok TTS ("Sol"), and screen vision uses Gemini Flash. v0.2.0 (2026-10-10) ships as an unsigned Linux tarball; v0.1.0 is superseded. Local folder: `kurekizmo`.
+
+**Positioning (2026-10-12 05:48):** Kurek has evolved from a desktop voice assistant into **voice control of the PC**, including **remotely from an Android app over Tailscale**. Verified 2026-10-12 (per Execution Operator): phone over Tailscale got HTTP 200 SSE with a spoken reply; a wrong token gets 401; the daemon binds 127.0.0.1 plus the Tailscale interface only (remote is opt-in via KUREK_REMOTE_BIND=tailscale); hardening in PR #11 `822966c`. The Android APK is **not published** as a release yet.
 
 ## Status as of 2026-10-08 03:32 UTC+2 (superseded; see "Current status (2026-10-10 06:10 UTC+2)" below)
 
