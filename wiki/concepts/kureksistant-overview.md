@@ -70,7 +70,8 @@ Newer facts here take precedence over the older figures in Details (~55MB, the `
 - **History:**
   - 7 commits, 2026-10-03 → 2026-10-06 (UTC+2). *(Stale: `main` = `e91a14c` as of 2026-10-10 06:05, after PRs #4–#7.)*
   - Renamed from kurekizmo (`old-origin` remote).
-  - The README describes three phases: PyQt6 GUI (~500MB) → headless daemon (~55MB) → cognitive memory.
+  - The README describes four phases: PyQt6 GUI (~500MB) → headless daemon (~55MB) → cognitive memory → Android Remote Pocket Jarvis.
+- **Android Remote Companion:** Native Android APK (`android/`) with voice dictation, live Server-Sent Events (SSE) streaming on `/remote/prompt`, and Bearer token security (`KUREK_REMOTE_TOKEN`). Enables untethered workstation control over home Wi-Fi and Tailscale.
 - **Release:** v0.1.0, published 2026-10-06 23:30 (UTC+2).*(Superseded 2026-10-10 06:11: [v0.2.0](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.0) is Latest, SHA-256 `6b856030…19da`.)*  The tarball's SHA-256 `91c4cf1b…8911` is verified against the published asset. *(Superseded: re-cut `a4085d73…1003` on 2026-10-08; **v0.2.0** published 2026-10-10 06:07, SHA-256 `6b856030…19da`, now Latest.)*
 
 ## Claims & citations
