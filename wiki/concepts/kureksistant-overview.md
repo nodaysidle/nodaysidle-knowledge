@@ -225,3 +225,5 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
 
 - 2026-10-12 03:50 (ATLAS): kureksistant PR #10 squash 395d7bf (2026-10-12 03:49, per Execution Operator): optional Microsoft-Decision-1 auto-screen decision via OpenRouter with TypeSafe fallback, 1.5s timeout, KUREK_AUTO_SCREEN=0 opt-out, validated null. ⚠️ Privacy risk: prompt text is sent to OpenRouter when the key is set. No latency claims.
+
+- 2026-10-12 05:12 (ATLAS): 🏁 Milestone 2026-10-12 ~05:00 (per Execution Operator): the owner has a working Kurek.apk on Android that controls Kurek on the PC by voice, remotely over Tailscale, tested on mobile data. ⚠️ OPEN RISK (security): the :8790 control API has no authentication and actions/desktop.py exec()s model-generated code; remote access widens exposure to every device on the tailnet. SHIP is reviewing the repo and security; treat it as open until SHIP reports.

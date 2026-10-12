@@ -279,3 +279,13 @@ First reply:
 (The card 06 anchor was confirmed live by Execution Operator on 2026-10-10.)
 
 Rules: no #opensource. Don't claim sub-400ms or hyprctl-free. 
+
+## Update 2026-10-12 (via Execution Operator)
+
+- **Today's first post:** Mon 12 Oct at **15:15 Ljubljana**, the nodaysrammar teaser (no link). Confirmed.
+- **Portfolio** (nodaysidle-portfolio-nine) now lists 8 apps, including nodaysrammar, Kurek, ShareGuard and Browser for Linux. The roundup's reply 2 can say "All 8 apps I've built: https://nodaysidle-portfolio-nine.vercel.app".
+- **Never promote the macOS browser.** Its card is hidden and it has no release.
+- **Browser for Linux:** the README now links straight to the AppImage. The draft still links the v0.1.0 release page.
+- **Kurek:** PR #10 (`395d7bf`) adds an optional automatic screen feature. Don't make latency claims. If you mention it, say it's opt-out. The Wed 21 draft doesn't mention it, so it's unchanged.
+- **nodaysrammar:** sideload only, not on the Chrome Web Store. The Tue 13 first reply already says Load unpacked.
+- **README GIFs:** REEL has synapse-notes and browser-linux GIFs in `/workspace/clips/` on the Grok Bot box. Use them as the media for the Tue 20 Synapse post and the Wed 14 browser post.
