@@ -4,7 +4,7 @@ artifact_kind: refactor
 topic_slug: kureksistant
 generated: 2026-10-13
 generator_agent: Antigravity
-repo_ref: main @ f0a7cdf
+repo_ref: main @ f0a7cdf ⚠️ *Correction 2026-10-14 00:47: `f0a7cdf` was a local commit that was never pushed (kept on `backup/pre-v0.2.1`); the real release is PR #13 squash `3761c78`.*
 version: v0.2.1
 verified_at: 2026-10-13T23:51:52+02:00
 tags:
@@ -19,7 +19,7 @@ tags:
 
 **Execution Date:** 2026-10-13 23:51 (UTC+2)  
 **Agent:** Antigravity  
-**Commit:** `f0a7cdf` (`feat(arch): Omarchy Hyprland integration, SQLite FTS5 memory & stability hardening (v0.2.1)`)  
+**Commit:** `f0a7cdf` (`feat(arch): Omarchy Hyprland integration, SQLite FTS5 memory & stability hardening (v0.2.1)`)   ⚠️ *Correction 2026-10-14 00:47: `f0a7cdf` was a local commit that was never pushed (kept on `backup/pre-v0.2.1`); the real release is PR #13 squash `3761c78`.*
 **Target Environment:** Arch Linux / Omarchy Quattro (Hyprland, Ghostty, Herdr, Fish shell) & Android Remote Client over Tailscale.
 
 ---
@@ -110,7 +110,7 @@ This release resolves systemic crash paths on `.env`-only installations, replace
 
 ## 5. Artifact & Repository References
 
-- **Git Commit:** `f0a7cdf` on `main`
+- **Git Commit:** `f0a7cdf` on `main` ⚠️ *Correction 2026-10-14 00:47: `f0a7cdf` was a local commit that was never pushed (kept on `backup/pre-v0.2.1`); the real release is PR #13 squash `3761c78`.*
 - **Release Version:** `v0.2.1` documented in `CHANGELOG.md`
 - **Canonical Concept Note:** [[wiki/concepts/kureksistant-overview]]
 - **Catalog Entry:** [[_system/templates/catalog/kurekizmo]]

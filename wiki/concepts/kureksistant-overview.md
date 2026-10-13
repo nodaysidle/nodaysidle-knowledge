@@ -22,7 +22,7 @@ tags:
 
 ## Summary
 
-Kureksistant is a headless Python voice-assistant daemon on `127.0.0.1:8790` for Arch Linux/Hyprland, with a secondary macOS menu-bar path. It is summoned by middle-click or the Fn key. Reasoning uses DeepSeek-Flash, voice uses xAI Grok TTS ("Sol"), and screen vision uses Gemini Flash. v0.2.0 (2026-10-10) ships as an unsigned Linux tarball; v0.1.0 is superseded. Local folder: `kurekizmo`.
+Kureksistant is a headless Python voice-assistant daemon on `127.0.0.1:8790` for Arch Linux/Hyprland, with a secondary macOS menu-bar path. It is summoned by middle-click or the Fn key. Reasoning uses DeepSeek-Flash, voice uses xAI Grok TTS ("Sol"), and screen vision uses Gemini Flash. v0.2.0 (2026-10-10) ships as an unsigned Linux tarball; v0.1.0 is superseded. *(Update 2026-10-14: **v0.2.1** is Latest, target `3761c78`; v0.2.0 superseded.)* Local folder: `kurekizmo`.
 
 **Positioning (2026-10-12 05:48):** Kurek has evolved from a desktop voice assistant into **voice control of the PC**, including **remotely from an Android app over Tailscale**. Verified 2026-10-12 (per Execution Operator): phone over Tailscale got HTTP 200 SSE with a spoken reply; a wrong token gets 401; the daemon binds 127.0.0.1 plus the Tailscale interface only (remote is opt-in via KUREK_REMOTE_BIND=tailscale); hardening in PR #11 `822966c`. The Android APK is **not published** as a release yet.
 
@@ -236,7 +236,7 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 
 ## Current status (2026-10-13 23:51 UTC+2): v0.2.1 Omarchy Integration & Stability Refactor
 
-- **Commit:** `main` = `f0a7cdf` (`feat(arch): Omarchy Hyprland integration, SQLite FTS5 memory & stability hardening (v0.2.1)`). Full report: [[artifacts/kureksistant/refactor-stability-v021-2026-10-13]].
+- **Commit:** `main` = `f0a7cdf` (`feat(arch): Omarchy Hyprland integration, SQLite FTS5 memory & stability hardening (v0.2.1)`). Full report: [[artifacts/kureksistant/refactor-stability-v021-2026-10-13]]. ⚠️ *Correction 2026-10-14 00:47: `f0a7cdf` was a local commit that was never pushed (kept on `backup/pre-v0.2.1`); the real release is PR #13 squash `3761c78`.*
 - **1. Zero-config `.env` installs:** Eliminated raw `config/api_keys.json` reads across all `actions/` modules (`dev_agent`, `code_helper`, `flight_finder`, `desktop`, `file_processor`, `computer_settings`, `computer_control`, `youtube_video`). All key access routes through `memory.config_manager.get_gemini_key()` checking environment variables first.
 - **2. Omarchy Workstation UX (Hyprland, Ghostty, Herdr, Fish):** Added first-class prioritization for `ghostty` and `herdr` emulators in `open_app.py` and aliases for `fish`. Replaced legacy X11 `pyautogui` hotkeys in `computer_settings.py` with native `hyprctl dispatch` (`cyclenext`, `killactive`, `fullscreen 0`, `movewindow l/r`, `dpms off`), `grim` screenshots on Wayland, and terminal `btop`/`htop` execution.
 - **3. Android Remote SSE & Conversational Confirmation:** Muted local workstation PipeWire/mpv TTS during remote phone queries over Tailscale `/remote/prompt`. Bound headless `notify-send` confirmation gate and conversational affirmative/negative ("yes"/"no") turn resolution for pending destructive operations.
@@ -245,3 +245,9 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 - **6. SQLite WAL + FTS5 Memory Engine:** Migrated memory storage in `memory/memory_manager.py` from full-file JSON rewrites to SQLite in WAL mode with FTS5 full-text indexing (`entries_fts`), automatic zero-loss migration from `long_term.json`, and decoupled `background_monitor.py` private lock.
 - **Verification:** All 90 pytest tests passed (1 skipped), ruff lint clean (0 errors), C trigger recompiled with zero warnings.
 
+## Current status (2026-10-14 00:46 UTC+2): v0.2.1 released
+
+- 2026-10-14 00:28 (EO, logged by ATLAS 2026-10-14 00:47): ✅ kureksistant v0.2.1 deployed. PR #13 squash `3761c78` (merge gate: agy MERGE / Codex BLOCK on the 'Confirmed and executed' wording; merged on owner approval). PC main reset to kureksistant/main; old local `f0a7cdf` kept on branch `backup/pre-v0.2.1`; backups in `~/kurek-backups/pre-v0.2.1-20261014-002747`. Service active, listening only on 127.0.0.1 and the Tailscale IP (:8790). Tailscale SSE 200; wrong/missing token 401. JSON→SQLite memory migration OK (12 entries, 1 session). PC tests 146 pass / 1 skip. ⚠️ Watch: service memory ~500M vs MemoryHigh 512M.
+- 2026-10-14 00:46: GitHub release [Kureksistant v0.2.1](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1) published, target `3761c78`, Latest. Owner phone test passed: online and responding over Tailscale, migrated memory works (knows him and his projects), middle-click works.
+- Release notes draft was on the Grok Bot box (`/workspace/kurek-v0.2.1-release-notes.md`).
+- Still open (local only): `actions/desktop.py` exec() for local use; loopback API without auth by design; memory headroom.
