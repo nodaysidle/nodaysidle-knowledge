@@ -4,8 +4,10 @@ note_kind: concept
 topic_slug: kureksistant
 status: active
 created: 2026-10-07
-updated: 2026-10-12
-verified: 2026-10-10T16:28:00+02:00
+updated: 2026-10-13
+verified: 2026-10-13T23:51:52+02:00
+verified_previous_v021: 2026-10-13T23:51:52+02:00
+verified_previous_v020_atlas: 2026-10-10T16:28:00+02:00
 verified_previous_v020: 2026-10-10T06:11:00+02:00
 verified_previous_v020_check: 2026-10-10T06:10:00+02:00
 verified_previous_pr5: 2026-10-10T05:51:00+02:00
@@ -231,3 +233,15 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 - 2026-10-12 05:12 (ATLAS): 🏁 Milestone 2026-10-12 ~05:00 (per Execution Operator): the owner has a working Kurek.apk on Android that controls Kurek on the PC by voice, remotely over Tailscale, tested on mobile data. ⚠️ OPEN RISK (security): the :8790 control API has no authentication and actions/desktop.py exec()s model-generated code; remote access widens exposure to every device on the tailnet. SHIP is reviewing the repo and security; treat it as open until SHIP reports.
 
 - 2026-10-12 05:31 (ATLAS): ✅ CLOSED: Kurek remote OPEN RISK (from the 2026-10-12 ~05:00 milestone), per Execution Operator, user-approved. kureksistant PR #11 squash 822966c (05:31): loopback bind by default (KUREK_REMOTE_BIND=tailscale opt-in); required Bearer token with compare_digest for remote requests; CSRF/Origin blocks, no CORS *; 64KB body cap; remote exec tools gated by KUREK_REMOTE_ALLOW_EXEC; hardcoded token and IP removed from the Android app, release/kurek-remote.apk deleted; SECURITY.md added. Leaked token rotated by the owner (old one returns 401); still in git history but inert. No published APK release. Remaining (local only): actions/desktop.py still exec()s model-generated code for local use; the localhost API is unauthenticated by design when loopback-bound. Not re-verified by ATLAS (cheap mode).
+
+## Current status (2026-10-13 23:51 UTC+2): v0.2.1 Omarchy Integration & Stability Refactor
+
+- **Commit:** `main` = `f0a7cdf` (`feat(arch): Omarchy Hyprland integration, SQLite FTS5 memory & stability hardening (v0.2.1)`). Full report: [[artifacts/kureksistant/refactor-stability-v021-2026-10-13]].
+- **1. Zero-config `.env` installs:** Eliminated raw `config/api_keys.json` reads across all `actions/` modules (`dev_agent`, `code_helper`, `flight_finder`, `desktop`, `file_processor`, `computer_settings`, `computer_control`, `youtube_video`). All key access routes through `memory.config_manager.get_gemini_key()` checking environment variables first.
+- **2. Omarchy Workstation UX (Hyprland, Ghostty, Herdr, Fish):** Added first-class prioritization for `ghostty` and `herdr` emulators in `open_app.py` and aliases for `fish`. Replaced legacy X11 `pyautogui` hotkeys in `computer_settings.py` with native `hyprctl dispatch` (`cyclenext`, `killactive`, `fullscreen 0`, `movewindow l/r`, `dpms off`), `grim` screenshots on Wayland, and terminal `btop`/`htop` execution.
+- **3. Android Remote SSE & Conversational Confirmation:** Muted local workstation PipeWire/mpv TTS during remote phone queries over Tailscale `/remote/prompt`. Bound headless `notify-send` confirmation gate and conversational affirmative/negative ("yes"/"no") turn resolution for pending destructive operations.
+- **4. LLM Prompt Alignment:** Synchronized `core/prompt.txt` with actual runtime tool schemas (`screen_vision`, `manage_memory`, `system_monitor`, `vault_knowledge`, `workstation_radar`, `process_sentinel`), removing legacy PyQt6 HUD instructions and defunct tool names.
+- **5. Systemd 600M Envelope Safety:** Added low-memory Chromium flags in `browser_control.py`. Wrapped heavy project builds in `dev_agent.py` using `systemd-run --user --scope` to isolate child memory outside `kurek.service` cgroup. Enforced 120s timeout in `ActionRegistry.run`.
+- **6. SQLite WAL + FTS5 Memory Engine:** Migrated memory storage in `memory/memory_manager.py` from full-file JSON rewrites to SQLite in WAL mode with FTS5 full-text indexing (`entries_fts`), automatic zero-loss migration from `long_term.json`, and decoupled `background_monitor.py` private lock.
+- **Verification:** All 90 pytest tests passed (1 skipped), ruff lint clean (0 errors), C trigger recompiled with zero warnings.
+

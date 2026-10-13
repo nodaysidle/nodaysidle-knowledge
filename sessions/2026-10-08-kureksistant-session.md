@@ -4,7 +4,7 @@ topic_slug: kureksistant
 session_id: 2026-10-08-kureksistant
 status: active
 last_agent: Antigravity
-last_updated: 2026-10-10T07:35:00+02:00
+last_updated: 2026-10-13T23:55:00+02:00
 threads_active: []
 tags:
   - session
@@ -164,3 +164,14 @@ tags:
 
 ## 2026-10-13 — Merge-gate pilot
 Repo chosen as the most active PR repo (#8–#12, Oct 10–12) and the current session. The gate only reads PRs (gh pr view/diff), keeps outputs under /home/box/tools/merge-gate/runs/, and can post a PR comment only with --comment, which is off until the owner approves. The idle watchdog only approximates idleness; heartbeat files proposed. Next: run the gate on the next open PR.
+
+## 2026-10-13 23:51 (Antigravity) — v0.2.1 Omarchy Integration & Stability Refactor
+Executed targeted 6-task stability, architecture, and Omarchy UX refactor on `kurekizmo` (`main` = `f0a7cdf`). Full report: [[artifacts/kureksistant/refactor-stability-v021-2026-10-13]].
+1. **API Keys:** Eliminated raw `config/api_keys.json` reads in `actions/` modules (`dev_agent`, `code_helper`, `flight_finder`, `desktop`, `file_processor`, `computer_settings`, `computer_control`, `youtube_video`) via `memory.config_manager.get_gemini_key()` with `.env` priority.
+2. **Omarchy & Hyprland:** Prioritized `ghostty` and `herdr` emulators in `open_app.py`, added `fish` shell alias. Replaced legacy X11 `pyautogui` hotkeys with native `hyprctl dispatch` (`cyclenext`, `killactive`, `fullscreen 0`, `movewindow l/r`, `dpms off`), `grim` screenshots, and terminal `btop`/`htop`.
+3. **Android Remote SSE:** Muted local workstation PipeWire/mpv TTS during remote Tailscale `/remote/prompt` queries. Bound headless `notify-send` confirmation gate and conversational yes/no turn resolution in `kurek_daemon.py`.
+4. **Prompt Alignment:** Rewrote `core/prompt.txt` to match active tool schemas (`screen_vision`, `manage_memory`, `system_monitor`, `vault_knowledge`, etc.), purging legacy HUD / PyQt6 references.
+5. **Memory Envelope Safety:** Added low-memory flags to Playwright Chromium, wrapped external builds in `dev_agent.py` with `systemd-run --user --scope` to isolate child memory outside `kurek.service` 600M envelope. Added 120s timeout in `ActionRegistry.run`.
+6. **SQLite Memory Engine:** Upgraded `memory/memory_manager.py` to SQLite with WAL mode and FTS5 search indexing (`entries_fts`), automatic migration of legacy `long_term.json`, and thread-safe monitor helpers decoupling `background_monitor.py` private lock.
+- **Verification:** All 90 pytest tests passed (1 skipped), ruff lint clean, C trigger rebuilt cleanly.
+
