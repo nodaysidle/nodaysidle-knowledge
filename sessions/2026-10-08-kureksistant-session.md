@@ -161,3 +161,6 @@ tags:
 - The vault is uncommitted; `sources/raw/` was untouched.
 
 - 2026-10-10 16:28: owner commit 5477ef5 added vault_knowledge (tool #25, now 25 tools via 6137128); PR #9 9f82d28 hardened vault reads, env vault path, short-query fix; installed 16:27 (Loaded 25 actions). Overview fixed minimally by ATLAS; REACH launch conflict resolved.
+
+## 2026-10-13 — Merge-gate pilot
+Repo chosen as the most active PR repo (#8–#12, Oct 10–12) and the current session. The gate only reads PRs (gh pr view/diff), keeps outputs under /home/box/tools/merge-gate/runs/, and can post a PR comment only with --comment, which is off until the owner approves. The idle watchdog only approximates idleness; heartbeat files proposed. Next: run the gate on the next open PR.
