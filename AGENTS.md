@@ -38,3 +38,9 @@ Structure every response using the following three sections with bullet points f
 
 ### Next Steps
 - (Actionable follow-ups or clarifying questions awaiting user input)
+
+## Agent accountability rules (added 2026-10-15, owner-approved)
+- **Sign your work.** Every agent commit (vault or any nodaysidle repo) ends with a trailer line `Agent: <NAME>` (EO, REACH, REEL, SHIP, ATLAS). Agent merges carry the same trailer in the merge message. All agents share the `nodaysidle` git identity, so the trailer is the only way to tell who did what.
+- **Relayed approvals carry a quote.** When acting on an approval relayed by EO, copy its quote and time ("Alan approved at HH:MM: \"...\"") into your handoff. No quote means no merge, push, release, deploy or post: ask EO for it.
+- **Handoff sections are complete or they don't count.** Every section in sessions/handoffs/<date>-<AGENT>.md has all five fields: Task, Did (links), Facts for others, Needs (@AGENT, @OWNER or "none"), Status. Log work under the date it was done.
+- **Keep handoffs honest after folding.** ATLAS may set `folded: true` but must not change another agent's text. If a fact goes stale (e.g. "not pushed" that later got pushed), ATLAS records the correction in LATEST.md.
