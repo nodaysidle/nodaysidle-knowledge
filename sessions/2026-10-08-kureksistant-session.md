@@ -178,3 +178,15 @@ Executed targeted 6-task stability, architecture, and Omarchy UX refactor on `ku
 
 - 2026-10-14 00:28 (EO, logged by ATLAS 2026-10-14 00:47): ✅ kureksistant v0.2.1 deployed. PR #13 squash `3761c78` (merge gate: agy MERGE / Codex BLOCK on the 'Confirmed and executed' wording; merged on owner approval). PC main reset to kureksistant/main; old local `f0a7cdf` kept on branch `backup/pre-v0.2.1`; backups in `~/kurek-backups/pre-v0.2.1-20261014-002747`. Service active, listening only on 127.0.0.1 and the Tailscale IP (:8790). Tailscale SSE 200; wrong/missing token 401. JSON→SQLite memory migration OK (12 entries, 1 session). PC tests 146 pass / 1 skip. ⚠️ Watch: service memory ~500M vs MemoryHigh 512M.
 - 2026-10-14 00:46: GitHub release [Kureksistant v0.2.1](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1) published, target `3761c78`, Latest. Owner phone test passed: online and responding over Tailscale, migrated memory works (knows him and his projects), middle-click works.
+
+## Related project handoff (2026-10-14, primary thread unchanged)
+
+- [vault] Owner requested future-reference documentation for the separate Prompt Optimizer audit/deployment work: [[sessions/2026-10-14-prompt-optimizer-session]] and [[artifacts/prompt-optimizer/audit-fixes-and-deploy-2026-10-14]]. Optimizer production is `03aac47` from a retained local worktree branch, not its original `master`. This update makes the handoff discoverable without switching the team's primary session or changing kureksistant status.
+
+## 2026-10-14 15:41 — Merge-gate follow-ons (reasoning here; live status in GitHub Issues #17–#21)
+
+- **Self-check (draft PR #16):** `scripts/verify.sh` runs the tests, boots an isolated daemon on a spare loopback port, checks token handling (401/401/400) and a temp-DB memory migration. `merge-gate.sh` now requires a verify PASS on the same commit. Observed: VERIFY PASS at `6f5c0d3`, but the gate FAILs: Codex blocks because verify is not a security sandbox; agy says merge.
+- **Why it matters:** verify proves the change works, not that it is safe to run untrusted code. Codex's block is about a PR author being able to run arbitrary code during verify.
+- **Status tracking:** GitHub Issues with `status:*` and `owner:*` labels (#17–#21) are the live source of truth; this vault keeps the reasoning. `/home/box/tools/kurek-status/morning.sh` drafts a morning summary; not scheduled (proposed 08:30 weekdays).
+- **Release:** v0.2.1 now has downloads: tarball, SHA256SUMS and a debug APK.
+- **Owner decisions pending:** (1) sandbox verify, or trust only owner/agent PRs; (2) the 2 skipped tests; (3) schedule the morning summary; (4) enable the gate's --comment; (5) schedule the idle watchdog.

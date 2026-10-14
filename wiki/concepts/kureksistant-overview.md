@@ -251,3 +251,4 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 - 2026-10-14 00:46: GitHub release [Kureksistant v0.2.1](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1) published, target `3761c78`, Latest. Owner phone test passed: online and responding over Tailscale, migrated memory works (knows him and his projects), middle-click works.
 - Release notes draft was on the Grok Bot box (`/workspace/kurek-v0.2.1-release-notes.md`).
 - Still open (local only): `actions/desktop.py` exec() for local use; loopback API without auth by design; memory headroom.
+- *2026-10-14 15:41:* v0.2.1 release now ships downloads (tarball, SHA256SUMS, debug APK). Merge-gate self-check (`scripts/verify.sh`, draft PR #16) and GitHub Issues status tracking (#17–#21) added; see the session note. Pending owner decision: sandbox vs trusted-only verify.
