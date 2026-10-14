@@ -73,6 +73,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 ## Catalog (stable references)
 
 - [[_system/templates/catalog/nodaysidle-prompt-optimizer]] · [[wiki/concepts/nodaysidle-prompt-optimizer-overview]]
+  - [[artifacts/prompt-optimizer/audit-fixes-and-deploy-2026-10-14]] · [[sessions/2026-10-14-prompt-optimizer-session]] (deployed worktree; original master not merged)
 - [[_system/templates/catalog/markdown-helper]]
 - [[_system/templates/catalog/skill-gallery]]
 - [[_system/templates/catalog/portfolio-site]]

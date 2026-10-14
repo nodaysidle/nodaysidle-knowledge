@@ -3,8 +3,8 @@ type: session
 topic_slug: vault-operations
 session_id: 2026-10-07-vault-operations
 status: active
-last_agent: Grok Bot (ATLAS)
-last_updated: 2026-10-09T11:56:00+02:00
+last_agent: OpenCode
+last_updated: 2026-10-14T01:33:59+02:00
 threads_active: []
 tags:
   - session
@@ -120,3 +120,9 @@ Promotion still requires human `review_status: approved` on briefs. Never delete
 - 2026-10-12 05:31 (ATLAS): ✅ CLOSED: Kurek remote OPEN RISK (from the 2026-10-12 ~05:00 milestone), per Execution Operator, user-approved. kureksistant PR #11 squash 822966c (05:31): loopback bind by default (KUREK_REMOTE_BIND=tailscale opt-in); required Bearer token with compare_digest for remote requests; CSRF/Origin blocks, no CORS *; 64KB body cap; remote exec tools gated by KUREK_REMOTE_ALLOW_EXEC; hardcoded token and IP removed from the Android app, release/kurek-remote.apk deleted; SECURITY.md added. Leaked token rotated by the owner (old one returns 401); still in git history but inert. No published APK release. Remaining (local only): actions/desktop.py still exec()s model-generated code for local use; the localhost API is unauthenticated by design when loopback-bound. Not re-verified by ATLAS (cheap mode).
 
 - 2026-10-12 05:48 (ATLAS): Kurek repositioned as PC voice control incl. remote Android over Tailscale (verified 2026-10-12, PR #11 822966c; APK unpublished). Updated overview Summary, kurekizmo catalog, and X plan note for REACH.
+
+## Update 2026-10-14: Prompt Optimizer audit fixes and logo
+
+- [vault] OpenCode documented owner-approved correctness/access/preservation fixes, desktop UX, optimization modes, paired text evaluation, versioned profiles and supplied silver N logo. Current production `03aac47`, Vercel READY; local 90 unit/5 browser tests and build gates passed. Record: [[artifacts/prompt-optimizer/audit-fixes-and-deploy-2026-10-14]]; handoff: [[sessions/2026-10-14-prompt-optimizer-session]].
+- [vault] Important: original optimizer `master` remains `818eed1`; deployed commits are retained by local `audit/nodaysidle-logo` in the separate worktree. No merge/push; no paid AI quality benchmark; legacy credentials preserved with explicit import/Forget.
+- [vault] Project overview/catalog, MOC, session links and append-only audit updated at owner's request. Primary kureksistant thread unchanged. No `projects/` promotion or raw-source deletion; pre-existing Obsidian theme edit untouched. Vault documentation left uncommitted for the owner.

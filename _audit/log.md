@@ -568,3 +568,10 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - No `projects/` promotion, raw-source deletion, unrelated Obsidian/theme modification, vault commit or push. Documentation left for owner review. [vault]
 
 - 2026-10-14 15:41 (ATLAS, per EO): kureksistant merge-gate follow-ons. (1) Owner-agent self-check `scripts/verify.sh` (draft PR #16): test suite, isolated daemon boot on a spare loopback port, token check 401/401/400, temp-DB memory migration check; `merge-gate.sh` refuses to run unless verify passed on the same commit. VERIFY PASS at `6f5c0d3`; gate FAIL (Codex BLOCK: verify is not a security sandbox; agy MERGE). (2) GitHub Issues as live status: `status:*` / `owner:*` labels, issues #17–#21; `/home/box/tools/kurek-status/morning.sh` drafts a morning summary (not scheduled; proposed 08:30 weekdays). v0.2.1 release now has downloads (tarball, SHA256SUMS, debug APK). Owner decisions pending: sandbox vs trusted-only; 2 skipped tests; morning schedule; gate --comment; watchdog schedule.
+
+## 2026-10-15T00:30:00+02:00 — vault cleanup: LATEST.md refresh, handoff convention, parked list
+
+- **Actor:** agent (Grok Bot executor), per owner request 2026-10-15. [vault]
+- **Updated:** [[sessions/LATEST]] rewritten with current state: Kurek v0.2.1, issues #17/#18/#20/#21; owner decision 2026-10-15: NO sandbox; prompt-optimizer internal and unmerged (OpenCode worktree); official sites Portfolio + nodaysidle-apps, project-pages and showcase-v2 stale; clips for X, GIFs for READMEs (not committed); parked candidates by GitHub pushed_at (nothing archived).
+- **Created:** [[sessions/handoffs/README]] (shared handoff convention).
+- **Committed:** the 2026-10-14 prompt-optimizer notes left uncommitted by OpenCode. `.obsidian/` UI/theme changes left uncommitted (owner's personal settings). No push.

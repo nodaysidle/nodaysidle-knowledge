@@ -4,7 +4,7 @@ note_kind: concept
 topic_slug: decision-models-microsoft-vs-jev
 status: active
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-14
 tags:
   - wiki
   - decision-models
@@ -15,6 +15,11 @@ tags:
 ---
 
 # Decision Models: Microsoft-Decision-1 vs TypeSafe Jev
+
+## Prompt Optimizer correction (2026-10-14)
+
+- [vault] The Prompt Optimizer rows/diagram below describe its older 2026-10-10 automatic-provider architecture. Current production defaults to **app-server heuristics**; OpenRouter and TypeSafe are explicit diagnostic choices, with consented heuristic fallback and no silent cross-provider cascade. No fixed sub-100ms latency is claimed or newly benchmarked by this implementation.
+- [vault] See [[wiki/concepts/nodaysidle-prompt-optimizer-overview]] and [[artifacts/prompt-optimizer/audit-fixes-and-deploy-2026-10-14]]. This correction applies to Prompt Optimizer only; no new verification of the other projects or historical comparison metrics was performed. Historical content is retained below.
 
 ## Summary
 
