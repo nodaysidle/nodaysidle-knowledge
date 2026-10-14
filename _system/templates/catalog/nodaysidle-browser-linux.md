@@ -38,3 +38,4 @@ Focused browsing surface for Omarchy/Hyprland workflows. Research topics: packag
   - Details: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
 
 - 2026-10-12 03:50 (ATLAS): browser-linux PR #2 merged as 31ede82: README install now links the AppImage directly (closes reconcile 2026-10-11 conflict 5).
+- 2026-10-15 01:55 (ATLAS): owner confirmed at 01:50 CEST: "i did reoptimize it and today i posted it on X the newest version". Reinstall resolved. The local WIP (`a813e70` + 20 uncommitted entries) is still open.
