@@ -51,3 +51,6 @@ The **downloads showcase** for the desktop apps. It is separate from the officia
   - **Six apps:** Cascade, Sonora, WhisperBar, NODAYSIDLE Browser for Linux, nodaysrammar, Kurek.
 
 - **Update 2026-10-11 20:10 (UTC+2):** six tools unchanged on the live site (re-verified). Portfolio-nine now also lists nodaysrammar, Kurek, ShareGuard and Browser for Linux (Portfolio PR #1); ShareGuard remains **absent** from this apps site; macOS nodaysidle-browser remains absent. See [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
+
+- 2026-10-15 00:43 (ATLAS, from 2026-10-15 handoffs): ⚠️ nodaysidle-apps `#kurek` card still links v0.2.0; update to v0.2.1 before the Wed 21 Oct 17:30 X post (owner approval for SHIP pending).
+- 2026-10-15 01:07 (ATLAS): card update is in [nodaysidle-apps PR #5](https://github.com/nodaysidle/nodaysidle-apps/pull/5) (`94b1ab9`), open, waiting on the owner's merge before 2026-10-21 17:30.

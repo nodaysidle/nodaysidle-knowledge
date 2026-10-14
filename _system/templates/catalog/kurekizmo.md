@@ -51,3 +51,6 @@ Autonomous assistant and workstation radar. Local folder name `kurekizmo`; upstr
 
 - **Status 2026-10-13 23:51 (Antigravity):** **v0.2.1 Architectural & Stability Refactor** (`main` = `f0a7cdf`). Eliminated hardcoded `config/api_keys.json` reads with safe `.env` fallbacks across `actions/`; native Omarchy support (Ghostty, Herdr, Fish, `hyprctl dispatch`, `grim` screenshots); Tailscale Android `/remote/prompt` muted local TTS & conversational confirmations; system prompt alignment; systemd 600M envelope memory protection; and memory subsystem upgrade to SQLite (WAL mode + FTS5 full-text indexing) with zero-loss auto-migration. 90/90 tests passed. See [[artifacts/kureksistant/refactor-stability-v021-2026-10-13]]. ⚠️ *Correction 2026-10-14 00:47: `f0a7cdf` was a local commit that was never pushed (kept on `backup/pre-v0.2.1`); the real release is PR #13 squash `3761c78`.*
 
+
+- 2026-10-15 00:43 (ATLAS, from 2026-10-15 handoffs): ⚠️ nodaysidle-apps `#kurek` card still links v0.2.0; update to v0.2.1 before the Wed 21 Oct 17:30 X post (owner approval for SHIP pending).
+- 2026-10-15 01:07 (ATLAS): card update is in [nodaysidle-apps PR #5](https://github.com/nodaysidle/nodaysidle-apps/pull/5) (`94b1ab9`), open, waiting on the owner's merge before 2026-10-21 17:30.
