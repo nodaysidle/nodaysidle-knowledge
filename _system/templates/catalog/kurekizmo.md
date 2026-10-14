@@ -55,3 +55,4 @@ Autonomous assistant and workstation radar. Local folder name `kurekizmo`; upstr
 - 2026-10-15 00:43 (ATLAS, from 2026-10-15 handoffs): ⚠️ nodaysidle-apps `#kurek` card still links v0.2.0; update to v0.2.1 before the Wed 21 Oct 17:30 X post (owner approval for SHIP pending).
 - 2026-10-15 01:07 (ATLAS): card update is in [nodaysidle-apps PR #5](https://github.com/nodaysidle/nodaysidle-apps/pull/5) (`94b1ab9`), open, waiting on the owner's merge before 2026-10-21 17:30.
 - 2026-10-15 01:16 (ATLAS): ✅ PR #5 merged as `a60d93a` and deployed to prod. The live `#kurek` card shows v0.2.1 (no v0.2.0, no APK). The card gap is closed.
+- 2026-10-15 01:30 (ATLAS): [nodaysidle-apps PR #6](https://github.com/nodaysidle/nodaysidle-apps/pull/6) (`99f113b`) is open: the Kurek card goes from 24 to 25 tools and drops the unproven ~0.8ms. The kureksistant README, AGENTS.md and CHANGELOG still have the stale 24 tools / 0.8ms prose. The ~450MB RAM claim is unverified (owner decides).

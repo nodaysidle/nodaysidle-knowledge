@@ -18,6 +18,10 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 - [vault] Still pending owner: 2 skipped tests, 08:30 morning summary schedule, merge-gate `--comment` on PRs, idle watchdog schedule.
 
 - [handoff 2026-10-15] **X post slot: Wed 2026-10-21 17:30 Europe/Ljubljana: CONFIRMED by owner (01:01).** REACH's v0.2.1 draft replaces the planned Kurek launch copy in that slot. Main post has no link; first reply links the v0.2.1 release and the apps card. See [[sessions/handoffs/2026-10-15-REACH]].
+- [handoff 2026-10-15] ⚠️ **Slot conflict, unconfirmed:** two untracked inbox voice captures (status: draft, 01:17 and 01:19) disagree. `inbox/2026-10-15-x-launch-locked-kurek-v0-2-1-wed-21-oct-.md` keeps Wed 21 Oct 17:30. `inbox/2026-10-15-kurek-v0-2-1-x-launch-moved-to-today-thu.md` says the launch moved to **today, Thu 15 Oct 17:30**, which would collide with the Cascade v3.1.0 thread in that slot. Neither has a quoted owner approval, so the vault keeps **Wed 21 Oct 17:30** until EO relays the owner's exact words. Both captures also list PR #5 as a blocker, but it is already merged (`a60d93a`).
+- [handoff 2026-10-15] **Card claims PR open, not merged:** [nodaysidle-apps PR #6](https://github.com/nodaysidle/nodaysidle-apps/pull/6) (branch `kurek-card-claims`, `99f113b`) changes the first feature bullet to "25 tools, summoned by a small C trigger over a Unix socket". It corrects 24 tools to 25 and removes "~0.8ms median". Owner merges (main auto-deploys).
+- [handoff 2026-10-15] **Claims facts:** the tool count is **25** at runtime (verified by SHIP). "~0.8ms median" is **unproven**: it comes only from a mock-daemon bench and is never recorded by CI. Don't quote latency or trigger numbers anywhere. "~450MB peak RAM" is stated only as "observed". Stale prose remains in kureksistant `README.md` (128/135/140), `AGENTS.md:58` and `CHANGELOG.md:61`. See [[sessions/handoffs/2026-10-15-SHIP]].
+- [vault] **Still pending owner (Kurek claims):** (1) keep, soften or drop the ~450MB RAM claim; (2) whether to open a kureksistant docs PR for the stale "24 tools" / "0.8ms" prose.
 - [handoff 2026-10-15] ✅ **Apps `#kurek` card is on v0.2.1:** [nodaysidle-apps PR #5](https://github.com/nodaysidle/nodaysidle-apps/pull/5) was merged as `a60d93a` with owner OK (01:16) and the Vercel prod deploy succeeded. The live card shows the v0.2.1 tag, tarball and SHA256SUMS, with no v0.2.0 or `.apk` links. The card gap is closed. REACH's first reply can link the card. See [[sessions/handoffs/2026-10-15-EO]].
 - [handoff 2026-10-15] Clip for the post: `/workspace/clips/kurek-remote/kurek-remote-v021.mp4` (+ `kurek-remote-v021.gif`) on the Grok Bot box, with the end card fixed ("Debug APK: download from the v0.2.1 release"). The originals `kurek-remote.mp4/.gif` are kept but stale. Real phone+PC footage is still pending from the owner. See [[sessions/handoffs/2026-10-15-REEL]].
 
@@ -39,11 +43,18 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 - Watch list (last push 2026-09-17..24): excalidays, pocket-drafts, nodaysidle-vois, nodaysidle-voice-anywhere-v2, batchrename-pro, small-count, nodaysidle-cistilka, nodaysrecording, scribeflowpro, cliprail, nodaysidle-browser, nodaystypst, nodaysidle-lumiere, cursorpad, monospace-notes.
 - Source: GitHub `pushed_at` checked 2026-10-15.
 
+## Team rules (AGENTS.md `b586c41`, from 2026-10-15 01:24)
+1. Sign every commit with an `Agent: <NAME>` trailer.
+2. Every relayed approval quotes the owner's exact words and the time.
+3. Every handoff entry fills all five fields: Task / Did / Facts for others / Needs / Status.
+4. A question such as "what do you recommend?" is never a yes.
+
 ## Handoffs folded
 
 - 2026-10-15 00:43 (ATLAS): folded [[sessions/handoffs/2026-10-15-EO]], [[sessions/handoffs/2026-10-15-REACH]], [[sessions/handoffs/2026-10-15-REEL]]. Owner decisions (1) Oct 21 slot, (2) card update, (3) end-card re-render: **all resolved, approved 01:01.**
 - 2026-10-15 01:07 (ATLAS): folded the follow-ups in [[sessions/handoffs/2026-10-15-EO]], [[sessions/handoffs/2026-10-15-SHIP]] and [[sessions/handoffs/2026-10-15-REEL]]. Still open: browser-linux reinstall/WIP cleanup.
 - 2026-10-15 01:16 (ATLAS): folded EO's PR #5 merge entry. The card gap is closed; apps main is `a60d93a`.
+- 2026-10-15 01:30 (ATLAS): folded EO's team-rules section and SHIP's card-claims entry (PR #6). Flagged the conflicting inbox slot captures. Still open: PR #6 merge, the ~450MB claim, a kureksistant docs PR, the slot conflict, and browser-linux reinstall/WIP cleanup.
 
 ## Rule for every agent
 Read this file at the start of every task. When you finish, write `sessions/handoffs/<YYYY-MM-DD>-<AGENT>.md`. Only ATLAS edits this file (owner may too).
