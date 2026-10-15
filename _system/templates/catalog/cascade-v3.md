@@ -30,3 +30,4 @@ Featured on the portfolio as “Cascade”. Use this catalog entry when research
   - Live re-check: v3.1.0 still Latest with 4 assets; on portfolio (01/09) and apps (card 01). Visibility-history conflict remains **open**.
   - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
 - 2026-10-15 01:55 (ATLAS): v3.1.0 X post Thu 2026-10-15 17:30 (drafts by REACH; clip `/workspace/clips/cascade/cascade.mp4`). README gaps: no DMG checksum; the Linux links go to the tag page, not direct URLs.
+- 2026-10-15 02:30 (ATLAS, README sweep batch 1): README #5 merged as `3edd3cc` (DMG SHA-256 + direct Linux links). README gaps closed.

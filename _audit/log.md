@@ -575,3 +575,22 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - **Updated:** [[sessions/LATEST]] rewritten with current state: Kurek v0.2.1, issues #17/#18/#20/#21; owner decision 2026-10-15: NO sandbox; prompt-optimizer internal and unmerged (OpenCode worktree); official sites Portfolio + nodaysidle-apps, project-pages and showcase-v2 stale; clips for X, GIFs for READMEs (not committed); parked candidates by GitHub pushed_at (nothing archived).
 - **Created:** [[sessions/handoffs/README]] (shared handoff convention).
 - **Committed:** the 2026-10-14 prompt-optimizer notes left uncommitted by OpenCode. `.obsidian/` UI/theme changes left uncommitted (owner's personal settings). No push.
+
+## 2026-10-15T02:22:00+02:00: REACH filed X draft (standing format)
+- **Created:** [[briefs/x-drafts/2026-10-15-cascade]] in the owner's new X draft format (relayed by EO 02:17). Main post trimmed from 316 to 266 chars. No commit.
+
+## 2026-10-15T02:30:00+02:00: ATLAS logged README sweep batch 1
+- Merged (owner 02:29): cascade-v3 #5 `3edd3cc`, sonora #3 `f8b45ba`, browser-linux #5 `ca1bc3e`, nodaysrammar #3 `1de303b`. Open: kureksistant #23 (`b8d18f0`, gate PASS). Local commit only.
+
+## 2026-10-15T02:31:00+02:00: Operative Code Access added to Kurek (codebase + run tools)
+- **Actor:** agent (Antigravity), per owner request. [vault]
+- **Commit:** `ab1420a` on `main` (`kurekizmo`). Working tree is clean.
+- **Implementation:**
+  - Implemented `actions/codebase.py` (#26) for ground-truth repository inspection across allowlisted roots (`~/.config/kurek/codebase_roots`, defaulting to `~/Projects` and `~/dev`). Supports `search` (live ripgrep with context, <0.1s), `tree` (filtered ASCII directory tree), `read` (line-range bounded reader), `find` (glob locator), `outline` (symbol maps across Rust, TypeScript, Python, Go, Swift), `index` (commit/branch snapshot metadata), and `status` (freshness check). Strictly read-only; skips binaries; caps large outputs.
+  - Implemented `actions/run.py` (#27) for sandboxed, auditable command execution. Supports `exec`, `read`, `list`, `cancel`. Strict allowlist: inspection tools (`git status/diff/log/show`, `rg`, `ls`, `cat`, `head`, `tail`, `wc`, `find`, `stat`, `--version`) and declared build/test tools (`cargo check/test/build/clippy`, `pytest`, `npm test`, `make`). Permanently blocks destructive operations (`rm`, `git push`, `git reset --hard`, `curl|sh`, package installs) and shell chaining (`&&`, `|`, `;`). Enforces non-interactive execution (`GIT_PAGER=cat`, `CI=1`), timeouts, output truncation, secret/token redaction, and append-only audit trail in `~/.local/state/kurek/run_audit.log`.
+  - Added unit test suites `tests/test_codebase.py` (12 tests) and `tests/test_run.py` (10 tests); all 168 tests pass (1 skipped).
+  - Tool count updated to **27 active actions** auto-discovered by daemon (`discover_actions`).
+  - Added `run` to `REMOTE_BLOCKED_EXEC_TOOLS` in `kurek_daemon.py`; set `KUREK_REMOTE_ALLOW_EXEC=1` in `.env`.
+  - Tested live over Tailscale from owner's Android phone (`mi-10t`, phone's Tailscale IP); verified prompt correctly inspected working tree state and cited the new tools.
+- **Updated:** [[sessions/handoffs/2026-10-15-SHIP]], [[sessions/2026-10-08-kureksistant-session]], [[wiki/concepts/kureksistant-overview]], [[sessions/LATEST]].
+- 2026-10-15 02:32: kureksistant #23 merged as `e5341b7` (Alan 02:30, "yes to both"). Batch 1 5/5. ATLAS redacted Tailscale IPs from 3 vault files.

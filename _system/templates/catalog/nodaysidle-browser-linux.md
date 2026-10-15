@@ -39,3 +39,4 @@ Focused browsing surface for Omarchy/Hyprland workflows. Research topics: packag
 
 - 2026-10-12 03:50 (ATLAS): browser-linux PR #2 merged as 31ede82: README install now links the AppImage directly (closes reconcile 2026-10-11 conflict 5).
 - 2026-10-15 01:55 (ATLAS): owner confirmed at 01:50 CEST: "i did reoptimize it and today i posted it on X the newest version". Reinstall resolved. The local WIP (`a813e70` + 20 uncommitted entries) is still open.
+- 2026-10-15 02:30 (ATLAS, README sweep batch 1): README #5 merged as `ca1bc3e` (v0.2.0 AppImage SHA-256).

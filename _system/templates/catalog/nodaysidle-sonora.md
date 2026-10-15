@@ -29,3 +29,4 @@ Portfolio group: **Native apps** (`nodaysidle-sonora`).
   - SWEEP Oct 11: Oct 8 SHIP release-notes gap **cleared** and re-verified (v0.1.1 body has Linux Spotify fix, downloads, SHA-256). Still on portfolio (03/09) and apps site (card 02).
   - Visibility-history conflict with SWEEP Oct 8 remains **open** (unchanged).
   - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+- 2026-10-15 02:30 (ATLAS, README sweep batch 1): README #3 merged as `f8b45ba` (SHA-256 table + direct Linux links, v0.1.1).
