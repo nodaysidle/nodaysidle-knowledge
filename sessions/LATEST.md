@@ -1,6 +1,6 @@
 ---
 type: session-pointer
-updated: 2026-10-16 20:06
+updated: 2026-10-16 20:49
 note: Folded by ATLAS on branch atlas/fold-2026-10-16 (not main yet).
 ---
 
@@ -18,6 +18,16 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 - ✅ **Launched:** browser-linux v0.2.0 (owner X post, Oct 15; exact post URL/time not recorded). Sonora v0.1.1 (Oct 16 18:32), https://x.com/kaly_ndi/status/2111133123421352217. ATLAS verified via the X API at 20:04: created 2026-10-16 18:32:14 UTC+2, 16 s video attached, 73 impressions, 3 likes, 2 replies at check time.
 - ⏳ **Not launched:** Cascade v3.1.0 (held for the big launch), WhisperBar v1.1.2 ([[wiki/concepts/whisper-bar-overview]]) (Sat Oct 17 17:30, regular catalog post), Kurek v0.2.1 (Wed Oct 21 17:30).
 - [EO 2026-10-16 20:06] **Corrected hub post is NOT live yet** as of 20:06.
+- [EO 2026-10-16 17:29–20:09] **Evening log** ([[sessions/handoffs/2026-10-16-EO]]):
+  - browser-linux PR #7 merged as `7310f28`. Alan approved at 17:34: "U can merge I approve already." PR #8 (bundled AppImage) is open, not merged; merging needs a yes.
+  - The Sonora packet was delivered and Alan posted it at 18:32.
+  - Alan at 20:02: "Cascade v3.1.0,Kurek, Whisperbar were not launched yet, check the vault".
+  - The hub post was rewritten to name only Sonora v0.1.1 and browser-linux v0.2.0, and sent to Alan.
+  - EO pushed ATLAS's `3c29ef7`/`16fdfcb` to `atlas/fold-2026-10-16` through a cloud agent; main untouched.
+  - No agent has a GitHub push login. EO sent Alan a link to create a fine-grained token scoped to nodaysidle-knowledge (pending, via a secure field).
+- [owner 2026-10-16 20:49] **Permanent EO rules.** EO reads the vault first on every turn, logs every task in its handoff, requires handoff logs from delegates, runs the deterministic gate plus ask-decide on promo copy, follows the approval rule, and signs git with `Agent: EO`.
+- [owner 2026-10-16 20:49] **Standing rule: after every downstream completion, EO asks ATLAS to fold handoffs into `sessions/LATEST.md` and `_audit/log.md`.**
+- ⚠️ **Context, not a conflict:** branch commit `3eb48c8` (2026-10-15 14:21) records Alan's 14:10 approval of the Cascade v3.1.0 launch package for the Thu 17:30 slot. Alan 2026-10-16 10:26/20:02 confirms the post did **not** go live, and Cascade is now held for the big launch. The 10-15 approval is **stale**.
 - **Hub 20:30 post corrected** (EO 20:04) to name only launched apps. Whether it has gone live: **unknown** at 20:04. The earlier catalog-current copy, which listed every app, is **stale**.
 - ✅ **browser-linux [PR #7](https://github.com/nodaysidle/nodaysidle-browser-linux/pull/7) merged** as `7310f28` (docs README: slim AppImage uses system WebKitGTK 4.1). Alan approved at 17:34; GitHub shows it merged at 17:36. Verified via GitHub.
 - ⏳ **browser-linux [PR #8](https://github.com/nodaysidle/nodaysidle-browser-linux/pull/8) open, not merged** (experimental fully bundled AppImage + CI). Verified via GitHub. Merging needs a separate yes.
@@ -120,6 +130,7 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 - Source: GitHub `pushed_at` checked 2026-10-15.
 
 ## Team rules (AGENTS.md `b586c41`, from 2026-10-15 01:24)
+0. (2026-10-16 20:04/20:49) Everything important goes in the vault. After every downstream completion, EO asks ATLAS to fold into LATEST.md and `_audit/log.md`.
 1. Sign every commit with an `Agent: <NAME>` trailer.
 2. Every relayed approval quotes the owner's exact words and the time.
 3. Every handoff entry fills all five fields: Task / Did / Facts for others / Needs / Status.
@@ -149,6 +160,8 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 - 2026-10-16 20:04 (ATLAS): added the vault-first rule (AGENTS.md + here), the launch status as of 20:02, browser-linux PR #7/#8, the Sonora post (verified), the hub-copy correction, and repo status updates on the Sonora, browser-linux, Cascade and Kurek overview pages.
 
 - 2026-10-16 20:06 (ATLAS): added the [[wiki/concepts/whisper-bar-overview]] status page (linked from the MOC). Hub post not live as of 20:06 (EO).
+
+- 2026-10-16 20:49 (ATLAS): folded EO's 17:29–20:09 evening log and the 20:49 permanent rules. Merged remote `c135653` (same tree as local `68debae`). Logged in `_audit/log.md`.
 
 ## Rule for every agent
 Read this file at the start of every task. When you finish, write `sessions/handoffs/<YYYY-MM-DD>-<AGENT>.md`. Only ATLAS edits this file (owner may too).

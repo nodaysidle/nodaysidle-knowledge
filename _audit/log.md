@@ -594,3 +594,15 @@ Append-only record of promotions and significant vault edits. Agents may append;
   - Tested live over Tailscale from owner's Android phone (`mi-10t`, phone's Tailscale IP); verified prompt correctly inspected working tree state and cited the new tools.
 - **Updated:** [[sessions/handoffs/2026-10-15-SHIP]], [[sessions/2026-10-08-kureksistant-session]], [[wiki/concepts/kureksistant-overview]], [[sessions/LATEST]].
 - 2026-10-15 02:32: kureksistant #23 merged as `e5341b7` (Alan 02:30, "yes to both"). Batch 1 5/5. ATLAS redacted Tailscale IPs from 3 vault files.
+
+## 2026-10-16T10:42:00+02:00: ATLAS folded 2026-10-16 handoffs onto branch atlas/fold-2026-10-16
+- Installed sessions/LATEST.md; launch tiers added to [[wiki/concepts/x-promo-strategy]]; EO/SHIP/REEL/REACH/ATLAS handoffs and briefs added and marked `folded: true`. Alan 10:42: "Yes, proceed with the branch." Branch only, main untouched.
+
+## 2026-10-16T20:04:00+02:00: Vault-first rule + launch status
+- Alan 20:04: "everything important goes in the vault". Added to AGENTS.md and LATEST. Launched: browser-linux v0.2.0, Sonora v0.1.1 (18:32). Not launched: Cascade, WhisperBar, Kurek. Repo status pages updated; [[wiki/concepts/whisper-bar-overview]] created (20:06).
+
+## 2026-10-16T20:49:00+02:00: ATLAS folded EO evening log + permanent EO rules
+- **Actor:** ATLAS, per EO 20:49. [vault]
+- Folded [[sessions/handoffs/2026-10-16-EO]] (17:29–20:09 evening summary; 20:49 permanent rules) into [[sessions/LATEST]].
+- Standing rule (Alan 20:49): after every downstream completion, EO asks ATLAS to fold handoffs into LATEST.md and this log.
+- Git: merged remote `c135653` into the local branch (same tree as local `68debae`, a duplicate EO commit). No force push, no reset.
