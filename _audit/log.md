@@ -611,3 +611,8 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - Read-only checks of GitHub Latest (tags + digests), the live hub (200) and X (@kaly_ndi). All six hub cards match GitHub.
 - Launched: nodaysrammar (10-13), browser-linux (10-14, vault said 10-15), Sonora (10-16). Released, not promoted: WhisperBar, Kurek, Cascade. The corrected hub post is not live.
 - Updated [[sessions/LATEST]], six overview pages and [[_system/templates/CATALOG]] (Kurek row marked stale).
+
+<!-- atlas-2125 -->
+## 2026-10-16T21:25:00+02:00: Owner decisions folded (ATLAS)
+- WhisperBar Sat 17:30 publish-approved (Alan posts it). New standing rule: drafts by 14:00 for every 17:30 post. SHIP re-checks the Kurek v0.2.1 card before Wed 21. The Cascade plan had not been shown to Alan; EO is presenting it at 21:25.
+- Written to [[sessions/LATEST]], [[wiki/concepts/x-promo-strategy]] and [[wiki/concepts/whisper-bar-overview]].

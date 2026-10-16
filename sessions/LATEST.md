@@ -13,6 +13,14 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 
 ## Current true state (2026-10-16)
 
+<!-- atlas-2125 -->
+### Owner decisions 2026-10-16 21:25 (via EO; folded by ATLAS)
+> Alan 21:25 via EO: "1. Yes, and i want the draft posts for X at 14:00 if the post is at 17:30 , tell this to atlas so he writes in the Vault on my machine. 2. SHIP must do it yes, because there were updates meanwhile."
+- ✅ **WhisperBar v1.1.2, Sat 17 Oct 17:30: publish APPROVED.** Alan posts it himself. This is a regular catalog post, not a launch.
+- 📌 **Standing owner rule:** for every 17:30 X post, the X drafts reach Alan by **14:00** the same day. See [[wiki/concepts/x-promo-strategy]].
+- 🔁 **SHIP re-checks the Kurek v0.2.1 hub card before Wed 21 Oct** ("there were updates meanwhile").
+- ⚠️ **Cascade big-launch plan:** it was never shown to Alan. EO is presenting it at 21:25; outcome **unknown**.
+
 ### Launch audit (2026-10-16 21:11, ATLAS; newest verified fact wins)
 Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `data/apps.json` on main), and X API reads of @kaly_ndi from 2026-09-01 to 21:11.
 

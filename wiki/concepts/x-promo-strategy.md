@@ -68,6 +68,11 @@ All posts go out first-person from Adlof's personal X account, which has X Premi
 - **Regular rotation continues** for the other apps: Sonora (Fri 16 Oct 17:30), the apps hub (Fri 16 Oct 20:30), WhisperBar (Sat 17 Oct 17:30, a regular catalog post, not a launch, so "avoid weekends for launches" still applies), and Kurek (Wed 21 Oct 17:30). No second X post on Sunday 18 Oct.
 - **Alan posts to X himself every time** (2026-10-16). The team delivers ready-to-paste drafts plus a GIF or MP4. Every post needs its own publish yes.
 
+<!-- atlas-2125 -->
+## Draft deadline rule (owner, 2026-10-16 21:25)
+- For every 17:30 X post, the drafts reach Alan by **14:00** the same day. Alan publishes the posts himself.
+- Source: Alan 21:25 via EO ("i want the draft posts for X at 14:00 if the post is at 17:30").
+
 ## Related
 
 - [[wiki/MOC/moc-x-promo]]
