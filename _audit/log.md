@@ -695,3 +695,16 @@ Agent: ATLAS
 ## 2026-10-16T21:32:00+02:00: Kurek owner facts (ATLAS, via EO 21:32)
 - Alan 21:31: Kurek is a GUI-less daemon spawned by a middle click; GUI descriptions are stale. Alan 21:29 (unverified): the local build has a different STT model, 27 tools and a longer listen window; SHIP to diff.
 - Written to [[wiki/concepts/kureksistant-overview]] and [[sessions/LATEST]].
+
+<!-- atlas-2133 -->
+## 2026-10-16T21:35:00+02:00: README snapshots of all public repos (ATLAS, Alan 21:32–21:34)
+- Snapshotted 39 public repos (visibility from the live API) to `wiki/sources/`, with full SHAs and blob-hash checks. Added the rules to AGENTS.md, linked the 9 overview pages, and left the diff placeholder for SHIP.
+
+<!-- atlas-2136 -->
+## 2026-10-16T21:36:00+02:00: Push freeze + secret scan (ATLAS, EO 21:36)
+- Push freeze recorded. The README snapshots were scanned for secrets: 3 placeholder hits, no real values. Located 4 secret-looking added lines in arch's 14 unpushed commits (locations only, in the ATLAS handoff); history unchanged. SHIP 21:34 README diffs added to 9 overview pages.
+
+<!-- atlas-2139 -->
+## 2026-10-16T21:39:00+02:00: Deferred repo-visibility decision + Kurek decisions (ATLAS)
+- DEFERRED (Alan 21:39): private vs scrub-then-public for nodaysidle-knowledge; vault push freeze on all branches. 4 secret-looking line locations listed in [[sessions/LATEST]] (no values).
+- Alan 21:38: Kurek shell is gated by `KUREK_REMOTE_ALLOW_EXEC=1`, off by default; `.commandcode/` is gitignored; the v0.2.2 PR is OK, merge and release need a yes; the canonical Kurek page rule is in AGENTS.md.

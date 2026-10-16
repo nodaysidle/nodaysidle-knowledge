@@ -49,3 +49,15 @@ Structure every response using the following three sections with bullet points f
 - **Everything important goes in the vault.** Alan's hard rule as of 2026-10-16 20:04: "everything important goes in the vault".
 - **ATLAS folds** every important decision, launch, correction and handoff into the vault (`sessions/LATEST.md`, the relevant `wiki/concepts/` page, and `sessions/handoffs/`). Other agents write a handoff; ATLAS makes sure it lands in the vault.
 - **Proactive Continuous Vault Logging.** EO must log every new task in `sessions/handoffs/<date>-EO.md` immediately upon receiving it. ATLAS holds explicit write authority inside the vault root to maintain notes, `sessions/LATEST.md`, catalog pages, and `_audit/log.md`. ATLAS actively folds open handoffs as soon as agents complete tasks, without waiting for manual sweeps.
+
+<!-- atlas-2133 -->
+## README source-of-truth rules (owner, 2026-10-16 21:32–21:34)
+1. **README snapshots are the source of truth.** Every public repo's README lives at `wiki/sources/<exact-repo-name>-README.md` (index: [[wiki/sources/README]]). Read the app's snapshot before writing about it; owner facts there are **not re-asked** (Alan 21:32: "the README.md of kureksistant should be in the nodaysidle-knowledge obsidian vault, and there is the truth, i do not want to repeat myself and reexplain").
+2. **Check local vs GitHub before stating any app fact.** Local checkouts on arch (`~/dev/nodaysidle/`) can have uncommitted or unpushed work (Alan 21:33: "every public repo README.md should be in the VAULT, and always check the diffs on local disk and on github not everything is commited and pushed").
+3. **Refresh the snapshot on every release.**
+4. **Be precise (Alan 21:34: "but dont mix up repos, public repo, check the dates etc. be precise, do precise work"):** snapshot public repos only, with visibility confirmed by the live GitHub API. Use one file per exact repo name, and never merge renamed or private repos into a public one (e.g. the local folder `kurekizmo` ≠ public repo `kureksistant`). Record the full SHA and the commit date (Europe/Ljubljana, ISO with offset), and verify the content hash. Write unknown when something can't be verified; never guess.
+
+<!-- atlas-2139 -->
+## Kurek canonical page rule (owner, 2026-10-16 21:38)
+- For Kurek, the truth is [[wiki/concepts/kurek-canonical-readme]] (on arch: commit `7fab6cd`, local and unpushed), **together with** the README snapshot [[wiki/sources/kureksistant-README]]. Kurek has no GUI on purpose and is summoned by middle-click. Read both before writing about Kurek.
+- Vault push freeze (Alan 21:39, deferred decision): do not push `nodaysidle-knowledge` to any branch until Alan decides private vs scrub-then-public.

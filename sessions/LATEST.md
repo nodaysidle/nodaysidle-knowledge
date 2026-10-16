@@ -201,3 +201,32 @@ Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `da
 
 ## Rule for every agent
 Read this file at the start of every task. When you finish, write `sessions/handoffs/<YYYY-MM-DD>-<AGENT>.md`. Only ATLAS edits this file (owner may too).
+
+<!-- atlas-2133 -->
+### README snapshots of all public repos (owner 2026-10-16 21:32–21:34; ATLAS)
+- Alan 21:32: "the README.md of kureksistant should be in the nodaysidle-knowledge obsidian vault, and there is the truth, i do not want to repeat myself and reexplain"
+- Alan 21:33: "every public repo README.md should be in the VAULT, and always check the diffs on local disk and on github not everything is commited and pushed"
+- Alan 21:34: "but dont mix up repos, public repo, check the dates etc. be precise, do precise work"
+- ✅ 39 public repos snapshotted to `wiki/sources/<repo>-README.md` (index [[wiki/sources/README]]). Each is pinned to a full SHA with its commit date and checked against its git blob hash. Kurek: [[wiki/sources/kureksistant-README]] (`09e3c7d`). It will change for v0.2.2 (STT, listen window, 27 tools); refresh then.
+- Rules added to AGENTS.md. Local vs GitHub README diffs: **pending SHIP**. Local READMEs on arch are modified in `nodaysidle-browser-linux` and `chrome-extension` (nodaysrammar).
+
+<!-- atlas-2136 -->
+### 🧊 Vault push FREEZE (EO 21:36)
+- `nodaysidle-knowledge` is a **public** repo. Do not push it to any branch until Alan decides; commit locally only (arch and the box clone).
+- Secret-looking lines exist in arch's unpushed commits (locations, no values, in [[sessions/handoffs/2026-10-16-ATLAS]] 21:36). The snapshots were scanned: 3 hits, all template placeholders, nothing redacted.
+
+<!-- atlas-2139 -->
+### Open items: owner decisions 2026-10-16 21:38–21:39 (ATLAS)
+- ⏸️ **DEFERRED owner task** (Alan 21:39: "for now put in vault for later this task"): decide on the public `nodaysidle-knowledge` repo. Either make it private, or keep it public and first scrub secrets and `/home` paths.
+  - Until then there is a **VAULT PUSH FREEZE on all branches**; commit locally only.
+  - Secret-looking lines in arch's 14 unpushed commits (sha / file:line):
+  - `7fab6cd` `sessions/handoffs/2026-10-15-SHIP.md:234`
+  - `7fab6cd` `wiki/concepts/kurek-canonical-readme.md:158`
+  - `179eba0` `_system/bin/ask-decide:31`
+  - `179eba0` `_system/bin/ask-decide:33`
+  - SHIP counted 3; ATLAS's pattern finds 4 lines. Values are never shown.
+  - The already-pushed fold branch has only a placeholder key (EO 21:39 relay; ATLAS's snapshot scan agrees for `wiki/sources/`).
+- [owner 21:38] Kurek's **unrestricted shell is kept**, **off by default**, and gated by `KUREK_REMOTE_ALLOW_EXEC=1` with a warning.
+- [owner 21:38] `.commandcode/` is gitignored.
+- [owner 21:38] SHIP may open the Kurek **v0.2.2 PR**; **merge and release each need a separate yes**.
+- 📌 [owner 21:38, permanent] Kurek truth: [[wiki/concepts/kurek-canonical-readme]] (on arch: commit `7fab6cd`, local and unpushed), together with the README snapshot [[wiki/sources/kureksistant-README]]. Kurek has no GUI on purpose and is summoned by middle-click.

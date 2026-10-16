@@ -74,3 +74,9 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 
 - ✅ **Launched on X on 2026-10-14 17:48** (UTC+2): https://x.com/kaly_ndi/status/2110397251071750195 ("…the whole AppImage is 1.5MB"). Follow-up 20:55: https://x.com/kaly_ndi/status/2110444503173591215. ⚠️ **Mismatch:** the 20:04 update above says "Oct 15". X shows Oct 14, so the Oct 15 date is **stale**. The owner's "today" in the 2026-10-15 01:50 relay meant Oct 14.
 - GitHub Latest v0.2.0 (`02d7a85c…` digest) matches the hub card.
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/nodaysidle-browser-linux-README]] (public `nodaysidle/nodaysidle-browser-linux` @ `7310f28`, committed 2026-10-16T17:36:06+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `nodaysidle-browser-linux` (master): 20 uncommitted paths, **README.md modified locally**, 0 unpushed.
+- Local vs GitHub README diff: local is 5 commits behind GitHub, has uncommitted edits, and its README differs (+4/−23) (SHIP 21:34)

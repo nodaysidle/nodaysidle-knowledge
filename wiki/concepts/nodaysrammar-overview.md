@@ -109,3 +109,9 @@ Status: **active, released** (v1.0.1 Latest). The 10:58 section above covers PR 
 
 - ✅ **Launched on X on 2026-10-13 15:17** (UTC+2): https://x.com/kaly_ndi/status/2109996918763856216 ("nodaysrammar v1.0.1 is out…", 13 s video). Teaser on 2026-10-12 17:29: https://x.com/kaly_ndi/status/2109667767515271625. Follow-up quote on 10-13 20:34: https://x.com/kaly_ndi/status/2110076620048379959. ⚠️ **Mismatch:** the 2026-10-16 catalog-rotation listed the last post as "unknown". It is now known.
 - GitHub Latest v1.0.1 (`31d86ad8…`) matches the hub card.
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/nodaysrammar-README]] (public `nodaysidle/nodaysrammar` @ `1de303b`, committed 2026-10-15T02:29:28+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `~/dev/nodaysidle/chrome-extension` (origin → `nodaysidle/nodaysrammar`): 25 uncommitted paths, **README.md modified locally**, 0 unpushed.
+- Local vs GitHub README diff: local `chrome-extension` is 1 commit behind GitHub, has uncommitted edits, and its README differs (SHIP 21:34)

@@ -76,3 +76,9 @@ Synapse Notes is a voice-first Android notes app (Capacitor 8, `com.synapse.note
 - On portfolio-nine (card 04/09). Latest v0.4.3 APK OK.
 - ⚠️ **Open (REEL):** no demo GIF in the repo tree.
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/synapse-notes-README]] (public `nodaysidle/synapse-notes` @ `d659005`, committed 2026-10-07T14:16:21+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `synapse-notes`: 40 uncommitted paths, README.md clean, 0 unpushed.
+- Local vs GitHub README diff: README matches GitHub; uncommitted frontend edits (SHIP 21:34)

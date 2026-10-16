@@ -68,3 +68,9 @@ The app is modeled after **Superwhisper Pro**'s tactile interaction model:
 - **Cloud STT Transcriber**: `app/src/main/java/com/nodaysidle/voiceanywhere/stt/DeepgramSttClient.kt`
 - **Accessibility XML Configuration**: `app/src/main/res/xml/accessibility_service_config.xml`
 - **Local Workspace**: `/home/arch/Projects/_github-migrations/nodaysidle-voice-anywhere-v2`
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/nodaysidle-voice-anywhere-v2-README]] (public `nodaysidle/nodaysidle-voice-anywhere-v2` @ `9136ae1`, committed 2026-09-18T01:13:16+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): no local checkout found under `~/dev/nodaysidle/`.
+- Local vs GitHub README diff: no local checkout; README listed by SHIP 21:34 under no-local-copy

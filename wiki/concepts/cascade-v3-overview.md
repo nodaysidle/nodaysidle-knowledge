@@ -82,3 +82,9 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 ## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
 
 - ⏳ **Released, not promoted:** no Cascade post on @kaly_ndi from 2026-09-01 to 2026-10-16 21:11. GitHub Latest v3.1.0 and the 4 digests match the hub card.
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/nodaysidle-cascade-v3-README]] (public `nodaysidle/nodaysidle-cascade-v3` @ `3edd3cc`, committed 2026-10-15T02:29:17+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `nodaysidle-cascade-v3`: clean, 0 unpushed.
+- Local vs GitHub README diff: local is only 3 commits behind GitHub; README differs (+25/−13); no local edits (SHIP 21:34)

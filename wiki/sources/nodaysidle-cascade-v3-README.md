@@ -1,0 +1,284 @@
+---
+type: source-readme
+repo: "nodaysidle/nodaysidle-cascade-v3"
+visibility: "public"
+fork: false
+default_branch: "main"
+source_commit: "3edd3cc26c7535b95b17b988847df2b27932c0a1"
+source_commit_date: "2026-10-15T02:29:17+02:00"
+readme_path: "README.md"
+readme_blob_sha: "9f9ddea6bcf58e5eedbb5d5a17cc5c7eca2826a6"
+fetched: "2026-10-16T21:43:33+02:00"
+verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
+authority: "owner source of truth (Alan 21:32/21:33)"
+url: "https://github.com/nodaysidle/nodaysidle-cascade-v3/blob/3edd3cc26c7535b95b17b988847df2b27932c0a1/README.md"
+tags: [source, readme, nodaysidle-cascade-v3]
+---
+
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-cascade-v3` at `3edd3cc` (2026-10-15T02:29:17+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-cascade-v3/3edd3cc26c7535b95b17b988847df2b27932c0a1/Resources/icon.png" width="148" height="148" alt="NODAYSIDLE Cascade V3 icon">
+</p>
+
+<h1 align="center">NODAYSIDLE Cascade V3</h1>
+
+![Cascade: one idea in, five planning docs out](https://raw.githubusercontent.com/nodaysidle/nodaysidle-cascade-v3/3edd3cc26c7535b95b17b988847df2b27932c0a1/docs/cascade.gif)
+
+<p align="center">
+  <strong>Turn one software idea into five agent-ready markdown contracts.</strong><br>
+  One model call for product meaning. Local code owns everything else.
+</p>
+
+<p align="center">
+  <img alt="macOS 13+" src="https://img.shields.io/badge/macOS-13%2B-black?style=flat-square&logo=apple&logoColor=white">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-AppImage%20%7C%20deb%20%7C%20Arch-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img alt="Tauri 2" src="https://img.shields.io/badge/Tauri-2-FFC131?style=flat-square&logo=tauri&logoColor=black">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-destructive%20free-000000?style=flat-square&logo=rust&logoColor=white">
+  <img alt="DeepSeek V4" src="https://img.shields.io/badge/DeepSeek-V4-4c8c6b?style=flat-square">
+  <img alt="Local compiler" src="https://img.shields.io/badge/compiler-local--only-4c8c6b?style=flat-square">
+  <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-4c8c6b?style=flat-square">
+  <img alt="MIT" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="https://github.com/nodaysidle/nodaysidle-cascade-v3/releases"><strong>Download Releases (macOS DMG & Linux AppImage / Deb)</strong></a>
+  ·
+  <a href="https://github.com/nodaysidle/nodaysidle-cascade-v3">GitHub</a>
+</p>
+
+<p align="center">
+  <em>macOS (Apple Silicon) & Linux (Arch, Omarchy, Ubuntu, Debian) · Tauri 2 Desktop</em>
+</p>
+
+<p align="center">
+  <a href="#why-cascade-v3">Why</a> ·
+  <a href="#features">Features</a> ·
+  <a href="#privacy">Privacy</a> ·
+  <a href="#install">Install</a> ·
+  <a href="#usage">Usage</a> ·
+  <a href="#output">Output</a> ·
+  <a href="#presets">Presets</a> ·
+  <a href="#architecture">Architecture</a> ·
+  <a href="#development">Development</a>
+</p>
+
+---
+
+## Why Cascade V3?
+
+Most idea-to-spec tools either dump vague prose or ask the model to invent file trees, APIs, and build commands. That drifts. Agents improvise. Exports disagree with previews.
+
+**Cascade V3** splits the problem cleanly:
+
+| Layer | Who owns it |
+| --- | --- |
+| **Boundary decisions** | Jev viability, preset-fit, platform-needs, stack-leakage, and acceptance-verifiability judgments |
+| **Product meaning** | One DeepSeek request (Pro or Flash) after intake passes, plus at most one repair request that names the checks the first response failed |
+| **IDs, graph, files, phases, contracts** | Deterministic local TypeScript compiler |
+| **Five markdown documents** | Locked renderers — preview bytes equal export bytes |
+| **Gate** | Mechanical + agent-readiness audits before export |
+
+You describe the product once. Cascade returns exactly **`PRD.md`**, **`ARD.md`**, **`TRD.md`**, **`TASKS.md`**, and **`AGENTS.md`** — ready for Codex, Cursor, or any downstream coding agent.
+
+## Features
+
+| Area | Capability |
+| --- | --- |
+| **Semantic intake** | Compact JSON schema: features, data objects, integrations, constraints — no provider-invented file paths |
+| **Five locked presets** | macOS SwiftUI desktop & menubar, Tauri 2 desktop, Astro web, Android Compose |
+| **Preset compiler** | Stable `FEAT-*`, `OWN-*`, `CON-*`, `PHASE-*`, `TASK-*` IDs; create-before-modify file graph |
+| **Agent-ready packet** | Full contract prose in TRD/TASKS; trace indexes in PRD/ARD/AGENTS |
+| **Astro web quality** | Content collections, routes, design tokens, seed guidance for static portfolios |
+| **Exact-five export** | Atomic write of five canonical files; SHA-256 hash equality with preview |
+| **Safe provider boundary** | Rust HTTPS client; memory-only provider credentials; no automatic retry, at most one repair request that names the failed checks, no persisted secrets |
+| **Jev guardrails** | Rejects non-product intake before DeepSeek, warns on preset conflict, heals missing platform needs, blocks foreign-stack leakage and untestable acceptance signals, and lists features that may not match your idea for review (never blocks) |
+| **Validation ledger** | Local proof of compiler gates, graph audits, and export eligibility in the UI |
+
+## Privacy
+
+Cascade is local-first by design:
+
+- **No accounts**, cloud backend, telemetry, analytics, or settings sync.
+- Your **provider credentials stay in memory** for their requests, are cleared after Gate Clean, and are never saved to disk.
+- Provider failures surface **safe, allowlisted diagnostics** — never raw response bodies or prompts in the UI.
+- Exported markdown is written only to the folder you choose.
+- The compiler and audits run **entirely on your machine** after the single provider response.
+
+## Install
+
+### Download (macOS Apple Silicon)
+
+1. Download [`NODAYSIDLE-Cascade-V3-3.1.0-aarch64.dmg`](https://github.com/nodaysidle/nodaysidle-cascade-v3/releases/download/v3.1.0/NODAYSIDLE-Cascade-V3-3.1.0-aarch64.dmg).
+   SHA-256: `1aec1ffd45ce4dde171210a3ad1a0b195da0214316b2d1adb27e2657979ed3d9`. Verify with `shasum -a 256 NODAYSIDLE-Cascade-V3-3.1.0-aarch64.dmg`.
+2. Open the DMG and drag the app to `/Applications`.
+3. First launch: right-click → **Open** if Gatekeeper blocks it (ad-hoc / not notarized).
+
+macOS builds are Apple Silicon only. Linux x86_64 builds (AppImage, deb, tar.gz) are listed under [Running on Arch Linux / Omarchy](#running-on-arch-linux--omarchy). No Windows or Intel macOS build in this release.
+
+### Build from source
+
+**Requirements:** macOS 13+, [Node.js](https://nodejs.org/) 20+, [Rust](https://rustup.rs/) stable, and Xcode command-line tools.
+
+```bash
+git clone https://github.com/nodaysidle/nodaysidle-cascade-v3.git
+cd nodaysidle-cascade-v3
+
+npm install
+npm run tauri:build
+```
+
+The release app bundle is written under `src-tauri/target/release/bundle/macos/`.
+
+### Install to /Applications (macOS)
+
+```bash
+cp -R "src-tauri/target/release/bundle/macos/NODAYSIDLE Cascade V3.app" /Applications/
+open "/Applications/NODAYSIDLE Cascade V3.app"
+```
+
+> [!NOTE]
+> Local builds are **ad-hoc signed and not Apple-notarized**. On first launch, macOS may ask you to right-click the app and choose **Open**, or approve it in **System Settings → Privacy & Security**.
+
+### Running on Arch Linux / Omarchy
+
+1. Install WebKit2GTK dependencies on Arch:
+   ```bash
+   sudo pacman -S webkit2gtk-4.1 openssl
+   ```
+2. Download one of the v3.1.0 Linux assets below (direct links) and verify it with `sha256sum`:
+
+   | Asset | SHA-256 |
+   | --- | --- |
+   | [`NODAYSIDLE.Cascade.V3_3.1.0_amd64.AppImage`](https://github.com/nodaysidle/nodaysidle-cascade-v3/releases/download/v3.1.0/NODAYSIDLE.Cascade.V3_3.1.0_amd64.AppImage) | `fe784421f37d6148e1c8f13639ad261cbe930ab6357f8d25528e9c8ed120eac4` |
+   | [`NODAYSIDLE.Cascade.V3_3.1.0_amd64.deb`](https://github.com/nodaysidle/nodaysidle-cascade-v3/releases/download/v3.1.0/NODAYSIDLE.Cascade.V3_3.1.0_amd64.deb) | `5dddd77aef0f4c5156cd1987547ebda5f3e06f795ba11d6809a87c08dedb297e` |
+   | [`NODAYSIDLE-Cascade-V3-3.1.0-linux-x86_64.tar.gz`](https://github.com/nodaysidle/nodaysidle-cascade-v3/releases/download/v3.1.0/NODAYSIDLE-Cascade-V3-3.1.0-linux-x86_64.tar.gz) | `f3e7693d2d9ed9657fca75f4168295c4283ca280a0636537ce606990419b83b3` |
+
+3. If using the `.AppImage`:
+   ```bash
+   chmod +x NODAYSIDLE.Cascade.V3_3.1.0_amd64.AppImage
+   ./NODAYSIDLE.Cascade.V3_3.1.0_amd64.AppImage
+   ```
+   For the `.deb` (Debian/Ubuntu): `sudo apt install ./NODAYSIDLE.Cascade.V3_3.1.0_amd64.deb`.
+
+4. If building or running from source on Arch:
+   ```bash
+   npm install
+   npm run tauri:dev    # for development
+   npm run tauri:build  # builds AppImage and deb in src-tauri/target/release/bundle/
+   ```
+
+> [!NOTE]
+> Cascade needs your own AI provider credentials. You enter them in the app; they are kept in memory only and never saved to disk.
+
+## Usage
+
+1. Launch **NODAYSIDLE Cascade V3**.
+2. Choose a **technology preset** (for example, Astro Web or native macOS SwiftUI).
+3. Select **DeepSeek V4 Pro** or **DeepSeek Flash**.
+4. Paste your **software idea** — product summary, users, features, data, and constraints.
+5. Enter your own **provider credentials** in the app (memory-only; not saved to disk).
+6. Click **Generate** and wait for the pipeline:
+   - Jev preflight → provider → blueprint validation → Jev integrity → local normalization → preset compiler → audits → rendering
+7. When status is **Gate Clean**, inspect the five preview tabs and **Export** to a folder.
+
+Hand the exported folder to your coding agent. Read **`AGENTS.md` first**, then follow **`TASKS.md`** in phase order.
+
+## Output
+
+Every successful export contains exactly these five files:
+
+| File | Purpose |
+| --- | --- |
+| `PRD.md` | Product scope, journeys, acceptance, design system |
+| `ARD.md` | Architecture, owners, persistence, integrations |
+| `TRD.md` | Stack lock, contracts, file map, validation commands |
+| `TASKS.md` | Phased implementation tasks with create/modify rules |
+| `AGENTS.md` | Downstream agent operating manual and completion gates |
+
+Preview and export share **identical bytes**. Re-rendering the same accepted blueprint is deterministic.
+
+## Presets
+
+| Preset ID | Stack |
+| --- | --- |
+| `native-macos-swiftui-desktop` | Swift 6, SwiftUI, AppKit — desktop app |
+| `native-macos-swiftui-menubar` | Swift 6, SwiftUI — menu bar utility |
+| `tauri2-rust-typescript-desktop` | Tauri 2, Rust, TypeScript — cross-platform desktop |
+| `astro-web` | Astro, TypeScript — static site / portfolio |
+| `android-kotlin-compose` | Kotlin, Jetpack Compose — Android app |
+
+Each preset owns runtime APIs, file layouts, ownership mappings, persistence, integrations, packaging, and validation commands. The provider cannot override them.
+
+## Architecture
+
+```text
+idea + locked preset + model + memory-only provider credentials
+  → Jev viability + preset-fit preflight
+  → one Rust DeepSeek Responses request when viable
+  → strict JSON schema validation
+  → Jev platform-needs healing + integrity gate (stack leakage, untestable acceptance)
+  → deterministic local normalization
+  → preset compiler (graph, phases, tasks)
+  → mechanical graph audit
+  → agent-readiness audit
+  → five-document render
+  → rendered-byte audit + SHA-256 hashes
+  → preview
+  → atomic exact-five export
+```
+
+**Authority boundaries:**
+
+- `src/schema.ts` — compact provider schema
+- `src/compiler.ts` + `src/presets.ts` + `src/astroWeb.ts` — graph and preset policy
+- `src/renderers.ts` — immutable markdown bytes
+- `src/kits.ts` — starter-kit templates exported under `kit/` (checked with `npm run kit:check`)
+- `src/audit.ts` — mechanical and agent-readiness gates
+- `src-tauri/src/provider.rs` — HTTPS boundary, cancellation, safe errors
+- `src/jev.ts` + `src-tauri/src/jev.rs` — closed Jev decisions and fixed TypeSafe Decisions boundary
+- `src-tauri/src/export.rs` — hash revalidation and atomic export
+
+Design notes live in [`docs/`](https://github.com/nodaysidle/nodaysidle-cascade-v3/blob/3edd3cc26c7535b95b17b988847df2b27932c0a1/docs/).
+
+## Development
+
+```bash
+# Frontend + compiler tests
+npm run typecheck
+npm test
+
+# Tauri dev loop
+npm run tauri:dev
+
+# Production macOS app + DMG
+npm run tauri:build
+
+# Smoke build with fixture provider (no credentials needed)
+npm run tauri:build:smoke
+```
+
+```bash
+# Rust checks
+cargo fmt --manifest-path src-tauri/Cargo.toml -- --check
+cargo clippy --manifest-path src-tauri/Cargo.toml --all-targets --all-features -- -D warnings
+cargo test --manifest-path src-tauri/Cargo.toml
+```
+
+| Script | Purpose |
+| --- | --- |
+| `npm run dev` | Vite dev server (UI only) |
+| `npm run build` | Production frontend bundle |
+| `npm run typecheck` | TypeScript strict check |
+| `npm test` | Vitest — compiler, graph, audit, preset regressions |
+| `npm run tauri:build` | Release `.app` and `.dmg` |
+| `npm run install:app` | Build and replace `/Applications/NODAYSIDLE Cascade V3.app`; add `-- --clean` to remove build output |
+
+## Status
+
+Active development. The compiler, five-document render path, provider boundary, and Astro web preset improvements (content collections, routes, agent-ready task graphs) are implemented and covered by automated tests.
+
+## License
+
+MIT — see [LICENSE](https://github.com/nodaysidle/nodaysidle-cascade-v3/blob/3edd3cc26c7535b95b17b988847df2b27932c0a1/LICENSE).

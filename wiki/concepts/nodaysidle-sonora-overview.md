@@ -126,3 +126,9 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 ## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
 
 - ✅ X launch re-verified: 2026-10-16 18:32, https://x.com/kaly_ndi/status/2111133123421352217, with a reply carrying the download link at 18:33. GitHub Latest v0.1.1: all 5 asset digests match the hub card.
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/nodaysidle-sonora-README]] (public `nodaysidle/nodaysidle-sonora` @ `f8b45ba`, committed 2026-10-15T02:29:20+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `nodaysidle-sonora`: clean, 0 unpushed.
+- Local vs GitHub README diff: local is only 1 commit behind GitHub; README differs (+1/−11); no local edits (SHIP 21:34)

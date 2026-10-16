@@ -38,3 +38,6 @@ Index of `_system/templates` entries. All paths are relative to the vault root.
 | [[research/artifact-audit]] | Coverage / contradiction audit |
 | [[research/artifact-summary]] | TL;DR for a topic |
 | [[research/project-handoff]] | After promotion into `projects/` |
+
+<!-- atlas-2133 -->
+> **2026-10-16 21:33:** README snapshots of all public repos (owner source of truth) are at [[wiki/sources/README]]. Kurek: [[wiki/sources/kureksistant-README]].

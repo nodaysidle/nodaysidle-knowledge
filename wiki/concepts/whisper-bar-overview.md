@@ -45,3 +45,9 @@ WhisperBar is a native macOS menu bar dictation app written in Swift 6, with Dee
 ## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
 
 - ⏳ **Released, not promoted:** no WhisperBar post on X as of 21:11. GitHub Latest v1.1.2 (`7db0c6d5…`) matches the hub card.
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/whisper-bar-README]] (public `nodaysidle/whisper-bar` @ `2108144`, committed 2026-10-08T22:58:02+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): no local checkout found under `~/dev/nodaysidle/`.
+- Local vs GitHub README diff: no local checkout; README listed by SHIP 21:34 under no-local-copy
