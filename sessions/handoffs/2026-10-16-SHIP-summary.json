@@ -1,0 +1,40 @@
+{
+  "sonora_result": "PASS",
+  "apps_hub_result": "PASS_PENDING_MERGE",
+  "reach_can_go_ahead": false,
+  "reach_can_go_ahead_sonora_only": true,
+  "sonora_verified_facts": [
+    "Latest tag v0.1.1 exists and is Latest",
+    "MIT license on GitHub",
+    "Platforms: macOS Apple Silicon + Linux x86_64 only",
+    "All 5 download URLs HTTP 200",
+    "All 5 SHA-256 match README + release notes + GitHub digests + apps.json after full download",
+    "Hub #sonora card matches v0.1.1 assets/hashes",
+    "Spotify via Connect + YouTube fallback (README)",
+    "Zero Sonora telemetry (README claim; no telemetry SDK found in promo scope)"
+  ],
+  "apps_verified_facts": [
+    "Live hub https://nodaysidle-apps.vercel.app/ HTTP 200",
+    "Sonora/Cascade/Kurek cards match GitHub latest tags and SHAs",
+    "Six cards listed in data/apps.json",
+    "FAIL: browser-linux card still v0.1.0; GitHub Latest v0.2.0 digest 02d7a85c\u2026"
+  ],
+  "strip_claims": [
+    "Sonora hard RAM/CPU numbers (~102MB, <90MB target, ~2% CPU, 7x\u201310x lighter) without measured-on-one-machine caveat",
+    "studio-grade",
+    "Windows or Intel Mac for Sonora/Cascade/desktop suite",
+    "0.8ms (Kurek) anywhere",
+    "Kurek tool count 27 (public is 25)",
+    "Hub as fully current while browser card is v0.1.0",
+    "Links to nodaysidle-project-pages or showcase-v2"
+  ],
+  "cascade_status": "Cascade v3.1.0 Latest on GitHub; apps #cascade matches; Thu 15 Oct 17:30 X slot is past.",
+  "kurek_status": "Kurek v0.2.1 Latest (25 public tools); Wed 21 Oct 17:30 X slot; no 0.8ms; ~450MB observed only; ab1420a local unpushed.",
+  "blockers": [
+    "Vault machine 78b9b106 not connected; handoff only on box /workspace/vault-handoffs/",
+    "PR #8 open \u2014 needs separate Alan yes to merge/deploy before hub PASS for 20:30"
+  ],
+  "handoff_path": "/workspace/vault-handoffs/2026-10-16-SHIP.md",
+  "apps_hub_pr": "https://github.com/nodaysidle/nodaysidle-apps/pull/8",
+  "apps_hub_preview": "https://nodaysidle-apps-git-cursor-browser-li-506e4f-muhambals-projects.vercel.app"
+}
