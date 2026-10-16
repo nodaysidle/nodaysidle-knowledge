@@ -4,21 +4,21 @@ repo: "nodaysidle/nodaysidle-browser"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "93b0380077150cc6748137f9299b4f0a0b236a15"
-source_commit_date: "2026-09-18T01:25:00+02:00"
+source_commit: "426173ed62572b7258e796bda446d3f5aa8a2f15"
+source_commit_date: "2026-10-16T23:26:33+02:00"
 readme_path: "README.md"
-readme_blob_sha: "a794c8127005e16454a37d1f6b4bae634570358d"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "660eadb3a431758b595500716fba75190ca45e90"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/nodaysidle-browser/blob/93b0380077150cc6748137f9299b4f0a0b236a15/README.md"
+url: "https://github.com/nodaysidle/nodaysidle-browser/blob/426173ed62572b7258e796bda446d3f5aa8a2f15/README.md"
 tags: [source, readme, nodaysidle-browser]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-browser` at `93b0380` (2026-09-18T01:25:00+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-browser` at `426173e` (2026-10-16T23:26:33+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-browser/93b0380077150cc6748137f9299b4f0a0b236a15/Assets/icon.svg" alt="nodaysidle app logo" width="132" height="132">
+  <img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-browser/426173ed62572b7258e796bda446d3f5aa8a2f15/Assets/icon.svg" alt="nodaysidle app logo" width="132" height="132">
 
   # nodaysidle
 
@@ -68,6 +68,8 @@ The browser writes one encrypted vault, `.nodaysidle-library.sync`, to the selec
 Sync merges bookmarks and history across devices and propagates bookmark removal and history clearing. Tabs, website cookies, local storage, and other browser-profile state remain local to each Mac.
 
 ## Install and run
+
+No pre-built app is published: the latest release ([v2026.7.23](https://github.com/nodaysidle/nodaysidle-browser/releases/tag/v2026.7.23)) has no downloadable assets.
 
 ### Requirements
 

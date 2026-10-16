@@ -294,3 +294,23 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 - Notes:
   - The audit counts Kurek as a macOS app because of its `menubar/` client; the owner's Kurek identity is still the headless Linux daemon.
   - Sonora's DMG is linker-signed only (no sealed resources).
+
+<!-- atlas-2327 -->
+### 8 ghost-Mac README fixes merged (Alan 23:25; SHIP; ATLAS verified 23:27)
+- Alan 23:25: "Yes, merge all 8 README PRs". All 8 merges were verified via the GitHub API (full SHAs, each is HEAD on main). Snapshots refreshed. The catalog audit items are marked resolved in [[wiki/sources/catalog-audit-2026-10-16]].
+
+| Repo | PR | Merge SHA | Merged | Snapshot |
+|---|---|---|---|---|
+| nodaysidle/BrewLedger | [#2](https://github.com/nodaysidle/BrewLedger/pull/2) | `626df802805c23f287ddd68028bf2773b34e0129` | 2026-10-16 23:26:23 +02:00 | [[wiki/sources/BrewLedger-README]] |
+| nodaysidle/nodaysidian | [#5](https://github.com/nodaysidle/nodaysidian/pull/5) | `4f1a4d1779522af15c92d4e6790204a6c515d0a9` | 2026-10-16 23:26:28 +02:00 | [[wiki/sources/nodaysidian-README]] |
+| nodaysidle/nodaysidle-browser | [#4](https://github.com/nodaysidle/nodaysidle-browser/pull/4) | `426173ed62572b7258e796bda446d3f5aa8a2f15` | 2026-10-16 23:26:34 +02:00 | [[wiki/sources/nodaysidle-browser-README]] |
+| nodaysidle/nodaysidle-cloudscribe | [#2](https://github.com/nodaysidle/nodaysidle-cloudscribe/pull/2) | `9e6bd41d3331ffac993586a19a984ae55509d98d` | 2026-10-16 23:26:39 +02:00 | [[wiki/sources/nodaysidle-cloudscribe-README]] |
+| nodaysidle/nodaysidle-flowstate | [#3](https://github.com/nodaysidle/nodaysidle-flowstate/pull/3) | `70552f8bb8c5298beb21de43fca1cdfc9a52d4d3` | 2026-10-16 23:26:45 +02:00 | [[wiki/sources/nodaysidle-flowstate-README]] |
+| nodaysidle/nodaysidle-lumiere | [#3](https://github.com/nodaysidle/nodaysidle-lumiere/pull/3) | `c9a1305f4f7d77069783ca2994c13e10f1785d24` | 2026-10-16 23:26:53 +02:00 | [[wiki/sources/nodaysidle-lumiere-README]] |
+| nodaysidle/nodaysidle-echocore-pro | [#1](https://github.com/nodaysidle/nodaysidle-echocore-pro/pull/1) | `79689cf2b7e96e4de7116873b4849641bb4405cb` | 2026-10-16 23:26:58 +02:00 | [[wiki/sources/nodaysidle-echocore-pro-README]] |
+| nodaysidle/kureksistant | [#25](https://github.com/nodaysidle/kureksistant/pull/25) | `0da42af406273122b6171fcc34821881b0d42a69` | 2026-10-16 23:27:03 +02:00 | [[wiki/sources/kureksistant-README]] |
+
+- ⚠️ Open items:
+  - **FlowState:** the `FlowState-1.0.1.dmg.sha256` and `FlowState-1.0.0.dmg.sha256` release assets contain an absolute build-machine path (path not copied here). Needs a release fix. Note: Latest `v1.0.2` has **no assets**.
+  - **echocore-pro:** no requirements or dependency file (`requirements*.txt`, `pyproject.toml`, `setup.py`, `Pipfile`) at `79689cf`.
+- The Kurek README changed (`0da42af`); the snapshot was refreshed. Kurek is still parked (Alan 21:46).

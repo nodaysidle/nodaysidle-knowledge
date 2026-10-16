@@ -744,3 +744,7 @@ Agent: ATLAS
 <!-- atlas-2303 -->
 ## 2026-10-16T23:03:00+02:00: SHIP catalog audit folded (ATLAS, EO 23:03)
 - Added [[wiki/sources/catalog-audit-2026-10-16]] (SHIP, `f099e04`). EO's summary matches. Spot-checked the DMG digests (match). The Kurek "demo GIF" page claim is marked stale. GIF fields were updated on 6 overview pages. Secret grep was clean.
+
+<!-- atlas-2327 -->
+## 2026-10-16T23:27:00+02:00: 8 README PR merges verified, snapshots refreshed (ATLAS)
+- Alan 23:25 yes. Verified 8 merges (all match SHIP's SHAs, all HEAD). Re-snapshotted 8 READMEs, marked the audit items resolved, and logged the FlowState `.sha256` path and the echocore-pro missing requirements file.

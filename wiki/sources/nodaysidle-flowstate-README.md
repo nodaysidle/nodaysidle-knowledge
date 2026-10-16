@@ -4,20 +4,20 @@ repo: "nodaysidle/nodaysidle-flowstate"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "dd38c786ec5d9a67a46db2b6727d47bff979583f"
-source_commit_date: "2026-07-24T00:32:04+02:00"
+source_commit: "70552f8bb8c5298beb21de43fca1cdfc9a52d4d3"
+source_commit_date: "2026-10-16T23:26:44+02:00"
 readme_path: "README.md"
-readme_blob_sha: "ab328561bb0f19de9f55fadc1800efc31099720e"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "4f2149197432da6d390995e80f15665b068e3322"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/nodaysidle-flowstate/blob/dd38c786ec5d9a67a46db2b6727d47bff979583f/README.md"
+url: "https://github.com/nodaysidle/nodaysidle-flowstate/blob/70552f8bb8c5298beb21de43fca1cdfc9a52d4d3/README.md"
 tags: [source, readme, nodaysidle-flowstate]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-flowstate` at `dd38c78` (2026-07-24T00:32:04+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-flowstate` at `70552f8` (2026-10-16T23:26:44+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
-<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-flowstate/dd38c786ec5d9a67a46db2b6727d47bff979583f/github/social-preview.png" alt="FlowState — NODAYSIDLE" width="100%">
+<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-flowstate/70552f8bb8c5298beb21de43fca1cdfc9a52d4d3/github/social-preview.png" alt="FlowState — NODAYSIDLE" width="100%">
 
 # FlowState
 
@@ -66,17 +66,20 @@ FlowState v1 uses adaptive heuristics, not a trained ML model, for break suggest
 
 ## Installation
 
-Download the latest `.dmg` from [GitHub Releases](https://github.com/nodaysidle/nodaysidle-flowstate/releases).
+The latest release ([v1.0.2](https://github.com/nodaysidle/nodaysidle-flowstate/releases/tag/v1.0.2)) has no downloadable assets. The newest pre-built app is [`FlowState-1.0.1.dmg`](https://github.com/nodaysidle/nodaysidle-flowstate/releases/download/v1.0.1/FlowState-1.0.1.dmg) ([SHA-256](https://github.com/nodaysidle/nodaysidle-flowstate/releases/download/v1.0.1/FlowState-1.0.1.dmg.sha256)) on [v1.0.1](https://github.com/nodaysidle/nodaysidle-flowstate/releases/tag/v1.0.1):
 
-Build from source:
+```bash
+shasum -a 256 FlowState-1.0.1.dmg
+# expected: 156993e518a9f21fffac53de7c8fc47afe9ebe427425ce63b1acf3eb7131cbe1
+```
+
+Build from source (macOS 14+):
 
 ```bash
 git clone https://github.com/nodaysidle/nodaysidle-flowstate.git
 cd nodaysidle-flowstate
-swift build -c release
+./scripts/package-flowstate.sh   # builds dist/FlowState.app and dist/FlowState-1.0.1.dmg
 ```
-
-The built app will be in `.build/release/FlowState`.
 
 ### Accessibility Permission
 

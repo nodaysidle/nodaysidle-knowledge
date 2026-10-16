@@ -4,21 +4,21 @@ repo: "nodaysidle/kureksistant"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "09e3c7dd4a7b522448b78ccacd8745cb16c25f48"
-source_commit_date: "2026-10-15T14:07:02+02:00"
+source_commit: "0da42af406273122b6171fcc34821881b0d42a69"
+source_commit_date: "2026-10-16T23:27:02+02:00"
 readme_path: "README.md"
-readme_blob_sha: "6c97a7f770d4ecdee397620f1ed020bb550e5e7f"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "679b1c99f1b950b9580d4f7011b0cdb84812916e"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/README.md"
+url: "https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/README.md"
 tags: [source, readme, kureksistant]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/kureksistant` at `09e3c7d` (2026-10-15T14:07:02+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/kureksistant` at `0da42af` (2026-10-16T23:27:02+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nodaysidle/kureksistant/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/desktop/kurek.png" alt="Kureksistant icon" width="128" />
+  <img src="https://raw.githubusercontent.com/nodaysidle/kureksistant/0da42af406273122b6171fcc34821881b0d42a69/desktop/kurek.png" alt="Kureksistant icon" width="128" />
 </p>
 
 <h1 align="center">Kureksistant (Kurek)</h1>
@@ -26,6 +26,8 @@ tags: [source, readme, kureksistant]
 <p align="center">
   <strong>A voice assistant daemon for an Omarchy / Hyprland Linux desktop, with an optional phone remote over Tailscale.</strong>
 </p>
+
+<p align="center"><strong>Headless Linux daemon, summoned via middle-click. No GUI on purpose.</strong></p>
 
 <p align="center">
   <a href="https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1"><img src="https://img.shields.io/badge/Release-v0.2.1-blue.svg?style=flat-square" alt="Release v0.2.1"></a>
@@ -36,11 +38,11 @@ tags: [source, readme, kureksistant]
 
 ---
 
-Kurek is a headless Python daemon (`kurek_daemon.py`) that runs as a systemd user service on your Linux desktop. You summon it with a mouse middle-click, a hotkey or the `kurek` CLI. It listens, thinks with DeepSeek-Flash, talks back with xAI Grok TTS (voice **Sol**), and can act on your desktop through about two dozen tool modules in [`actions/`](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/actions/), including windows, apps, the browser, files, the clipboard, screen vision and memory.
+Kurek is a headless Python daemon (`kurek_daemon.py`) that runs as a systemd user service on your Linux desktop. You summon it with a mouse middle-click, a hotkey or the `kurek` CLI. It listens, thinks with DeepSeek-Flash, talks back with xAI Grok TTS (voice **Sol**), and can act on your desktop through about two dozen tool modules in [`actions/`](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/actions/), including windows, apps, the browser, files, the clipboard, screen vision and memory.
 
-It is built and tested first on **Arch Linux with Omarchy / Hyprland**. A macOS menu-bar client exists ([`menubar/`](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/menubar/)) but is less exercised. The old PyQt6 GUI lives in [`legacy/`](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/legacy/) and is unsupported.
+It is built and tested first on **Arch Linux with Omarchy / Hyprland**. A macOS menu-bar client exists ([`menubar/`](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/menubar/)) but is less exercised. The old PyQt6 GUI lives in [`legacy/`](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/legacy/) and is unsupported.
 
-**Latest release: [v0.2.1, Omarchy Integration & Stability Refactor](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1)** (see also [CHANGELOG.md](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/CHANGELOG.md)).
+**Latest release: [v0.2.1, Omarchy Integration & Stability Refactor](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1)** (see also [CHANGELOG.md](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/CHANGELOG.md)).
 
 ---
 
@@ -60,7 +62,7 @@ It is built and tested first on **Arch Linux with Omarchy / Hyprland**. A macOS 
 - **Summon:** a compiled C trigger (`bin/kurek-trigger`) over the Unix socket `$XDG_RUNTIME_DIR/kurek.sock`.
 
 ### Phone remote over Tailscale (opt-in)
-- An Android app, **Kurek Remote**, is built from [`android/`](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/android/). It sends prompts to `POST /remote/prompt` and receives the reply as a Server-Sent Events stream (`sentence` / `tool` / `done`).
+- An Android app, **Kurek Remote**, is built from [`android/`](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/android/). It sends prompts to `POST /remote/prompt` and receives the reply as a Server-Sent Events stream (`sentence` / `tool` / `done`).
 - Off by default. Enable it with `KUREK_REMOTE_BIND=tailscale` and a Bearer token of **32+ characters** (`KUREK_REMOTE_TOKEN`).
 - **Silent on the PC by default:** remote prompts don't speak through the PC's speakers. Opt in per request with `"speak_local": true`, or globally with `KUREK_REMOTE_LOCAL_TTS=1`.
 - A debug-signed APK (Kurek Remote) is attached to the [v0.2.1 release](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1). Uninstall any older copy of the app first. You can also build it yourself (see below).
@@ -204,7 +206,7 @@ kurek-trigger toggle   # C trigger over the Unix socket
 
 ## 📱 Android remote (Kurek Remote)
 
-A **debug-signed APK** (Kurek Remote) is attached to the [v0.2.1 release](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1). It is signed with a throwaway debug key, so **uninstall any older copy of the app first**. Or build it from [`android/`](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/android/) (the Android SDK is required; the Gradle wrapper is included):
+A **debug-signed APK** (Kurek Remote) is attached to the [v0.2.1 release](https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1). It is signed with a throwaway debug key, so **uninstall any older copy of the app first**. Or build it from [`android/`](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/android/) (the Android SDK is required; the Gradle wrapper is included):
 
 ```bash
 cd android
@@ -229,7 +231,7 @@ Traffic is plain HTTP inside Tailscale/WireGuard. The daemon doesn't terminate T
 
 ## 🔒 Security model (summary)
 
-Full details and how to report issues: **[SECURITY.md](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/SECURITY.md)**.
+Full details and how to report issues: **[SECURITY.md](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/SECURITY.md)**.
 
 - **Bind:** HTTP binds to `127.0.0.1:8790` by default. Remote access is opt-in with `KUREK_REMOTE_BIND=tailscale`, which adds only the Tailscale IPv4.
 - **Token:** if the remote token is missing or shorter than 32 characters, the daemon **refuses** to bind remotely. Non-loopback requests need `Authorization: Bearer <token>`, compared in constant time (`hmac.compare_digest`).
@@ -272,6 +274,6 @@ Full details and how to report issues: **[SECURITY.md](https://github.com/nodays
 
 ## 📄 License
 
-[CC BY-NC 4.0](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/LICENSE) (`SPDX-License-Identifier: CC-BY-NC-4.0`) — derived from FatihMakes' JARVIS ("MARK 53 — JARVIS"). Kureksistant changes by [NODAYSIDLE](https://github.com/nodaysidle). See [NOTICE](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/NOTICE).
+[CC BY-NC 4.0](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/LICENSE) (`SPDX-License-Identifier: CC-BY-NC-4.0`) — derived from FatihMakes' JARVIS ("MARK 53 — JARVIS"). Kureksistant changes by [NODAYSIDLE](https://github.com/nodaysidle). See [NOTICE](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/NOTICE).
 
-Security reports (including key leaks): see [SECURITY.md](https://github.com/nodaysidle/kureksistant/blob/09e3c7dd4a7b522448b78ccacd8745cb16c25f48/SECURITY.md).
+Security reports (including key leaks): see [SECURITY.md](https://github.com/nodaysidle/kureksistant/blob/0da42af406273122b6171fcc34821881b0d42a69/SECURITY.md).

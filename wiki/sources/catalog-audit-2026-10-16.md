@@ -103,3 +103,18 @@ Signing evidence: for every app, `rcodesign print-signature-info` on the main ex
 - macOS apps: 24. With an asset: 16, all **ad-hoc** (Developer ID + notarized 0; Developer ID not notarized 0; unsigned 0; UNKNOWN 0). No asset: 8.
 - Demo on README (animated, before Install-type heading, HTTP 200): yes 6 (nodaysidle-browser-linux, nodaysidle-cascade-v3, nodaysidle-shareguard, nodaysidle-sonora, nodaysrammar, whisper-bar); no 27 of 33 app repos.
 - Static screenshot or icon counts as no. SVG hero images were not frame-checked, because they are not GIF/video/APNG/WebP.
+
+<!-- atlas-2327 -->
+## Resolution note (ATLAS, 2026-10-16 23:27): the 8 "macOS, no mac asset" items are resolved
+Alan approved at 23:25: "Yes, merge all 8 README PRs". SHIP merged the README fixes; ATLAS verified each one read-only via the GitHub API (each merge is the current HEAD). SHIP's text above is unchanged.
+
+| Repo | PR | Merge SHA | Merged | Snapshot |
+|---|---|---|---|---|
+| nodaysidle/BrewLedger | [#2](https://github.com/nodaysidle/BrewLedger/pull/2) | `626df802805c23f287ddd68028bf2773b34e0129` | 2026-10-16 23:26:23 +02:00 | [[wiki/sources/BrewLedger-README]] |
+| nodaysidle/nodaysidian | [#5](https://github.com/nodaysidle/nodaysidian/pull/5) | `4f1a4d1779522af15c92d4e6790204a6c515d0a9` | 2026-10-16 23:26:28 +02:00 | [[wiki/sources/nodaysidian-README]] |
+| nodaysidle/nodaysidle-browser | [#4](https://github.com/nodaysidle/nodaysidle-browser/pull/4) | `426173ed62572b7258e796bda446d3f5aa8a2f15` | 2026-10-16 23:26:34 +02:00 | [[wiki/sources/nodaysidle-browser-README]] |
+| nodaysidle/nodaysidle-cloudscribe | [#2](https://github.com/nodaysidle/nodaysidle-cloudscribe/pull/2) | `9e6bd41d3331ffac993586a19a984ae55509d98d` | 2026-10-16 23:26:39 +02:00 | [[wiki/sources/nodaysidle-cloudscribe-README]] |
+| nodaysidle/nodaysidle-flowstate | [#3](https://github.com/nodaysidle/nodaysidle-flowstate/pull/3) | `70552f8bb8c5298beb21de43fca1cdfc9a52d4d3` | 2026-10-16 23:26:45 +02:00 | [[wiki/sources/nodaysidle-flowstate-README]] |
+| nodaysidle/nodaysidle-lumiere | [#3](https://github.com/nodaysidle/nodaysidle-lumiere/pull/3) | `c9a1305f4f7d77069783ca2994c13e10f1785d24` | 2026-10-16 23:26:53 +02:00 | [[wiki/sources/nodaysidle-lumiere-README]] |
+| nodaysidle/nodaysidle-echocore-pro | [#1](https://github.com/nodaysidle/nodaysidle-echocore-pro/pull/1) | `79689cf2b7e96e4de7116873b4849641bb4405cb` | 2026-10-16 23:26:58 +02:00 | [[wiki/sources/nodaysidle-echocore-pro-README]] |
+| nodaysidle/kureksistant | [#25](https://github.com/nodaysidle/kureksistant/pull/25) | `0da42af406273122b6171fcc34821881b0d42a69` | 2026-10-16 23:27:03 +02:00 | [[wiki/sources/kureksistant-README]] |

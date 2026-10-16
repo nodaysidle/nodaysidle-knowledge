@@ -4,24 +4,24 @@ repo: "nodaysidle/BrewLedger"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "0a0d5b430db6dc4da1a44ed58ffc41ffd5d84fad"
-source_commit_date: "2026-07-24T00:31:19+02:00"
+source_commit: "626df802805c23f287ddd68028bf2773b34e0129"
+source_commit_date: "2026-10-16T23:26:22+02:00"
 readme_path: "README.md"
-readme_blob_sha: "443b2c9489bf0dcc8ab0242dc6a2aa717b770ab7"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "cd6518aec3f13ae6bc627840bb0145255c69eaf2"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/BrewLedger/blob/0a0d5b430db6dc4da1a44ed58ffc41ffd5d84fad/README.md"
+url: "https://github.com/nodaysidle/BrewLedger/blob/626df802805c23f287ddd68028bf2773b34e0129/README.md"
 tags: [source, readme, brewledger]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/BrewLedger` at `0a0d5b4` (2026-07-24T00:31:19+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/BrewLedger` at `626df80` (2026-10-16T23:26:22+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
-<img src="https://raw.githubusercontent.com/nodaysidle/BrewLedger/0a0d5b430db6dc4da1a44ed58ffc41ffd5d84fad/github/social-preview.png" alt="BrewLedger — NODAYSIDLE" width="100%">
+<img src="https://raw.githubusercontent.com/nodaysidle/BrewLedger/626df802805c23f287ddd68028bf2773b34e0129/github/social-preview.png" alt="BrewLedger — NODAYSIDLE" width="100%">
 
 # BrewLedger
 
-> A native macOS app for home coffee enthusiasts to log, track, and review their brews — local-first, no cloud, no accounts.
+> Build-from-source macOS app for home coffee enthusiasts to log, track, and review their brews — local-first, no cloud, no accounts.
 
 ![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-silver?style=flat-square)
 ![Swift](https://img.shields.io/badge/Swift-6.0-FA7343?style=flat-square)
@@ -57,7 +57,7 @@ No cloud sync, no accounts, no telemetry.
 
 ## Installation
 
-Build from source:
+No pre-built app is published: the latest release ([v2026.7.23](https://github.com/nodaysidle/BrewLedger/releases/tag/v2026.7.23)) has no downloadable assets. Build from source with Xcode (deployment target macOS 14.0):
 
 ```bash
 xcodebuild -project BrewLedger.xcodeproj -scheme BrewLedger -destination 'platform=macOS' build

@@ -4,20 +4,20 @@ repo: "nodaysidle/nodaysidian"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "9baad48728b9c1e034204cdfdf9b8fd11ffb773a"
-source_commit_date: "2026-07-24T00:31:46+02:00"
+source_commit: "4f1a4d1779522af15c92d4e6790204a6c515d0a9"
+source_commit_date: "2026-10-16T23:26:28+02:00"
 readme_path: "README.md"
-readme_blob_sha: "c8e148f875cab9f7c6fdc229489639580dae6616"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "1425c19366b810e51a70a8228b16c7ebc61e52ec"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/nodaysidian/blob/9baad48728b9c1e034204cdfdf9b8fd11ffb773a/README.md"
+url: "https://github.com/nodaysidle/nodaysidian/blob/4f1a4d1779522af15c92d4e6790204a6c515d0a9/README.md"
 tags: [source, readme, nodaysidian]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidian` at `9baad48` (2026-07-24T00:31:46+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidian` at `4f1a4d1` (2026-10-16T23:26:28+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
-<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidian/9baad48728b9c1e034204cdfdf9b8fd11ffb773a/github/social-preview.png" alt="Nodaysidian — NODAYSIDLE" width="100%">
+<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidian/4f1a4d1779522af15c92d4e6790204a6c515d0a9/github/social-preview.png" alt="Nodaysidian — NODAYSIDLE" width="100%">
 
 # Nodaysidian
 
@@ -56,19 +56,22 @@ Nodaysidian is a native macOS app for writing Markdown notes, importing Obsidian
 
 ## Installation
 
-Download the latest macOS build from [GitHub Releases](https://github.com/nodaysidle/nodaysidian/releases/latest).
+The latest release ([v0.1.1](https://github.com/nodaysidle/nodaysidian/releases/tag/v0.1.1)) has no downloadable assets, so build from source for the current code.
 
 Requirements:
 
-- macOS 15.0 or later
-- Apple Silicon build is produced by default on Apple Silicon hosts
+- macOS 15.0 or later (`Package.swift`)
+- Swift toolchain (Xcode or Command Line Tools)
 
-1. Download `Nodaysidian.dmg`
-2. Open the disk image
-3. Drag `Nodaysidian.app` into `/Applications`
-4. Launch Nodaysidian
+```bash
+git clone https://github.com/nodaysidle/nodaysidian.git
+cd nodaysidian
+./Scripts/build-dmg.sh        # builds Nodaysidian.app and Nodaysidian.dmg
+```
 
-The release build is ad-hoc signed. On first launch, macOS may require approval from Privacy & Security.
+An older pre-built [`Nodaysidian.dmg`](https://github.com/nodaysidle/nodaysidian/releases/download/v0.1.0/Nodaysidian.dmg) is still attached to [v0.1.0](https://github.com/nodaysidle/nodaysidian/releases/tag/v0.1.0). It predates current `main`.
+
+Builds are ad-hoc signed (not notarized). On first launch, macOS may require approval from Privacy & Security.
 
 ## Keyboard Shortcuts
 

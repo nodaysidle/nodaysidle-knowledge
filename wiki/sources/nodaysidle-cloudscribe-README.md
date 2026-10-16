@@ -4,20 +4,20 @@ repo: "nodaysidle/nodaysidle-cloudscribe"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "34934ae223762acb280cadd1f8775c1c7d45b80a"
-source_commit_date: "2026-07-24T00:31:52+02:00"
+source_commit: "9e6bd41d3331ffac993586a19a984ae55509d98d"
+source_commit_date: "2026-10-16T23:26:38+02:00"
 readme_path: "README.md"
-readme_blob_sha: "9b32ce6794d523711643df11436a748c9dd0a3f2"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "0d9f8e99c3f9c2fc3401a727038d28b38924dfd7"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/nodaysidle-cloudscribe/blob/34934ae223762acb280cadd1f8775c1c7d45b80a/README.md"
+url: "https://github.com/nodaysidle/nodaysidle-cloudscribe/blob/9e6bd41d3331ffac993586a19a984ae55509d98d/README.md"
 tags: [source, readme, nodaysidle-cloudscribe]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-cloudscribe` at `34934ae` (2026-07-24T00:31:52+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-cloudscribe` at `9e6bd41` (2026-10-16T23:26:38+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
-<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-cloudscribe/34934ae223762acb280cadd1f8775c1c7d45b80a/github/social-preview.png" alt="CloudScribe — NODAYSIDLE" width="100%">
+<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-cloudscribe/9e6bd41d3331ffac993586a19a984ae55509d98d/github/social-preview.png" alt="CloudScribe — NODAYSIDLE" width="100%">
 
 # CloudScribe
 
@@ -58,21 +58,25 @@ If you need fully local/offline transcription, this is not that product.
 
 ## Installation
 
-Download from [GitHub Releases](https://github.com/nodaysidle/nodaysidle-cloudscribe/releases).
-
-Verify the download:
+The latest release ([v0.1.1](https://github.com/nodaysidle/nodaysidle-cloudscribe/releases/tag/v0.1.1)) has no downloadable assets. The newest pre-built app is [`CloudScribe-v0.1.0-macos.zip`](https://github.com/nodaysidle/nodaysidle-cloudscribe/releases/download/v0.1.0/CloudScribe-v0.1.0-macos.zip) ([SHA-256](https://github.com/nodaysidle/nodaysidle-cloudscribe/releases/download/v0.1.0/CloudScribe-v0.1.0-macos.zip.sha256)) on [v0.1.0](https://github.com/nodaysidle/nodaysidle-cloudscribe/releases/tag/v0.1.0).
 
 | Asset | SHA256 |
 |-------|--------|
 | `CloudScribe-v0.1.0-macos.zip` | `b4900ef216fb5a8f44d354ba31b9c9a545133fe9145bf13ec38bdacf30d07d33` |
 
 ```bash
-shasum -a 256 ~/Downloads/CloudScribe-v0.1.0-macos.zip
-unzip ~/Downloads/CloudScribe-v0.1.0-macos.zip -d /Applications/
+shasum -a 256 -c CloudScribe-v0.1.0-macos.zip.sha256
+unzip CloudScribe-v0.1.0-macos.zip -d /Applications/
 open /Applications/CloudScribe.app
 ```
 
-The app is ad-hoc signed and not notarized. On first launch, right-click the app in Finder → **Open**, or run `xattr -cr /Applications/CloudScribe.app`.
+The app is ad-hoc signed and not notarized. On first launch, right-click the app in Finder → **Open**, or allow it in System Settings → Privacy & Security.
+
+To build current `main` from source (macOS 14+):
+
+```bash
+./Scripts/package_app.sh --release   # builds .build/release/CloudScribe.app
+```
 
 After launching, open **Settings** and save a Deepgram API key. Grant microphone access when prompted.
 
@@ -83,7 +87,7 @@ After launching, open **Settings** and save a Deepgram API key. Grant microphone
 3. Start dictating from the floating pill, global hotkey (`⌥⇧Space`), or menu-bar popover.
 4. The transcript appears live. Use **Copy** or **Paste** to send text to your frontmost app.
 
-Full operator guide: [USERGUIDE.md](https://github.com/nodaysidle/nodaysidle-cloudscribe/blob/34934ae223762acb280cadd1f8775c1c7d45b80a/USERGUIDE.md)
+Full operator guide: [USERGUIDE.md](https://github.com/nodaysidle/nodaysidle-cloudscribe/blob/9e6bd41d3331ffac993586a19a984ae55509d98d/USERGUIDE.md)
 
 ## Configuration
 
@@ -110,7 +114,7 @@ codesign --verify --deep --strict .build/release/CloudScribe.app
 ./Scripts/smoke_test.sh
 ```
 
-Developer guide: [docs/GUIDE.md](https://github.com/nodaysidle/nodaysidle-cloudscribe/blob/34934ae223762acb280cadd1f8775c1c7d45b80a/docs/GUIDE.md)
+Developer guide: [docs/GUIDE.md](https://github.com/nodaysidle/nodaysidle-cloudscribe/blob/9e6bd41d3331ffac993586a19a984ae55509d98d/docs/GUIDE.md)
 
 ## Project Structure
 

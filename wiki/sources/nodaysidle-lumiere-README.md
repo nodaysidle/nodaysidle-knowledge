@@ -4,20 +4,20 @@ repo: "nodaysidle/nodaysidle-lumiere"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "642c21e82e146fc3a4db17bff7368517a44325cd"
-source_commit_date: "2026-09-18T01:41:34+02:00"
+source_commit: "c9a1305f4f7d77069783ca2994c13e10f1785d24"
+source_commit_date: "2026-10-16T23:26:52+02:00"
 readme_path: "README.md"
-readme_blob_sha: "80db5078c36cf20a4971cc5656123600b0e0e7d9"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "c8dc885be7da6ca5244b54b0aae554158aa9af4c"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/nodaysidle-lumiere/blob/642c21e82e146fc3a4db17bff7368517a44325cd/README.md"
+url: "https://github.com/nodaysidle/nodaysidle-lumiere/blob/c9a1305f4f7d77069783ca2994c13e10f1785d24/README.md"
 tags: [source, readme, nodaysidle-lumiere]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-lumiere` at `642c21e` (2026-09-18T01:41:34+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-lumiere` at `c9a1305` (2026-10-16T23:26:52+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
-<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-lumiere/642c21e82e146fc3a4db17bff7368517a44325cd/github/social-preview.png" alt="Lumiere — NODAYSIDLE" width="100%">
+<img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-lumiere/c9a1305f4f7d77069783ca2994c13e10f1785d24/github/social-preview.png" alt="Lumiere — NODAYSIDLE" width="100%">
 
 # Lumiere
 
@@ -27,7 +27,7 @@ tags: [source, readme, nodaysidle-lumiere]
 ![Swift](https://img.shields.io/badge/Swift-6.0-FA7343?style=flat-square&logo=swift)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
-![Lumiere Logo](https://raw.githubusercontent.com/nodaysidle/nodaysidle-lumiere/642c21e82e146fc3a4db17bff7368517a44325cd/Lumiere/Resources/Brand/LumiereLogo.svg)
+![Lumiere Logo](https://raw.githubusercontent.com/nodaysidle/nodaysidle-lumiere/c9a1305f4f7d77069783ca2994c13e10f1785d24/Lumiere/Resources/Brand/LumiereLogo.svg)
 
 ## Overview
 
@@ -64,20 +64,19 @@ Lumiere is a native macOS app for turning clipboard screenshots into clean, anno
 
 ## Installation
 
-Download the latest DMG from [GitHub Releases](https://github.com/nodaysidle/nodaysidle-lumiere/releases):
+The latest release ([v0.1.1](https://github.com/nodaysidle/nodaysidle-lumiere/releases/tag/v0.1.1)) has no downloadable assets. The newest pre-built app is [`Lumiere-v0.1.0-macos.dmg`](https://github.com/nodaysidle/nodaysidle-lumiere/releases/download/v0.1.0/Lumiere-v0.1.0-macos.dmg) on [v0.1.0](https://github.com/nodaysidle/nodaysidle-lumiere/releases/tag/v0.1.0) (no checksum file is attached).
 
-1. Download `Lumiere-vX.Y.Z-macos.dmg`
-2. Open the DMG and drag `Lumiere.app` to `/Applications`
-3. **Right-click → Open** on first launch to bypass Gatekeeper
+1. Open the DMG and drag `Lumiere.app` to `/Applications`
+2. **Right-click → Open** on first launch to bypass Gatekeeper
 
-Or build from source:
+Or build from source (macOS 15+, Xcode):
 
 ```bash
 Scripts/package-internal-dmg.sh
 open build/Lumiere-Internal-AdHoc.dmg
 ```
 
-The DMG is **not Developer ID signed or notarized**. Right-click → Open on first launch to bypass Gatekeeper. For NDI/Kaly internal use and trusted installs only.
+The DMG is **not Developer ID signed or notarized**. For NDI/Kaly internal use and trusted installs only.
 
 ## Development
 
@@ -119,8 +118,8 @@ Lumiere is intentionally local-first:
 
 ## License
 
-MIT — see [LICENSE](https://github.com/nodaysidle/nodaysidle-lumiere/blob/642c21e82e146fc3a4db17bff7368517a44325cd/LICENSE).
+MIT.
 
 ## Author
 
-[NODAYSIDLE](https://nodaysidle.com)
+[NODAYSIDLE](https://github.com/nodaysidle)

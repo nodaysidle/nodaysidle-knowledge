@@ -4,21 +4,21 @@ repo: "nodaysidle/nodaysidle-echocore-pro"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "55949d8a4b484683dfe61935aa04842169d72750"
-source_commit_date: "2026-10-04T08:25:07+02:00"
+source_commit: "79689cf2b7e96e4de7116873b4849641bb4405cb"
+source_commit_date: "2026-10-16T23:26:57+02:00"
 readme_path: "README.md"
-readme_blob_sha: "d47bbfe1f8e6a905d4b9be421bab6ede6bcfc5a4"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "578be9bf9f86cceddac7d9775c60d01ba1d82112"
+fetched: "2026-10-16T23:30:12+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/nodaysidle-echocore-pro/blob/55949d8a4b484683dfe61935aa04842169d72750/README.md"
+url: "https://github.com/nodaysidle/nodaysidle-echocore-pro/blob/79689cf2b7e96e4de7116873b4849641bb4405cb/README.md"
 tags: [source, readme, nodaysidle-echocore-pro]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-echocore-pro` at `55949d8` (2026-10-04T08:25:07+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/nodaysidle-echocore-pro` at `79689cf` (2026-10-16T23:26:57+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-echocore-pro/55949d8a4b484683dfe61935aa04842169d72750/assets/echocore-icon.svg" alt="EchoCore Pro Logo" width="128" height="128">
+  <img src="https://raw.githubusercontent.com/nodaysidle/nodaysidle-echocore-pro/79689cf2b7e96e4de7116873b4849641bb4405cb/assets/echocore-icon.svg" alt="EchoCore Pro Logo" width="128" height="128">
 </p>
 
 <h1 align="center">EchoCore Pro</h1>
@@ -122,6 +122,8 @@ EchoCore Pro is a voice synthesis and cloning workstation designed for Linux and
 
 ## Getting Started
 
+No pre-built binaries are published: this repository has no GitHub releases. Run or build from source.
+
 ### Prerequisites
 
 - Linux (x86_64 or ARM64) or macOS
@@ -130,6 +132,8 @@ EchoCore Pro is a voice synthesis and cloning workstation designed for Linux and
 - Rust & Cargo (for desktop binary compilation)
 
 ### Quick Run
+
+`scripts/run.sh` starts the Python backend from `EchoCorePro/.venv-linux/`. The repository does not create that virtualenv or ship a requirements file, so set it up first.
 
 ```bash
 git clone https://github.com/nodaysidle/nodaysidle-echocore-pro.git
@@ -166,8 +170,8 @@ Install the application into your local desktop environment:
 # Executable
 cp src-tauri/target/release/echocore-pro ~/.local/bin/
 
-# Desktop entry
-cp ~/.local/share/applications/echocore-pro.desktop ~/.local/share/applications/
+# Desktop entry: none ships in this repository; create
+# ~/.local/share/applications/echocore-pro.desktop yourself, then:
 update-desktop-database ~/.local/share/applications
 ```
 
@@ -177,7 +181,7 @@ Now search for **EchoCore Pro** in your application launcher (`Super + Space`).
 
 ## License
 
-[MIT](https://github.com/nodaysidle/nodaysidle-echocore-pro/blob/55949d8a4b484683dfe61935aa04842169d72750/LICENSE) © [NODAYSIDLE](https://github.com/nodaysidle)
+MIT © [NODAYSIDLE](https://github.com/nodaysidle)
 
 <p align="center">
   Built by <a href="https://github.com/nodaysidle">NODAYSIDLE</a>
