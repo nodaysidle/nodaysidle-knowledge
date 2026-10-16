@@ -104,3 +104,8 @@ Status: **active, released** (v1.0.1 Latest). The 10:58 section above covers PR 
 
 - ✅ On portfolio-nine as card **06 / 09** (Portfolio PR #1 `9b9a0d8`). Apps card 05 unchanged. v1.0.1 assets re-verified.
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+
+## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
+
+- ✅ **Launched on X on 2026-10-13 15:17** (UTC+2): https://x.com/kaly_ndi/status/2109996918763856216 ("nodaysrammar v1.0.1 is out…", 13 s video). Teaser on 2026-10-12 17:29: https://x.com/kaly_ndi/status/2109667767515271625. Follow-up quote on 10-13 20:34: https://x.com/kaly_ndi/status/2110076620048379959. ⚠️ **Mismatch:** the 2026-10-16 catalog-rotation listed the last post as "unknown". It is now known.
+- GitHub Latest v1.0.1 (`31d86ad8…`) matches the hub card.

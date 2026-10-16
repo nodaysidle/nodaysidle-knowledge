@@ -606,3 +606,8 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - Folded [[sessions/handoffs/2026-10-16-EO]] (17:29–20:09 evening summary; 20:49 permanent rules) into [[sessions/LATEST]].
 - Standing rule (Alan 20:49): after every downstream completion, EO asks ATLAS to fold handoffs into LATEST.md and this log.
 - Git: merged remote `c135653` into the local branch (same tree as local `68debae`, a duplicate EO commit). No force push, no reset.
+
+## 2026-10-16T21:11:00+02:00: ATLAS launch audit (Alan 21:11 via EO)
+- Read-only checks of GitHub Latest (tags + digests), the live hub (200) and X (@kaly_ndi). All six hub cards match GitHub.
+- Launched: nodaysrammar (10-13), browser-linux (10-14, vault said 10-15), Sonora (10-16). Released, not promoted: WhisperBar, Kurek, Cascade. The corrected hub post is not live.
+- Updated [[sessions/LATEST]], six overview pages and [[_system/templates/CATALOG]] (Kurek row marked stale).

@@ -69,3 +69,8 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 - **Promo history:** owner X post of v0.2.0, Oct 15 (exact URL/time not recorded).
 - **PRs:** #6 (README badge 0.1.0 → 0.2.0) open as of 10:33; current state unknown. #7 merged as `7310f28` (Alan approved 17:34). #8 (experimental bundled AppImage + CI) open, not merged.
 - Hub card bumped to v0.2.0 via nodaysidle-apps PR #8 `6b93146`.
+
+## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
+
+- ✅ **Launched on X on 2026-10-14 17:48** (UTC+2): https://x.com/kaly_ndi/status/2110397251071750195 ("…the whole AppImage is 1.5MB"). Follow-up 20:55: https://x.com/kaly_ndi/status/2110444503173591215. ⚠️ **Mismatch:** the 20:04 update above says "Oct 15". X shows Oct 14, so the Oct 15 date is **stale**. The owner's "today" in the 2026-10-15 01:50 relay meant Oct 14.
+- GitHub Latest v0.2.0 (`02d7a85c…` digest) matches the hub card.

@@ -122,3 +122,7 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 - **Latest release:** v0.1.1 (still Latest, verified 2026-10-16).
 - **Promo history:** X launch 2026-10-16 18:32, https://x.com/kaly_ndi/status/2111133123421352217 (verified via the X API; 16 s REEL clip). Previously not posted.
 - Hub card `#sonora` verified (SHIP 2026-10-16). See [[sessions/handoffs/2026-10-16-SHIP]].
+
+## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
+
+- ✅ X launch re-verified: 2026-10-16 18:32, https://x.com/kaly_ndi/status/2111133123421352217, with a reply carrying the download link at 18:33. GitHub Latest v0.1.1: all 5 asset digests match the hub card.

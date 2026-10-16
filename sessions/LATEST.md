@@ -1,6 +1,6 @@
 ---
 type: session-pointer
-updated: 2026-10-16 20:49
+updated: 2026-10-16 21:11
 note: Folded by ATLAS on branch atlas/fold-2026-10-16 (not main yet).
 ---
 
@@ -13,7 +13,27 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 
 ## Current true state (2026-10-16)
 
-### Launch status (as of 2026-10-16 20:02)
+### Launch audit (2026-10-16 21:11, ATLAS; newest verified fact wins)
+Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `data/apps.json` on main), and X API reads of @kaly_ndi from 2026-09-01 to 21:11.
+
+| App | Class | Evidence |
+|---|---|---|
+| nodaysrammar v1.0.1 | ✅ launched 2026-10-13 15:17 | https://x.com/kaly_ndi/status/2109996918763856216 |
+| browser-linux v0.2.0 | ✅ launched 2026-10-14 17:48 | https://x.com/kaly_ndi/status/2110397251071750195 |
+| Sonora v0.1.1 | ✅ launched 2026-10-16 18:32 | https://x.com/kaly_ndi/status/2111133123421352217 |
+| WhisperBar v1.1.2 | ⏳ released, not promoted; pending Sat 17 Oct 17:30 | no X post |
+| Kurek v0.2.1 | ⏳ released, not promoted; pending Wed 21 Oct 17:30 | no X post |
+| Cascade v3.1.0 | ⏳ released, not promoted; held for the big launch | no X post |
+| Apps hub post (corrected) | ⏳ **not live** as of 21:11 | no original post after 18:32 |
+
+- All six hub cards show the GitHub Latest tag, and every asset digest matches.
+- ⚠️ **Mismatches:**
+  - browser-linux launch date: "Oct 15" here and on its page → X shows **Oct 14** (Oct 15 is stale).
+  - nodaysrammar: listed as "not launched / unknown" → it **launched Oct 13**.
+  - The 20:02 launch list below omitted nodaysrammar.
+  - CATALOG.md Kurek row says v0.2.0 → it is v0.2.1.
+
+### Launch status (as of 2026-10-16 20:02) — superseded in part by the 21:11 audit above
 - [owner 2026-10-16 20:04] **Hard rule:** "everything important goes in the vault". ATLAS folds every important decision, launch, correction and handoff into the vault (see AGENTS.md "Vault-first rule").
 - ✅ **Launched:** browser-linux v0.2.0 (owner X post, Oct 15; exact post URL/time not recorded). Sonora v0.1.1 (Oct 16 18:32), https://x.com/kaly_ndi/status/2111133123421352217. ATLAS verified via the X API at 20:04: created 2026-10-16 18:32:14 UTC+2, 16 s video attached, 73 impressions, 3 likes, 2 replies at check time.
 - ⏳ **Not launched:** Cascade v3.1.0 (held for the big launch), WhisperBar v1.1.2 ([[wiki/concepts/whisper-bar-overview]]) (Sat Oct 17 17:30, regular catalog post), Kurek v0.2.1 (Wed Oct 21 17:30).

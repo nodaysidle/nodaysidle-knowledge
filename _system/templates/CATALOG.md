@@ -12,7 +12,7 @@ Index of `_system/templates` entries. All paths are relative to the vault root.
 | [[catalog/portfolio-site]] | Portfolio / showcase | completed | [Portfolio](https://github.com/nodaysidle/Portfolio) + [project-pages](https://github.com/nodaysidle/nodaysidle-project-pages) |
 | [[catalog/nodaysidle-apps]] | NODAYSIDLE Apps (downloads showcase) | completed | [nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps) → https://nodaysidle-apps.vercel.app |
 | [[catalog/nodaysidle-browser-linux]] | nodaysidle (Linux browser) | in-progress | https://github.com/nodaysidle/nodaysidle-browser-linux |
-| [[catalog/kurekizmo]] | Kureksistant (Kurek) | in-progress | https://github.com/nodaysidle/kureksistant | *(v0.2.0 Latest; card 06 on nodaysidle-apps since 2026-10-10 07:35)*
+| [[catalog/kurekizmo]] | Kureksistant (Kurek) | in-progress | https://github.com/nodaysidle/kureksistant | *(v0.2.0 Latest; card 06 on nodaysidle-apps since 2026-10-10 07:35)* ⚠️ **stale 2026-10-16 21:11:** GitHub Latest is **v0.2.1** (ATLAS audit)
 | [[catalog/nodaysidle-browser]] | NODAYSIDLE Browser (macOS) | completed | https://github.com/nodaysidle/nodaysidle-browser |
 | [[catalog/cascade-v3]] | Cascade v3 | in-progress | https://github.com/nodaysidle/nodaysidle-cascade-v3 |
 | [[catalog/whisper-bar]] | WhisperBar | completed | https://github.com/nodaysidle/whisper-bar |

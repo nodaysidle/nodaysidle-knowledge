@@ -78,3 +78,7 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 
 - **Latest release:** v3.1.0.
 - **Promo history:** none. The Thu 2026-10-15 17:30 X post did **not** go live. Cascade is held for the **big launch** (Alan 2026-10-16 10:26). No Reddit post. See [[briefs/launch/cascade-big-launch-PLAN]].
+
+## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
+
+- ⏳ **Released, not promoted:** no Cascade post on @kaly_ndi from 2026-09-01 to 2026-10-16 21:11. GitHub Latest v3.1.0 and the 4 digests match the hub card.

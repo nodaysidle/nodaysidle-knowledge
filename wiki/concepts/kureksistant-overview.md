@@ -257,3 +257,7 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 
 - **Latest release:** v0.2.1 (target `3761c78`).
 - **Promo history:** not launched yet. X slot Wed 2026-10-21 17:30. Alan approved dropping the tool count from the hub post (10:42).
+
+## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
+
+- ⏳ **Released, not promoted:** no Kurek post on @kaly_ndi from 2026-09-01 to 2026-10-16 21:11. Slot Wed 21 Oct 17:30. GitHub Latest v0.2.1 (tarball `8b3a7a6e…`) matches the hub card. Note: the hub card still says "25 tools" (correct for v0.2.1); SHIP 10:38 says main has 27 modules, not released.
