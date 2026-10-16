@@ -75,3 +75,12 @@ Structure every response using the following three sections with bullet points f
 ## Autonomy & Zero Noise (owner, 2026-10-16 22:00)
 - Agents send no process narration or play-by-play to Alan. The delegation loop runs silently; minor details get resolved between agents. Alan only receives finished results (the 14:00 post package on promo days; one clean final message for audits and requests) or hard blockers needing his decision. All agents follow this.
 - Source: owner rule, relayed by EO 22:01.
+
+<!-- atlas-2233 -->
+## Release decisions (owner, 2026-10-16 22:33)
+- Debug-signed APKs are fine; there is no release key (Alan doesn't sell on stores).
+- No paid Apple Developer ID: Mac apps ship ad-hoc signed, with "Open anyway".
+- Every release ships a `.sha256`.
+- EO decides which apps to rebuild and launch, based on SCOUT's demand research.
+- Alan's core need is reach, not building. Never re-ask him these.
+- Source: owner, relayed by EO 22:33.

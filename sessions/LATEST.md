@@ -237,3 +237,6 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 - 🔑 [owner 21:57] Permissions: "I authorize local execution on machine arch... You and ATLAS have full read/write permission inside the vault... SHIP has permission to read repos on arch for truth checks and diffs. SENTINEL has read-only permission for LATEST.md. All outward git pushes to main or releases still require my explicit quoted approval as always." Details are in AGENTS.md "Permissions". The push freeze still applies.
 - ⏸️ [owner 21:46] **Kurek parked:** "leave kurek for now alone, focus on tomorrows launch"
 - ✅ **WhisperBar Sat 17 Oct 17:30 cleared** (EO 21:58): SHIP gate PASS; REACH copy score ≥ 0.85. It is publish-approved (Alan 21:25), and Alan posts it himself. Drafts are due to Alan by 14:00 Sat.
+
+<!-- atlas-2233 -->
+- [owner 2026-10-16 22:33] **Release decisions:** debug-signed APKs are OK; Mac apps are ad-hoc signed (no Developer ID); every release ships a `.sha256`; EO picks the rebuilds and launches from SCOUT's research. Alan's need is reach. Don't re-ask. See AGENTS.md.

@@ -716,3 +716,7 @@ Agent: ATLAS
 <!-- atlas-2201 -->
 ## 2026-10-16T22:01:00+02:00: Autonomy & Zero Noise rule (ATLAS, EO 22:01)
 - Owner rule (22:00) added to AGENTS.md and the LATEST team rules: no narration to Alan; only finished results or hard blockers.
+
+<!-- atlas-2233 -->
+## 2026-10-16T22:33:00+02:00: Release decisions rule (ATLAS, EO 22:33)
+- Owner release decisions added to AGENTS.md and LATEST.md.
