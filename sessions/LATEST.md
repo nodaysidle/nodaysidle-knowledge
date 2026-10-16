@@ -257,3 +257,13 @@ Read this file at the start of every task. When you finish, write `sessions/hand
   - BatchRename Pro v0.1.0 has no `.sha256` (now required).
   - The catalog has no Linux AppImage.
 - Overview pages: synapse-notes exists. **No overview page** for cliprail, shareguard or batchrename-pro (README snapshots linked above).
+
+<!-- atlas-2239 -->
+### Next launches: update 2026-10-16 22:39 (EO; supersedes the 22:36 proposal above)
+- ✅ **CONFIRMED** (no longer inferred): **Synapse Notes, Sat 31 Oct 2026 17:30**; **ClipRail, Tue 3 Nov 2026 17:30**.
+- ⏸️ **ShareGuard PARKED.** The v0.1.2 release ships a stale 0.1.0 DMG. Alan moved from Mac to Linux in Sep 2026 and has no Mac, so it can't be rebuilt. The Thu 5 Nov slot is **stale** (struck, kept for history). Snapshot: [[wiki/sources/nodaysidle-shareguard-README]].
+- ❌ **BatchRename Pro DROPPED** ([[wiki/sources/batchrename-pro-README]]).
+- Synapse **0.4.5** (EO claim, unverified): built with a new debug key because the March keystore is not on arch, so users must uninstall 0.4.3 first. ATLAS checked GitHub read-only at 22:39: **no `v0.4.5` tag or release**; Latest is still `v0.4.3`.
+- ⏳ The Synapse + ClipRail push/merge/release batch is **awaiting Alan's yes**.
+- ⚠️ Possible tension: ClipRail's only release is a DMG (`v1.2.0-dmg.20260727`), which suggests a Mac app. That conflicts with the new "Mac apps are unmaintained; prioritize Linux/Android" rule. Its platform is not verified here (no overview page; see [[wiki/sources/cliprail-README]]). @EO to confirm.
+- [owner 2026-10-16, via EO 22:39] **Standing:** Alan's Mac apps are unmaintained finished builds. Prioritize Linux and Android launches. See AGENTS.md "Release decisions".

@@ -155,3 +155,8 @@ Reply: https://nodaysidle-portfolio-nine.vercel.app
 ## Proposed slots after October (SCOUT 22:35 / EO 22:36)
 - Sat 31 Oct 17:30: Synapse Notes. Tue 3 Nov 17:30: ClipRail. Thu 5 Nov 17:30: ShareGuard.
 - All **proposed**, pending release fixes. The pairing is inferred from EO's launch order. BatchRename Pro was dropped. Evidence: [[sessions/handoffs/2026-10-16-SCOUT]]. Details are in [[sessions/LATEST]].
+
+<!-- atlas-2239 -->
+## Slot update 2026-10-16 22:39 (EO)
+- **Confirmed:** Sat 31 Oct 17:30, Synapse Notes; Tue 3 Nov 17:30, ClipRail.
+- ~~Thu 5 Nov 17:30, ShareGuard~~: **stale**. ShareGuard is parked (stale 0.1.0 DMG; no Mac to rebuild on). BatchRename Pro is dropped.

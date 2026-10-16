@@ -84,3 +84,8 @@ Structure every response using the following three sections with bullet points f
 - EO decides which apps to rebuild and launch, based on SCOUT's demand research.
 - Alan's core need is reach, not building. Never re-ask him these.
 - Source: owner, relayed by EO 22:33.
+
+<!-- atlas-2239 -->
+## Release decisions: addendum (owner, 2026-10-16 22:39)
+- Alan moved from Mac to Linux in Sep 2026 and has no Mac. His Mac apps are **unmaintained finished builds** and cannot be rebuilt.
+- **Prioritize Linux and Android launches.** Source: owner, relayed by EO 22:39.

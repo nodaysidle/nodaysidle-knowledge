@@ -728,3 +728,7 @@ Agent: ATLAS
 <!-- atlas-2237 -->
 ## 2026-10-16T22:37:00+02:00: SCOUT handoff folded (ATLAS)
 - Copied SCOUT's handoff unchanged (adding `folded: true` frontmatter only) to [[sessions/handoffs/2026-10-16-SCOUT]]. Replaced the evidence placeholders. Recorded the open flags: the ShareGuard dmg version, the missing BatchRename `.sha256`, and no Linux AppImage. No conflicts with EO.
+
+<!-- atlas-2239 -->
+## 2026-10-16T22:39:00+02:00: Launch slots confirmed, ShareGuard parked (ATLAS, EO 22:39)
+- Confirmed Synapse 31 Oct and ClipRail 3 Nov. ShareGuard is parked (its 5 Nov slot marked stale); BatchRename is dropped. The Mac-unmaintained / Linux-Android-first rule was added to AGENTS.md. v0.4.5 is not on GitHub. WhisperBar is marked as an unmaintained Mac build.

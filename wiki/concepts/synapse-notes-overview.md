@@ -87,3 +87,9 @@ Synapse Notes is a voice-first Android notes app (Capacitor 8, `com.synapse.note
 ## Promo plan (proposed, 2026-10-16 22:36)
 - SCOUT demand score 3.5/5 (rank 2). It is first in EO's launch order. Proposed slot: **Sat 31 Oct 2026 17:30**, pending release fixes; the pairing is inferred from the order.
 - Latest GitHub release: `v0.4.3` (2026-08-31 00:51 +02:00). Evidence: [[sessions/handoffs/2026-10-16-SCOUT]] (voice-notes-graveyard pain; open Android niche; rivals arriving).
+
+<!-- atlas-2239 -->
+## Launch confirmed (EO 2026-10-16 22:39)
+- **Sat 31 Oct 2026 17:30 confirmed** (no longer inferred). Snapshot: [[wiki/sources/synapse-notes-README]].
+- v0.4.5 (EO claim): built with a new debug key because the March keystore is not on arch, so users must uninstall 0.4.3 first. As of 22:39 GitHub has **no v0.4.5 tag or release** (Latest is `v0.4.3`).
+- The push/merge/release batch is awaiting Alan's yes.
