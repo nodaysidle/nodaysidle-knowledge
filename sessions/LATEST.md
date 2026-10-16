@@ -13,6 +13,11 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 
 ## Current true state (2026-10-16)
 
+<!-- atlas-2132 -->
+### Kurek owner facts 2026-10-16 21:31/21:29 (via EO 21:32; folded by ATLAS)
+- [owner 21:31] "kurek was first a GUI - then he went daemon, and its spawned by middlle mouse click hes an ai assistant which has no gui thats the point" → Kurek is a GUI-less daemon AI assistant, spawned by a middle mouse click. Earlier versions had a GUI; any "GUI app" description is **stale**.
+- [owner 21:29, **UNVERIFIED**] The local Kurek on arch has a different STT model, 27 tools and a longer listen window. Pending SHIP's diff of arch kurekizmo against GitHub. See [[wiki/concepts/kureksistant-overview]].
+
 <!-- atlas-2125 -->
 ### Owner decisions 2026-10-16 21:25 (via EO; folded by ATLAS)
 > Alan 21:25 via EO: "1. Yes, and i want the draft posts for X at 14:00 if the post is at 17:30 , tell this to atlas so he writes in the Vault on my machine. 2. SHIP must do it yes, because there were updates meanwhile."
