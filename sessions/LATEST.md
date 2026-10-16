@@ -1,6 +1,6 @@
 ---
 type: session-pointer
-updated: 2026-10-16 10:29
+updated: 2026-10-16 20:04
 note: Folded by ATLAS on branch atlas/fold-2026-10-16 (not main yet).
 ---
 
@@ -12,6 +12,15 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 2026-10-16 handoffs: [[sessions/handoffs/2026-10-16-EO]], [[sessions/handoffs/2026-10-16-SHIP]], [[sessions/handoffs/2026-10-16-REEL]], [[sessions/handoffs/2026-10-16-REACH]], [[sessions/handoffs/2026-10-16-ATLAS]]. Weekend proposals (REACH/SHIP/REEL) are box-only at `/workspace/vault-handoffs/weekend/`, not copied.
 
 ## Current true state (2026-10-16)
+
+### Launch status (as of 2026-10-16 20:02)
+- [owner 2026-10-16 20:04] **Hard rule:** "everything important goes in the vault". ATLAS folds every important decision, launch, correction and handoff into the vault (see AGENTS.md "Vault-first rule").
+- ✅ **Launched:** browser-linux v0.2.0 (owner X post, Oct 15; exact post URL/time not recorded). Sonora v0.1.1 (Oct 16 18:32), https://x.com/kaly_ndi/status/2111133123421352217. ATLAS verified via the X API at 20:04: created 2026-10-16 18:32:14 UTC+2, 16 s video attached, 73 impressions, 3 likes, 2 replies at check time.
+- ⏳ **Not launched:** Cascade v3.1.0 (held for the big launch), WhisperBar v1.1.2 (Sat Oct 17 17:30, regular catalog post), Kurek v0.2.1 (Wed Oct 21 17:30).
+- **Hub 20:30 post corrected** (EO 20:04) to name only launched apps. Whether it has gone live: **unknown** at 20:04. The earlier catalog-current copy, which listed every app, is **stale**.
+- ✅ **browser-linux [PR #7](https://github.com/nodaysidle/nodaysidle-browser-linux/pull/7) merged** as `7310f28` (docs README: slim AppImage uses system WebKitGTK 4.1). Alan approved at 17:34; GitHub shows it merged at 17:36. Verified via GitHub.
+- ⏳ **browser-linux [PR #8](https://github.com/nodaysidle/nodaysidle-browser-linux/pull/8) open, not merged** (experimental fully bundled AppImage + CI). Verified via GitHub. Merging needs a separate yes.
+- The PR #6 badge status after 10:33 was not re-checked: **unknown**.
 
 ### Promo today — Sonora 17:30 + apps hub 20:30 (Europe/Ljubljana)
 - [owner 2026-10-16 03:19] ✅ **Sonora slot + copy locked.** Alan via EO: "Confirm Sonora 17:30, use the main problem-first post". Draft: [[briefs/x-drafts/2026-10-16-sonora]] (box path `/workspace/vault-handoffs/briefs/x-drafts/2026-10-16-sonora.md`). **Copy-approved only. Publish: NOT approved.**
@@ -135,6 +144,8 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 - 2026-10-16 10:29 (ATLAS, **proposed only on box**): folded EO 10:29. Items 1–12 mapped, WhisperBar Sat is a regular post (weekend-launch rule kept), vault machine is arch `6cff2a25…` (`78b9b106` stale), write access pending a yes, Alan publishes.
 
 - 2026-10-16 10:42 (ATLAS): folded the 2026-10-16 EO, SHIP, REEL, REACH and ATLAS handoffs and set `folded: true`. Added briefs [[briefs/x-drafts/2026-10-16-sonora]], [[briefs/x-drafts/2026-10-16-apps-hub]] and [[briefs/launch/cascade-big-launch-PLAN]]. Launch tiers added to [[wiki/concepts/x-promo-strategy]]. Done on branch `atlas/fold-2026-10-16`; main untouched.
+
+- 2026-10-16 20:04 (ATLAS): added the vault-first rule (AGENTS.md + here), the launch status as of 20:02, browser-linux PR #7/#8, the Sonora post (verified), the hub-copy correction, and repo status updates on the Sonora, browser-linux, Cascade and Kurek overview pages.
 
 ## Rule for every agent
 Read this file at the start of every task. When you finish, write `sessions/handoffs/<YYYY-MM-DD>-<AGENT>.md`. Only ATLAS edits this file (owner may too).

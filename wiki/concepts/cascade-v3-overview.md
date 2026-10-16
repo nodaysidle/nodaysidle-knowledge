@@ -73,3 +73,8 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 - **Showcase:** listed on the official portfolio (nodaysidle-portfolio-nine.vercel.app, owner-confirmed).
   - ⚠️ Stale: the non-canonical showcase-v2 (nodaysidle-project-pages, last push 2026-09-06) still links the v3.0.0 DMG and says "Not Intel, Windows, or Linux".
 - ~~**Still open:** the v3.1.0 release body still gives DMG-only steps and asks only for "your own DeepSeek API key" (contradictions #3 and #4; session next action 17).~~ ✅ Resolved 2026-10-08 22:48–22:57: see contradictions #3 and #4. `main` is now `f8f6850` after [cascade-v3 PR #3](https://github.com/nodaysidle/nodaysidle-cascade-v3/pull/3) and [cascade-v3 PR #4](https://github.com/nodaysidle/nodaysidle-cascade-v3/pull/4).
+
+## Update 2026-10-16 20:04 (UTC+2) — promo history + latest release (ATLAS)
+
+- **Latest release:** v3.1.0.
+- **Promo history:** none. The Thu 2026-10-15 17:30 X post did **not** go live. Cascade is held for the **big launch** (Alan 2026-10-16 10:26). No Reddit post. See [[briefs/launch/cascade-big-launch-PLAN]].

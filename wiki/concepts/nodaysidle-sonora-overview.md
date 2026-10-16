@@ -116,3 +116,9 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 - **Demo GIF:** `docs/sonora.gif` is in the README and loads.
 - ⚠️ **Conflict, visibility history:** SWEEP said the repo was private on 2026-10-07 and flipped public, perhaps around the 2026-10-07 ~22:54 pushes. This vault recorded it public via the API at 2026-10-07 13:55. The flip time is unknown.
 - **Showcase:** listed on the official portfolio (nodaysidle-portfolio-nine.vercel.app).
+
+## Update 2026-10-16 20:04 (UTC+2) — promo history + latest release (ATLAS)
+
+- **Latest release:** v0.1.1 (still Latest, verified 2026-10-16).
+- **Promo history:** X launch 2026-10-16 18:32, https://x.com/kaly_ndi/status/2111133123421352217 (verified via the X API; 16 s REEL clip). Previously not posted.
+- Hub card `#sonora` verified (SHIP 2026-10-16). See [[sessions/handoffs/2026-10-16-SHIP]].

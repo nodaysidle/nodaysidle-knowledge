@@ -62,3 +62,10 @@ Verified against the public GitHub API by Grok Bot (ATLAS) during [[artifacts/va
 - ✅ On portfolio-nine as card **09 / 09** (Portfolio PR #1 `9b9a0d8`). macOS Browser remains a separate card (05/09).
 - Still on nodaysidle-apps (Browser for Linux). Mild: README Install → releases index, not direct AppImage URL. Licence still missing.
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+
+## Update 2026-10-16 20:04 (UTC+2) — promo history + latest release (ATLAS)
+
+- **Latest release:** v0.2.0 (2026-10-14, AppImage SHA-256 `02d7a85c…ad93`). The v0.1.0 status above is **stale**.
+- **Promo history:** owner X post of v0.2.0, Oct 15 (exact URL/time not recorded).
+- **PRs:** #6 (README badge 0.1.0 → 0.2.0) open as of 10:33; current state unknown. #7 merged as `7310f28` (Alan approved 17:34). #8 (experimental bundled AppImage + CI) open, not merged.
+- Hub card bumped to v0.2.0 via nodaysidle-apps PR #8 `6b93146`.

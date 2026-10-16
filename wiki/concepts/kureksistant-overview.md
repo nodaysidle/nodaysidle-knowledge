@@ -252,3 +252,8 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 - Release notes draft was on the Grok Bot box (`/workspace/kurek-v0.2.1-release-notes.md`).
 - Still open (local only): `actions/desktop.py` exec() for local use; loopback API without auth by design; memory headroom.
 - *2026-10-14 15:41:* v0.2.1 release now ships downloads (tarball, SHA256SUMS, debug APK). Merge-gate self-check (`scripts/verify.sh`, draft PR #16) and GitHub Issues status tracking (#17–#21) added; see the session note. Pending owner decision: sandbox vs trusted-only verify.
+
+## Update 2026-10-16 20:04 (UTC+2) — promo history + latest release (ATLAS)
+
+- **Latest release:** v0.2.1 (target `3761c78`).
+- **Promo history:** not launched yet. X slot Wed 2026-10-21 17:30. Alan approved dropping the tool count from the hub post (10:42).
