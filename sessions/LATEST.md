@@ -13,6 +13,14 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 
 ## Current true state (2026-10-16)
 
+<!-- atlas-2125 -->
+### Owner decisions 2026-10-16 21:25 (via EO; folded by ATLAS)
+> Alan 21:25 via EO: "1. Yes, and i want the draft posts for X at 14:00 if the post is at 17:30 , tell this to atlas so he writes in the Vault on my machine. 2. SHIP must do it yes, because there were updates meanwhile."
+- ✅ **WhisperBar v1.1.2, Sat 17 Oct 17:30: publish APPROVED.** Alan posts it himself. This is a regular catalog post, not a launch.
+- 📌 **Standing owner rule:** for every 17:30 X post, the X drafts reach Alan by **14:00** the same day. See [[wiki/concepts/x-promo-strategy]].
+- 🔁 **SHIP re-checks the Kurek v0.2.1 hub card before Wed 21 Oct** ("there were updates meanwhile").
+- ⚠️ **Cascade big-launch plan:** it was never shown to Alan. EO is presenting it at 21:25; outcome **unknown**.
+
 ### Launch audit (2026-10-16 21:11, ATLAS; newest verified fact wins)
 Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `data/apps.json` on main), and X API reads of @kaly_ndi from 2026-09-01 to 21:11.
 
@@ -65,6 +73,7 @@ Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `da
 - [owner 2026-10-16 10:42] **Kurek tool count dropped from the hub post** (Alan approved at 10:42). SHIP 10:38: main has 27 modules, while the public v0.2.1 card says 25. Earlier "25 tools" promo lines in this file are **stale for copy**.
 - [owner 2026-10-16 10:42] Branch push approved, quote (via EO, received 10:40): "Yes, proceed with the branch. ATLAS pushes today's notes to the atlas/fold-2026-10-16 branch on GitHub. I'll pull it locally on arch."
 - [owner 2026-10-16 10:29] **Alan posts to X himself every time.** The team delivers ready-to-paste drafts plus a GIF or MP4.
+- [owner 2026-10-16 21:25] **Draft delivery window:** For any post scheduled at 17:30, REACH/EO must deliver the ready-to-paste draft packet to Alan by **14:00** (3.5 hours before slot time) for review.
 - [owner 2026-10-16 10:29] **ATLAS vault write approved.** Alan via EO: "And ATLAS should have write permissions, Can you take care of it?" Local writes on arch stayed blocked ("Never"), so the fold went to a GitHub branch instead (10:42).
 - [EO 2026-10-16 10:29] **WhisperBar Sat 17:30 is a regular catalog post, not a launch.** The [[wiki/concepts/x-promo-strategy]] rule "avoid weekends for launches" still stands. This clears the 10:28 tension.
 - [owner 2026-10-16 10:26] **Vault push to GitHub main still needs a separate Alan yes.** Alan's vault path (item 11): `/home/arch/dev/nodaysidle/nodaysidle-knowledge/` on machine **arch** = `6cff2a25-fe58-4346-9c8a-042d068e90a1` (EO 10:29). The earlier machine id `78b9b106` is **stale**. Write access is pending Alan's quoted yes. Merges also need their own yes.
