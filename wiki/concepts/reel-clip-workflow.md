@@ -35,7 +35,7 @@ Stored on the Grok Bot computer under `/workspace/clips/<app>/` (not on this mac
 | WhisperBar | `whisperbar.mp4` (12s, 1080²), `whisperbar.gif` (4.7MB) | icon + README text | macOS-only; no menu-bar or streaming footage |
 | ShareGuard | `shareguard.mp4`, `shareguard.gif` | icon + README masked examples | macOS-only; proprietary licence |
 | Browser (Linux) | `browser-linux.mp4`, `browser-linux.gif` | real AppImage footage (tabs, Ctrl+F) | needs system GTK3 + WebKitGTK 4.1 |
-| Cascade | `cascade.mp4`, `cascade.gif` | real footage: idea typed, five doc tabs | generation needs API keys; "five docs out" is a caption |
+| Cascade | `cascade-v2.mp4`, `cascade-v2.gif` | real footage: idea typed, five doc tabs | generation needs API keys; the v1 caption "five docs out" was replaced by "Five doc tabs" |
 | Sonora | `sonora.mp4` (13.6s, 1080p), `sonora.gif` (3.8MB) | real UI screenshot + AppImage Connect views | explicit track title pixelated; YouTube needs yt-dlp |
 
 ## README GIF PRs (merged 2026-10-07)

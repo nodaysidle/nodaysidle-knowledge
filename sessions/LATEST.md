@@ -90,6 +90,8 @@ Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `da
 - [box] Weekend proposal briefs due ~09:00 under `/workspace/vault-handoffs/weekend/` (EO 03:37); compile ~09:30–10:00. Needs @OWNER at 10:00: weekend proposal, **publish yes** for 17:30 and 20:30, vault push.
 
 ### Kurek (kureksistant) — primary focus
+- [owner 2026-10-16 21:32] **CANONICAL GROUND TRUTH:** Kurek was originally a GUI app, and is now explicitly and intentionally a **headless Python daemon with NO GUI on purpose**. Summoned via mouse middle-click (`mouse:274`), hotkey, or CLI. Any legacy GUI in `legacy/` is dead and unsupported. Canonical README is mirrored in the vault at [[wiki/concepts/kurek-canonical-readme]]. Every agent must read it before writing about Kurek.
+- [owner 2026-10-16 21:32] **Unrestricted shell decision:** Keep it, off by default + warning (guarded by `KUREK_REMOTE_ALLOW_EXEC=1` per 2026-10-15 decision; NO sandbox). `.commandcode/` added to `.gitignore`.
 - [vault] v0.2.1 released 2026-10-14 (target `3761c78`), PC voice control incl. remote Android APK over Tailscale.
 - [handoff 2026-10-15 02:27, AGY] **Operative code access tools (`ab1420a`): committed locally on `kurekizmo` main, unpushed, pending SHIP's merge gate.** Adds `actions/codebase.py` (#26, read-only repo inspection) and `actions/run.py` (#27, allowlisted runner with timeouts, output capping, secret redaction, audit log `~/.local/state/kurek/run_audit.log`). Runtime tool count is 27 locally; the public v0.2.1 release and apps card correctly say 25. Entry: [[sessions/handoffs/2026-10-15-AGY]].
 - [vault] Open issues: #17 "Confirmed and executed" reported before anything ran; #18 service near MemoryHigh 512M; #20 open; #21 blocked on owner decisions (below).

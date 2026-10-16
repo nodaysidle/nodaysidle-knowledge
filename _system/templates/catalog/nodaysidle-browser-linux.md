@@ -2,7 +2,7 @@
 type: catalog-entry
 name: nodaysidle (Linux browser)
 status: in-progress
-short_description: Native Linux WebKitGTK browser in Rust/GTK; AppImage releases at v0.1.0; no telemetry.
+short_description: Native Linux WebKitGTK browser in Rust/GTK; AppImage releases, latest v0.2.0 (2026-10-14); no telemetry.
 github_status: published
 repo_url: https://github.com/nodaysidle/nodaysidle-browser-linux
 site_url: https://github.com/nodaysidle/nodaysidle-browser-linux/releases

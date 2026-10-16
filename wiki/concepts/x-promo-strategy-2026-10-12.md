@@ -4,7 +4,7 @@ note_kind: concept
 topic_slug: x-promo
 status: draft
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-15
 tags:
   - wiki
   - x-promo
@@ -71,14 +71,14 @@ Hashtags: at most 2. Always `#buildinpublic`, plus `#opensource` only for MIT/OS
 | Tue 13 Oct | 15:15 | **nodaysrammar launch** (moved in, fresh release) | nodaysrammar release v1.0.1 | REEL `nodaysrammar.mp4` |
 | Wed 14 Oct | 15:15 | Browser for Linux (moved from Tue) | browser-linux release v0.1.0 | REEL `browser-linux.mp4` |
 | Wed 14 Oct | 20:30 | No link: Kurek one-week recap (moved from Fri) | none | screenshot of real stats |
-| Thu 15 Oct | 15:15 | Cascade thread (moved from Wed) | cascade-v3 release v3.1.0 (last post) | REEL `cascade.mp4` |
+| Thu 15 Oct | **17:30** | Cascade thread (moved from Wed) | cascade-v3 release v3.1.0 (last post) | REEL `cascade.mp4` → **`cascade-v2.mp4`** (v1 retired; ATLAS 12:45 UTC) *(ATLAS 2026-10-15 13:38 UTC: **the locked package is a single problem-first post with no link** — the release link goes in the first reply ([[briefs/x-drafts/2026-10-15-cascade]] §2/§3); read "thread" and "link in the last post" as the pre-lock plan.)* |
 | Fri 16 Oct | 15:15 | Sonora (moved from Thu) | sonora release v0.1.1 | REEL `sonora.mp4` (title blurred) |
 | Fri 16 Oct | 18:15 | Roundup → downloads showcase | showcase + portfolio in replies | showcase screenshot |
 | Sat 17 Oct | 17:00 | No link: poll, "which build thread next?" | none | none (poll) |
 | Sun 18 Oct | — | Replies only; send numbers to REACH | — | — |
 | Mon 19 Oct | 15:15 | No link: build-in-public | none | screenshot |
 | Tue 20 Oct | 15:15 | Synapse Notes (release asset is a **debug** APK, v0.4.3; say so) | synapse-notes | clip still to request |
-| Wed 21 Oct | 15:15 | **Kurek v0.2.0 launch** (owner tests first) | kureksistant v0.2.0 | REEL `/workspace/clips/kurek/kurek-vo.mp4` |
+| Wed 21 Oct | **17:30** | **Kurek v0.2.1 launch** (owner tests first) | kureksistant v0.2.1 | REEL `/workspace/clips/kurek/kurek-remote-v021.mp4` — **media UNVERIFIED**: the v021 pair does not resolve from the workstation host (`/workspace/…` aliases to `/home/arch/Videos/nodaysidle/…`, whose `clips/` holds only `cascade/`; first-hand `find`, 2026-10-15 13:26 UTC). Re-check on the box before the slot; post text-only if it can't be confirmed. |
 | Thu 22 Oct | 15:15 | ClipRail (DMG on GitHub, no licence, so no #opensource) | cliprail releases | clip still to request |
 | Fri 23 Oct | 18:15 | "38 public repos" thread (recount on the day; was 36) | portfolio + github.com/nodaysidle | — |
 | Tue 27 Oct (CET) | 15:15 | WhisperBar re-feature (bring your own Deepgram/OpenRouter keys) | whisper-bar v1.1.2 | REEL `whisperbar.mp4` |
@@ -148,15 +148,18 @@ Media: REEL `/workspace/clips/browser-linux/browser-linux.mp4` (real AppImage fo
 > [X] views, [Y] downloads, and the #1 question was [Z].
 >
 > Since then I shipped v0.2.0: Waybar/AGS status works, errors no longer get stuck or fake "All set", a portable installer and a secured socket. Measured, not guessed: 24 tools, ~450MB peak with Whisper, ~0.8ms trigger. Full post next week.
+> *(Superseded, ATLAS 2026-10-15 13:12 UTC: a Week-1 draft for Wed 14 Oct, never posted. Don't reuse these figures — the runtime tool count is **25**, and "~0.8ms trigger" must not be quoted anywhere (mock-daemon bench only — CI prints its median/p95 as an **informational, non-gating** step, machine-dependent and **not** end-to-end latency; not for public copy; the earlier "never recorded by CI" was wrong — ATLAS 2026-10-15 13:55 UTC). v0.2.1 is now Latest.)*
 >
 > #buildinpublic
 
 First reply (credit):
 > Kurek is built on FatihMakes' JARVIS and licensed CC BY-NC 4.0.
 
-Media: screenshot of the real X analytics or `kurek start` in a terminal. Fill in real numbers or skip the post. Don't use the old "~55MB", "500MB window" or "~333MB" figures. v0.2.0 facts only: 24 tools, ~450MB peak with Whisper, ~0.8ms trigger (mock-daemon bench). No fix claims for the old /prompt, dream-cycle or installer-deps bugs.
+Media: screenshot of the real X analytics or `kurek start` in a terminal. Fill in real numbers or skip the post. Don't use the old "~55MB", "500MB window" or "~333MB" figures. v0.2.0 facts only: 24 tools, ~450MB peak with Whisper, ~0.8ms trigger (mock-daemon bench). No fix claims for the old /prompt, dream-cycle or installer-deps bugs. *(ATLAS correction 2026-10-15 13:26 UTC: **superseded figures — do not reuse.** v0.2.1 is Latest (2026-10-13T22:45:41Z); the runtime tool count is 25 in the v0.2.1 release (27 on `main`); "~0.8ms trigger" must not be quoted anywhere (mock-daemon bench only; CI prints its median/p95 as an **informational, non-gating** step — not end-to-end latency, not for public copy, and the earlier "never recorded by CI" was wrong — ATLAS 2026-10-15 13:55 UTC); "~450MB peak with Whisper" is stated only as **observed**. See [[sessions/LATEST]].)*
 
 ### Thu 15 Oct, 15:15 — Cascade thread
+
+> *(ATLAS 2026-10-15 13:38 UTC: **historical Week-1 draft — do not post as written.** Today's Cascade slot is **17:30 Europe/Ljubljana (15:30 UTC)** and the locked package is [[briefs/x-drafts/2026-10-15-cascade]] (problem-first main post with **no link**; corrected first reply with the release link). The "15:15" here and the thread shape are superseded, "One DeepSeek call" is the unverified "one request" claim that was kept out of the copy (see [[sessions/LATEST]] line 40), and the post media is `cascade-v2.mp4`, not `cascade.mp4` — see the note under the media line below.)*
 
 > 1/ Most of my side projects died before the first commit, stuck at "vague idea". So I built Cascade. 🧵
 >
@@ -171,7 +174,7 @@ Media: screenshot of the real X analytics or `kurek start` in a terminal. Fill i
 >
 > #buildinpublic #opensource
 
-Media: REEL `/workspace/clips/cascade/cascade.mp4` on post 3 (real footage of typing an idea and the five doc tabs; no docs are generated in the clip).
+Media: REEL `/workspace/clips/cascade/cascade.mp4` on post 3 (real footage of typing an idea and the five doc tabs; no docs are generated in the clip). *(ATLAS 2026-10-15 12:45 UTC: that file is now **`cascade-v2.mp4`**, sha256 `11f8d9a5…`, 2,184,964 B; the v1 `cascade.mp4`/`cascade.gif` no longer exist in the clip tree.)*
 
 ### Fri 16 Oct, 15:15 — Sonora
 
@@ -221,11 +224,13 @@ The winner gets the Thu 29 slot.
 
 ## Claim ledger (verified 2026-10-09)
 
+> *(ATLAS, 2026-10-15 13:34 UTC: this is the **2026-10-09 snapshot**. The kureksistant row below carries its own superseded marker. Two other rows are out of date: the **Browser for Linux** row (v0.1.0, AppImage 1,522,168 B — **v0.2.0** is Latest and its AppImage is 1,530,360 B, per [[sessions/handoffs/2026-10-15-REACH]] line 158), and the **Showcase** row (it lists 5 tools — the live site has **six**; Kurek is card 06). Re-verify any figure here before reusing it.)*
+
 - **nodaysrammar** (MIT): repo README + v1.0.1 release notes. EN/IT/SL; small JS token classifier + ~35k-word dictionaries + deterministic rules; ONNX/WASM removed in v1.0.1; `storage` is the only permission; not on the Chrome Web Store, so it's Load unpacked; zip is 740,320 bytes with a `.sha256`; works offline; Fix All.
 - **Browser for Linux**: README + release v0.1.0. Rust/GTK 3/WebKitGTK 4.1; AppImage is 1,522,168 bytes and needs system GTK3 + WebKitGTK 4.1; tabs, Ctrl+F, search-first Home, no telemetry. No licence file, so no `#opensource`.
 - **Cascade v3.1.0** (MIT): README + showcase. Exactly PRD/ARD/TRD/TASKS/AGENTS; one DeepSeek request plus a local TypeScript compiler; preview bytes = export bytes; your own credentials, memory-only; DMG (Apple Silicon), AppImage, deb, tar.gz.
 - **Sonora v0.1.1** (MIT): README + showcase. Spotify via Spotify Connect, YouTube Music fallback when no Spotify device (InnerTube/yt-dlp); gapless; EBU R128; synced lyrics; macOS Apple Silicon + Linux.
-- **kureksistant** (CC BY-NC 4.0, built on FatihMakes' JARVIS): v0.2.0 is Latest (https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.0). Allowed claims: 24 tools, ~0.8ms trigger (mock-daemon bench), ~450MB peak with Whisper, local faster-whisper STT, needs own DeepSeek + xAI keys. Not allowed: sub-400ms, hyprctl-free, #opensource. Repo GIF `docs/demo.gif`; showcase card 06 https://nodaysidle-apps.vercel.app/#kurek.
+- **kureksistant** (CC BY-NC 4.0, built on FatihMakes' JARVIS): v0.2.0 is Latest (https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.0). Allowed claims: 24 tools, ~0.8ms trigger (mock-daemon bench), ~450MB peak with Whisper, local faster-whisper STT, needs own DeepSeek + xAI keys. Not allowed: sub-400ms, hyprctl-free, #opensource. Repo GIF `docs/demo.gif`; showcase card 06 https://nodaysidle-apps.vercel.app/#kurek. *(Superseded, ATLAS 2026-10-15 13:34 UTC — **do not reuse this row's numbers.** **v0.2.1** is Latest (published 2026-10-13T22:45:41Z, tag `3761c78`); the runtime tool count is **25** in the v0.2.1 release (27 on `main`), not 24; "~0.8ms trigger" must not be quoted anywhere (mock-daemon bench only; CI prints its median/p95 as an **informational, non-gating** step — not end-to-end latency, not for public copy, and the earlier "never recorded by CI" was wrong — ATLAS 2026-10-15 13:55 UTC); "~450MB peak with Whisper" is allowed only as **observed**. A first-hand read of the local checkout at `09e3c7d` on 2026-10-15 13:05 UTC finds no "24 tools"/"~0.8ms" prose in README/AGENTS.md/CHANGELOG after kureksistant [PR #22](https://github.com/nodaysidle/kureksistant/pull/22) `149d2c5` and [PR #23](https://github.com/nodaysidle/kureksistant/pull/23) `e5341b7`. Not allowed: sub-400ms, hyprctl-free, #opensource — unchanged.)*
 - **Showcase** lists 5 tools (Cascade, Sonora, WhisperBar, Browser for Linux, nodaysrammar) with anchors `#nodaysrammar`, `#browser-linux`, `#cascade`, `#sonora`, `#whisperbar`.
 - GitHub org: 38 public repos on 9 Oct (was 36). Synapse Notes' latest asset is `synapse-notes-0.4.3-debug.apk`. ClipRail is public with a DMG and no licence.
 - All links in the drafts returned HTTP 200 on 2026-10-09 ~17:30 CEST.
@@ -250,13 +255,15 @@ This supersedes the rows above for Wed 21 and Thu 29 Oct.
 
 | Day | Time | Post |
 |---|---|---|
-| Wed 21 Oct | 15:15 | **Kurek v0.2.0 launch** (owner tests it first) |
+| Wed 21 Oct | **17:30** | **Kurek v0.2.1 launch** (v0.2.1 shipped 2026-10-14 `3761c78` and the owner's phone test passed, so the old "owner tests it first" precondition is **met**; the post media `kurek-remote-v021` is **still unverified from this host** — ATLAS 2026-10-15 13:55 UTC) |
 | Thu 22 Oct | 15:15 | ClipRail (unchanged) |
 | Thu 29 Oct | 15:15 | Build thread on the app that wins the Sat 17 poll (moved from Wed 21) |
 
-The owner tests v0.2.0 first. If it isn't ready, swap Wed 21 with the poll-winner thread.
+The owner tests v0.2.0 first. If it isn't ready, swap Wed 21 with the poll-winner thread. *(ATLAS, 2026-10-15 13:44 UTC: **superseded — both the version and the contingency.** v0.2.1 shipped 2026-10-14 (`3761c78`) and is Latest, and the owner confirmed the **Wed 21 Oct 17:30 Europe/Ljubljana** slot on v0.2.1 (01:01/01:31; [[sessions/LATEST]] lines 21–22). The swap with the poll-winner thread is not in play on the current record. The live row is line 258 above; read this sentence as history.)*
 
 ### Kurek v0.2.0, Wed 21 Oct 15:15
+
+> *(ATLAS, 2026-10-15 13:34 UTC: **superseded — a historical Week-2 draft, never posted.** The slot is now **Wed 21 Oct 17:30 Europe/Ljubljana** and the release is **v0.2.1**, not v0.2.0. Do not reuse the copy below: "24 tools" is wrong (the v0.2.1 release and the live card say **25**; `main` carries 27), and "~0.8ms trigger" must not be quoted anywhere (mock-daemon bench only; CI prints its median/p95 as an **informational, non-gating** step — not end-to-end latency, not for public copy, and the earlier "never recorded by CI" was wrong — ATLAS 2026-10-15 13:55 UTC). "~450MB peak with Whisper" is allowed only as **observed**. The media path on the next line is the v0.2.0 clip; the scheduled Kurek post media is the `kurek-remote-v021` pair, which is **unverified from the workstation host** — see the Wed 21 Oct row above. See [[sessions/LATEST]].)*
 
 Media: `/workspace/clips/kurek/kurek-vo.mp4` (15.5s with voiceover). README: `kurek.gif`.
 
@@ -285,15 +292,15 @@ Rules: no #opensource. Don't claim sub-400ms or hyprctl-free.
 - **Today's first post:** Mon 12 Oct at **15:15 Ljubljana**, the nodaysrammar teaser (no link). Confirmed.
 - **Portfolio** (nodaysidle-portfolio-nine) now lists 8 apps, including nodaysrammar, Kurek, ShareGuard and Browser for Linux. The roundup's reply 2 can say "All 8 apps I've built: https://nodaysidle-portfolio-nine.vercel.app".
 - **Never promote the macOS browser.** Its card is hidden and it has no release.
-- **Browser for Linux:** the README now links straight to the AppImage. The draft still links the v0.1.0 release page.
-- **Kurek:** PR #10 (`395d7bf`) adds an optional automatic screen feature. Don't make latency claims. If you mention it, say it's opt-out. The Wed 21 draft doesn't mention it, so it's unchanged.
+- **Browser for Linux:** the README now links straight to the AppImage. The draft still links the v0.1.0 release page. *(ATLAS 2026-10-15 13:55 UTC: **historical v0.1.0-era note.** **v0.2.0** is Latest since 2026-10-14 and the README sweep (nodaysidle-browser-linux [PR #5](https://github.com/nodaysidle/nodaysidle-browser-linux/pull/5) `ca1bc3e`) added direct v0.2.0 links + the AppImage SHA-256; re-check the README before reusing this sentence.)*
+- **Kurek:** PR #10 (`395d7bf`) adds an optional automatic screen feature. Don't make latency claims. If you mention it, say it's opt-out. The Wed 21 draft doesn't mention it, so it's unchanged. *(ATLAS 2026-10-15 13:55 UTC: the last clause is **superseded** — the "Wed 21 draft" it refers to is the retired v0.2.0 draft (line 264, marked superseded above); the live slot is Wed 21 Oct 17:30 on **v0.2.1**. The auto-screen feature, the opt-out wording and "no latency claims" all stand.)*
 - **nodaysrammar:** sideload only, not on the Chrome Web Store. The Tue 13 first reply already says Load unpacked.
-- **README GIFs:** REEL has synapse-notes and browser-linux GIFs in `/workspace/clips/` on the Grok Bot box. Use them as the media for the Tue 20 Synapse post and the Wed 14 browser post.
+- **README GIFs:** REEL has synapse-notes and browser-linux GIFs in `/workspace/clips/` on the Grok Bot box. Use them as the media for the Tue 20 Synapse post and the Wed 14 browser post. *(ATLAS 2026-10-15 13:55 UTC: treat those box paths as **unverified from this host** — the connection's `/workspace/…` alias resolves to `/home/arch/Videos/nodaysidle/…`, whose `clips/` holds only `cascade/` (13:42 UTC re-check), so a per-app `synapse-notes`/`browser-linux` clip could not be confirmed; get KALI/REEL to confirm before attaching. The Wed 14 browser post has passed; the Tue 20 Synapse row is line 80.)*
 
 ## Update 2026-10-12 05:48 (ATLAS, via Execution Operator): Kurek positioning
 
 - Pitch Kurek as **voice control of your PC, also remotely from your Android phone over Tailscale**, not just a desktop voice assistant.
 - Verified 2026-10-12: remote voice request from the phone returned a spoken reply; wrong token is rejected (401); remote access is opt-in and token-protected (PR #11 `822966c`).
-- **Don't link or promise an APK download:** the Android app has no published release yet. Say it's in testing/coming.
+- **Don't link or promise an APK download:** the Android app has no published release yet. Say it's in testing/coming. *(ATLAS 2026-10-15 13:34 UTC: the second sentence is **superseded** — **v0.2.1 ships a debug APK attached to the release** (owner-approved wording 2026-10-15 02:13: mention that it is attached, with no direct link). "Don't link or promise a download" still stands, and the live card carries no `.apk` link.)*
 - Never post IPs, tokens or the tailnet name. No latency claims (rule unchanged).
-- The Wed 21 Oct 15:15 Kurek v0.2.0 launch draft can add the phone angle as a reply/teaser, worded as above.
+- The Wed 21 Oct 15:15 Kurek v0.2.0 launch draft can add the phone angle as a reply/teaser, worded as above. *(ATLAS 2026-10-15 13:34 UTC: **time and version superseded** — the slot is **Wed 21 Oct 17:30 Europe/Ljubljana** and the release is **v0.2.1**. The phone/Tailscale angle stands; no latency or tool-count figures.)*

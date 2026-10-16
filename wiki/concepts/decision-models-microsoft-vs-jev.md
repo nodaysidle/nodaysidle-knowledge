@@ -100,6 +100,7 @@ flowchart TD
 * **Kureksistant (`kurekizmo`):**
   * Evaluates `needs_screen` before voice response generation.
   * Dropping from 240ms to 85ms saves ~155ms of voice latency on middle-click hardware triggers.
+  * *(ATLAS 2026-10-15 13:38 UTC: **these latency figures are unqualified — do not quote them.** The 240 ms and 85 ms values are the two models' **quoted P50 figures**, not a Kurek measurement: no bench script, CI run or artifact backs them, and "~155 ms saved" is that note's own assertion (see `_audit/log.md` 2026-10-10, lines 504 and 509, the latter reading "live verified in daemon venv"). The **~85 ms** labels in the diagram above and the Prompt Optimizer "sub-100ms" line below carry the same caveat. Same class as the "~0.8ms trigger" and "<0.1s" caveats in [[wiki/concepts/kureksistant-overview]] lines 54 and 56.)*
 * **Prompt Optimizer (`nodaysidle-prompt-optimizer`):**
   * Real-time debounced typing audit across 5 dimensions (`clarity`, `is_ambiguous`, `lacks_constraints`, `lacks_role`, `injection_risk`).
   * Sub-100ms speed eliminates typing lag; OpenRouter handles public Vercel concurrency without single-key thread limits.

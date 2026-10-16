@@ -2,7 +2,7 @@
 type: catalog-entry
 name: NODAYSIDLE Apps (downloads showcase)
 status: completed
-short_description: Static downloads showcase for the NODAYSIDLE desktop apps (Cascade, Sonora, WhisperBar, NODAYSIDLE Browser for Linux and, since 2026-10-09, the nodaysrammar Chrome extension; since 2026-10-10, Kurek v0.2.0), with links to the GitHub release files.
+short_description: Static downloads showcase for the NODAYSIDLE desktop apps (Cascade, Sonora, WhisperBar, NODAYSIDLE Browser for Linux and, since 2026-10-09, the nodaysrammar Chrome extension; since 2026-10-10, Kurek — on v0.2.1 since 2026-10-15), with links to the GitHub release files.
 github_status: published
 repo_url: https://github.com/nodaysidle/nodaysidle-apps
 site_url: https://nodaysidle-apps.vercel.app
@@ -55,6 +55,6 @@ The **downloads showcase** for the desktop apps. It is separate from the officia
 - 2026-10-15 00:43 (ATLAS, from 2026-10-15 handoffs): ⚠️ nodaysidle-apps `#kurek` card still links v0.2.0; update to v0.2.1 before the Wed 21 Oct 17:30 X post (owner approval for SHIP pending).
 - 2026-10-15 01:07 (ATLAS): card update is in [nodaysidle-apps PR #5](https://github.com/nodaysidle/nodaysidle-apps/pull/5) (`94b1ab9`), open, waiting on the owner's merge before 2026-10-21 17:30.
 - 2026-10-15 01:16 (ATLAS): ✅ PR #5 merged as `a60d93a` and deployed to prod. The live `#kurek` card shows v0.2.1 (no v0.2.0, no APK). The card gap is closed.
-- 2026-10-15 01:30 (ATLAS): [nodaysidle-apps PR #6](https://github.com/nodaysidle/nodaysidle-apps/pull/6) (`99f113b`) is open: the Kurek card goes from 24 to 25 tools and drops the unproven ~0.8ms. The kureksistant README, AGENTS.md and CHANGELOG still have the stale 24 tools / 0.8ms prose. The ~450MB RAM claim is unverified (owner decides).
+- 2026-10-15 01:30 (ATLAS): [nodaysidle-apps PR #6](https://github.com/nodaysidle/nodaysidle-apps/pull/6) (`99f113b`) is open: the Kurek card goes from 24 to 25 tools and drops the unproven ~0.8ms. The kureksistant README, AGENTS.md and CHANGELOG still have the stale 24 tools / 0.8ms prose. The ~450MB RAM claim is unverified (owner decides). *(Superseded, ATLAS 2026-10-15 13:34 UTC: PR #6 merged as `85eaf50` and [PR #7](https://github.com/nodaysidle/nodaysidle-apps/pull/7) as `6ff1968`, both deployed — the live card reads "25 tools" and "~450MB peak RAM observed with Whisper loaded", with no "~0.8ms"; the kureksistant README/AGENTS.md/CHANGELOG prose was fixed by kureksistant [PR #22](https://github.com/nodaysidle/kureksistant/pull/22) `149d2c5` and [PR #23](https://github.com/nodaysidle/kureksistant/pull/23) `e5341b7`; the RAM claim stands only as **observed**. All Kurek card/docs claims are closed.)*
 - 2026-10-15 01:41 (ATLAS): PR #6 merged as `85eaf50`; the live card shows 25 tools, no 0.8ms. [PR #7](https://github.com/nodaysidle/nodaysidle-apps/pull/7) (`a5ed687`, RAM marked observed) is open and waiting on the owner's merge.
 - 2026-10-15 01:45 (ATLAS): ✅ PR #7 merged as `6ff1968` and deployed. The live card reads '~450MB peak RAM observed with Whisper loaded'. All Kurek card claims are closed.

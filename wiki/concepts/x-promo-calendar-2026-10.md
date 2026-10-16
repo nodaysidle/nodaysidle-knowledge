@@ -4,7 +4,7 @@ note_kind: concept
 topic_slug: x-promo
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-15
 tags:
   - wiki
   - x-promo
@@ -19,6 +19,8 @@ This is the posting calendar for 7–23 Oct 2026 (Europe/Ljubljana) with ready-t
 ## Calendar
 
 > **Update 2026-10-09 (REACH):** the week of 12 Oct is revised in [[wiki/concepts/x-promo-strategy-2026-10-12]] (nodaysrammar Tue 13, browser Wed 14, Cascade thread Thu 15, Sonora + showcase roundup Fri 16, Kurek recap Wed 14 evening). Rows below are kept for history.
+>
+> **Update 2026-10-15 13:12 UTC (ATLAS):** three rows below conflict with the locked, owner-confirmed state and are historical. **Thu 15 Oct 17:30 Europe/Ljubljana (15:30 UTC) = Cascade v3.1.0** — the row below puts Cascade on Wed 14 at 15:15 and Sonora on Thu 15 at 15:15; the 2026-10-09 revision above already moved Cascade to Thu 15, and Sonora is Fri 16. **Wed 21 Oct 17:30 = Kurek v0.2.1** — the row below says "Browser build thread" at 15:15; the build thread moved to Thu 29 Oct, pending the Sat 17 poll. The "36 public repos" row is stale too: the org had **38 public repos on 9 Oct 2026**, and the thread copy says to recount on the day. Media for Thu 15 Oct is `cascade-v2.mp4` (see that row). Nothing has been posted, and no slot was changed by this note.
 
 | Day | Time | Post | Link | Visual |
 |-----|------|------|------|--------|
@@ -27,15 +29,17 @@ This is the posting calendar for 7–23 Oct 2026 (Europe/Ljubljana) with ready-t
 | Fri 9 Oct | 15:15 | ShareGuard | nodaysidle-shareguard/releases | REEL `shareguard.mp4` |
 | Fri 9 Oct | 18:15 | Weekly roundup | portfolio (in reply) | — |
 | Tue 13 Oct | 15:15 | Linux browser launch | nodaysidle-browser-linux | REEL `browser-linux.mp4` |
-| Wed 14 Oct | 15:15 | Cascade thread | nodaysidle-cascade-v3 v3.1.0 | REEL `cascade.mp4` |
+| Wed 14 Oct | 15:15 | Cascade thread | nodaysidle-cascade-v3 v3.1.0 | REEL `cascade.mp4` → **`cascade-v2.mp4`** (v1 retired; ATLAS 12:45 UTC) |
 | Thu 15 Oct | 15:15 | Sonora | nodaysidle-sonora | REEL `sonora.mp4` (title blurred) |
-| Fri 16 Oct | 18:15 | Kurek week-1 recap (no link) | — | screenshot |
+| Fri 16 Oct | 18:15 | Kurek week-1 recap (no link) | — | screenshot | *(ATLAS 2026-10-15 13:38 UTC: **historical row — the recap moved to Wed 14 Oct 20:30** (see the 2026-10-09 revision at the top of this page), and Kurek's launch slot is **Wed 21 Oct 17:30 Europe/Ljubljana** on **v0.2.1**, not v0.2.0. No post is recorded for this row.)*
 | Tue 20 Oct | 15:15 | Synapse Notes | synapse-notes | clip still to request |
 | Wed 21 Oct | 15:15 | Browser build thread | nodaysidle-browser-linux | reuse REEL footage |
 | Thu 22 Oct | 15:15 | ClipRail | ClipRail DMG | clip still to request |
 | Fri 23 Oct | 18:15 | "36 public repos" thread | portfolio | — |
 
 ## Drafts
+
+> *(ATLAS, 2026-10-15 13:34 UTC: kept for history; three draft headers below no longer match the locked plan. **Cascade thread** is **Thu 15 Oct 17:30 Europe/Ljubljana** (not Wed 14 Oct 15:15) and its locked copy is [[briefs/x-drafts/2026-10-15-cascade]]; **Sonora** is **Fri 16 Oct 15:15** (not Thu 15 Oct); the **Kurek week-1 recap** moved to **Wed 14 Oct 20:30**. The Kurek launch is **Wed 21 Oct 17:30 on v0.2.1**, not v0.2.0. Nothing has been posted, and no slot was changed by this note.)*
 
 ### Kurek, Wed 7 Oct
 

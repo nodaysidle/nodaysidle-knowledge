@@ -47,6 +47,13 @@ tags:
   - Expanded `.github/workflows/ci.yml` ruff F82 check to cover `actions/`.
   - Verified local daemon smoke test and ruff syntax/F82 checks (all passing).
 - 2026-10-08 05:54 — Re-ingested README, AGENTS.md, and re-cut v0.1.0 release SHA256SUMS.txt at `d863922` into `sources/raw/docs/` and `sources/index/` (`src-20261008-ae52ff2`, `src-20261008-88302c2`, `src-20261008-f95e626`). Marked historical stubs superseded in frontmatter and updated `sources/README.md`.
+- 2026-10-15 02:27 — Implemented operative code access tools `codebase` (`actions/codebase.py`) and `run` (`actions/run.py`), committed as `ab1420a` on `main` (`kurekizmo`):
+  - `codebase`: Ground-truth repo-aware inspection (`search` via ripgrep with context, `tree` with depth/ignore filters, `read` with line ranges, `find` glob locator, `outline` symbol map for Rust/TS/Python/Go/Swift, `index` snapshots, `status` freshness). Read-only and root-scoped (`~/.config/kurek/codebase_roots`).
+  - `run`: Sandboxed command runner with strict allowlist (inspection tools, `cargo check/test/build`, `pytest`, `npm test`, `make`; blocks destructive `rm`, `git push`, `git reset --hard`, `curl|sh`, and shell chaining; non-interactive `GIT_PAGER=cat`; timeouts; output capping; append-only audit trail `~/.local/state/kurek/run_audit.log`; token redaction).
+  - Added unit test suites `tests/test_codebase.py` (12 tests) and `tests/test_run.py` (10 tests); full test suite passes (168 passed, 1 skipped).
+  - Tool count updated to **27 active actions** auto-discovered by daemon.
+  - Remote protection: added `run` to `REMOTE_BLOCKED_EXEC_TOOLS`; `KUREK_REMOTE_ALLOW_EXEC=1` configured in `.env`.
+  - Tested live over Tailscale on owner's Android phone (`mi-10t`, phone's Tailscale IP); verified prompt correctly diagnosed working tree and cited the new tools.
 
 ## Do not re-fetch
 
