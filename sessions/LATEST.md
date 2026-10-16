@@ -251,5 +251,9 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 | 4 | BatchRename Pro (`nodaysidle/batchrename-pro`) | 2/5 | `v0.1.0` (2026-06-06 16:42 +02:00) | **DROPPED by EO** | [[wiki/sources/batchrename-pro-README]] |
 
 - EO launch order: Synapse Notes, then ClipRail, then ShareGuard. Slots are **proposed** and pending release fixes. The app-to-date pairing is **inferred from the launch order**; EO's handoff does not state it.
-- Evidence: pending SCOUT handoff.
+- Evidence: [[sessions/handoffs/2026-10-16-SCOUT]] (SCOUT 22:35). Method: a bounded pass of about 5–6 queries per app across X, Hacker News (Algolia) and Reddit (via web search), counting engagement only where shown; nothing posted. SCOUT's ranking matches EO's 22:36 relay. SCOUT states no slot pairing, so the pairing stays inferred.
+- ⚠️ SCOUT open flags:
+  - ShareGuard v0.1.2 attaches `ShareGuard-0.1.0.dmg` (possibly a stale build).
+  - BatchRename Pro v0.1.0 has no `.sha256` (now required).
+  - The catalog has no Linux AppImage.
 - Overview pages: synapse-notes exists. **No overview page** for cliprail, shareguard or batchrename-pro (README snapshots linked above).

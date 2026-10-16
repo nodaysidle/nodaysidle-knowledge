@@ -724,3 +724,7 @@ Agent: ATLAS
 <!-- atlas-2236 -->
 ## 2026-10-16T22:36:00+02:00: SCOUT demand ranking + proposed launches (ATLAS, EO 22:36)
 - Ranking: ClipRail 4, Synapse 3.5, ShareGuard 3, BatchRename 2 (dropped). Proposed: Synapse 31 Oct, ClipRail 3 Nov, ShareGuard 5 Nov, all 17:30 (pairing inferred). Release tags verified read-only.
+
+<!-- atlas-2237 -->
+## 2026-10-16T22:37:00+02:00: SCOUT handoff folded (ATLAS)
+- Copied SCOUT's handoff unchanged (adding `folded: true` frontmatter only) to [[sessions/handoffs/2026-10-16-SCOUT]]. Replaced the evidence placeholders. Recorded the open flags: the ShareGuard dmg version, the missing BatchRename `.sha256`, and no Linux AppImage. No conflicts with EO.
