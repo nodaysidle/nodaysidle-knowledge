@@ -89,3 +89,6 @@ Structure every response using the following three sections with bullet points f
 ## Release decisions: addendum (owner, 2026-10-16 22:39)
 - Alan moved from Mac to Linux in Sep 2026 and has no Mac. His Mac apps are **unmaintained finished builds** and cannot be rebuilt.
 - **Prioritize Linux and Android launches.** Source: owner, relayed by EO 22:39.
+
+<!-- atlas-2241 -->
+- **Clarification (EO 22:41):** "Prioritize Linux and Android" is about **ordering, not a ban**. Finished Mac builds (e.g. ClipRail) may launch as-is with README fixes only; there are no Mac rebuilds.

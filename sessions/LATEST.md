@@ -267,3 +267,8 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 - ⏳ The Synapse + ClipRail push/merge/release batch is **awaiting Alan's yes**.
 - ⚠️ Possible tension: ClipRail's only release is a DMG (`v1.2.0-dmg.20260727`), which suggests a Mac app. That conflicts with the new "Mac apps are unmaintained; prioritize Linux/Android" rule. Its platform is not verified here (no overview page; see [[wiki/sources/cliprail-README]]). @EO to confirm.
 - [owner 2026-10-16, via EO 22:39] **Standing:** Alan's Mac apps are unmaintained finished builds. Prioritize Linux and Android launches. See AGENTS.md "Release decisions".
+
+<!-- atlas-2241 -->
+- ✅ **Resolved (EO 22:41):** ClipRail flag. ClipRail is a **macOS-only menu bar app**. Record: **Mac finished build, unmaintained, launched as-is; needs README fix only, no Mac rebuild.** The **Tue 3 Nov 2026 17:30** slot is kept.
+- 📌 Rule wording clarified (EO 22:41): "Linux/Android first" is an **ordering** preference, **not a ban** on Mac apps. Finished Mac builds can still launch as-is.
+- Synapse v0.4.5 stays **unverified** until Alan's yes and a GitHub release.

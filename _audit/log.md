@@ -732,3 +732,7 @@ Agent: ATLAS
 <!-- atlas-2239 -->
 ## 2026-10-16T22:39:00+02:00: Launch slots confirmed, ShareGuard parked (ATLAS, EO 22:39)
 - Confirmed Synapse 31 Oct and ClipRail 3 Nov. ShareGuard is parked (its 5 Nov slot marked stale); BatchRename is dropped. The Mac-unmaintained / Linux-Android-first rule was added to AGENTS.md. v0.4.5 is not on GitHub. WhisperBar is marked as an unmaintained Mac build.
+
+<!-- atlas-2241 -->
+## 2026-10-16T22:41:00+02:00: ClipRail flag resolved (ATLAS, EO 22:41)
+- ClipRail is a macOS-only finished build, launched as-is (README fix only); the 3 Nov slot is kept. The Linux/Android-first rule is clarified as ordering, not a ban. Synapse v0.4.5 is still unverified.
