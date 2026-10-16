@@ -41,6 +41,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 
 ## whisper-bar · voice-anywhere · shareguard
 
+- [[wiki/concepts/whisper-bar-overview]] (status page, 2026-10-16)
 - [[_system/templates/catalog/whisper-bar]] · [[_system/templates/catalog/nodaysidle-shareguard]] (catalog only; no sources ingested yet)
 - [[wiki/concepts/nodaysidle-voice-anywhere-overview]] (Android accessibility dictation, Superwhisper interaction, hold-to-talk, auto typing detection)
 
