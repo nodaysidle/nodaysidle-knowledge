@@ -48,3 +48,8 @@ Owner source of truth (Alan 21:32/21:33). Visibility comes from the live GitHub 
 | nodaysidle/small-count | public | `414942c` | 2026-09-18T01:20:57+02:00 | [[wiki/sources/small-count-README]] |
 | nodaysidle/synapse-notes | public | `de5e583` | 2026-10-16T22:58:44+02:00 (refreshed 22:59) | [[wiki/sources/synapse-notes-README]] |
 | nodaysidle/whisper-bar | public | `2108144` | 2026-10-08T22:58:02+02:00 | [[wiki/sources/whisper-bar-README]] |
+
+<!-- atlas-2303 -->
+## Audits
+
+- [[wiki/sources/catalog-audit-2026-10-16]]: SHIP catalog audit (macOS signing classes, README demo GIFs), 2026-10-16, `f099e04`.

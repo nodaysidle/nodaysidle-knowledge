@@ -740,3 +740,7 @@ Agent: ATLAS
 <!-- atlas-2259 -->
 ## 2026-10-16T22:59:00+02:00: Synapse v0.4.5 + ClipRail README verified (ATLAS)
 - Alan 22:45 yes. Verified read-only: Synapse PR #15 is `de5e583`, v0.4.5 is Latest with APK + .sha256 (matching); ClipRail PR #5 is `d8ad7ba`, with no new release. Both README snapshots refreshed.
+
+<!-- atlas-2303 -->
+## 2026-10-16T23:03:00+02:00: SHIP catalog audit folded (ATLAS, EO 23:03)
+- Added [[wiki/sources/catalog-audit-2026-10-16]] (SHIP, `f099e04`). EO's summary matches. Spot-checked the DMG digests (match). The Kurek "demo GIF" page claim is marked stale. GIF fields were updated on 6 overview pages. Secret grep was clean.

@@ -115,3 +115,6 @@ Status: **active, released** (v1.0.1 Latest). The 10:58 section above covers PR 
 - Snapshot: [[wiki/sources/nodaysrammar-README]] (public `nodaysidle/nodaysrammar` @ `1de303b`, committed 2026-10-15T02:29:28+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
 - Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `~/dev/nodaysidle/chrome-extension` (origin → `nodaysidle/nodaysrammar`): 25 uncommitted paths, **README.md modified locally**, 0 unpushed.
 - Local vs GitHub README diff: local `chrome-extension` is 1 commit behind GitHub, has uncommitted edits, and its README differs (SHIP 21:34)
+
+<!-- atlas-2303 -->
+- **README demo GIF:** yes, `docs/media/nodaysrammar.gif` (156 frames, HTTP 200) (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]).

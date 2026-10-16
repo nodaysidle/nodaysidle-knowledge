@@ -59,3 +59,6 @@ WhisperBar is a native macOS menu bar dictation app written in Swift 6, with Dee
 <!-- atlas-2239 -->
 ## Maintenance status
 - Mac app: unmaintained finished build (owner, 2026-10-16). Platform is macOS only.
+
+<!-- atlas-2303 -->
+- **README demo GIF:** yes, `docs/whisperbar.gif` loads (HTTP 200, 144 frames) (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]). This resolves the earlier "not checked".

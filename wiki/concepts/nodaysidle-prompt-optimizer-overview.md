@@ -97,3 +97,6 @@ The optimizer supports four distinct prompt paradigms (`user`, `system`, `image`
 - Snapshot: [[wiki/sources/nodaysidle-prompt-optimizer-README]] (public `nodaysidle/nodaysidle-prompt-optimizer` @ `7eacdfb`, committed 2026-10-15T05:19:32+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
 - Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `nodaysidle-prompt-optimizer` (master): clean, **1 unpushed commit**.
 - Local vs GitHub README diff: README matches GitHub; local master is 1 commit ahead (`d57a093`, unpushed) (SHIP 21:34)
+
+<!-- atlas-2303 -->
+- **README demo GIF:** no (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]).

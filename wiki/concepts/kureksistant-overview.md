@@ -289,3 +289,6 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 <!-- atlas-2158 -->
 ## Parked (owner, 2026-10-16 21:46)
 - Alan 21:46: "leave kurek for now alone, focus on tomorrows launch". No Kurek work until Alan un-parks it.
+
+<!-- atlas-2303 -->
+- **README demo GIF:** **no**, at HEAD `09e3c7d` (icon `desktop/kurek.png` only) (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]). ⚠️ The 2026-10-10 "real demo GIF" section above is **stale** for the current README.

@@ -74,3 +74,6 @@ The app is modeled after **Superwhisper Pro**'s tactile interaction model:
 - Snapshot: [[wiki/sources/nodaysidle-voice-anywhere-v2-README]] (public `nodaysidle/nodaysidle-voice-anywhere-v2` @ `9136ae1`, committed 2026-09-18T01:13:16+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
 - Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): no local checkout found under `~/dev/nodaysidle/`.
 - Local vs GitHub README diff: no local checkout; README listed by SHIP 21:34 under no-local-copy
+
+<!-- atlas-2303 -->
+- **README demo GIF:** no (social preview PNG only) (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]).

@@ -283,3 +283,14 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 - ✅ **ClipRail:** [PR #5](https://github.com/nodaysidle/cliprail/pull/5) was merged at 22:59:16 as `d8ad7badf1a55d6d05bc8662fb3a55e65fe85685` (README: download `ClipRail-1.2.0.dmg` + `.sha256`). **No new release**; Latest is still `v1.2.0-dmg.20260727`.
 - README snapshots were refreshed: [[wiki/sources/synapse-notes-README]] (`de5e583`) and [[wiki/sources/cliprail-README]] (`d8ad7ba`).
 - This supersedes the 22:39 "v0.4.5 unverified" line above.
+
+<!-- atlas-2303 -->
+### Catalog audit (SHIP 2026-10-16, `f099e04`; folded by ATLAS 23:03)
+- Source: [[wiki/sources/catalog-audit-2026-10-16]]. EO's summary cross-checked against the file: **matches**.
+  - **24 macOS apps.** 16 have a Mac download, all **ad-hoc** signed (0 Developer ID, 0 notarized). 8 claim macOS but have no Mac download, so their **READMEs need fixing**: BrewLedger, nodaysidian, nodaysidle-browser, cloudscribe, flowstate, lumiere, echocore-pro, kureksistant (menubar client).
+  - **6 of 33** app READMEs have a top-level demo GIF: browser-linux, cascade-v3, shareguard, sonora, nodaysrammar, whisper-bar. **27 don't.**
+- ATLAS spot-checks (GitHub API digests): ClipRail, BatchRename, WhisperBar, Cascade and Sonora DMG sha256 values match the audit. The ShareGuard v0.1.2 → 0.1.0 DMG is confirmed again.
+- ⚠️ Mismatch: [[wiki/concepts/kureksistant-overview]] (2026-10-10) says "real demo GIF". The README at HEAD `09e3c7d` has **no GIF** (icon only), so that claim is marked **stale**.
+- Notes:
+  - The audit counts Kurek as a macOS app because of its `menubar/` client; the owner's Kurek identity is still the headless Linux daemon.
+  - Sonora's DMG is linker-signed only (no sealed resources).

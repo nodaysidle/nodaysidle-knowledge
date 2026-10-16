@@ -98,3 +98,6 @@ Synapse Notes is a voice-first Android notes app (Capacitor 8, `com.synapse.note
 ## v0.4.5 released, verified (2026-10-16 22:59)
 - Release `v0.4.5` (debug) is **Latest**, published 2026-10-16 22:58:58 +02:00. It comes from PR #15, merge `de5e5830458dd41f193f7069fcc6ea8e7e7ce6b7`. APK sha256 `0f4cb1baf1645c84d6f68c3520383f84b3149c4647d41fab2819a358a42ecd29`, with a `.sha256` asset.
 - **New debug key:** users must uninstall 0.4.3 first. Supersedes the 22:39 "no v0.4.5 on GitHub" note. Snapshot refreshed: [[wiki/sources/synapse-notes-README]].
+
+<!-- atlas-2303 -->
+- **README demo GIF:** no (no media at `de5e583`) (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]).
