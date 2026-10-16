@@ -82,3 +82,8 @@ Synapse Notes is a voice-first Android notes app (Capacitor 8, `com.synapse.note
 - Snapshot: [[wiki/sources/synapse-notes-README]] (public `nodaysidle/synapse-notes` @ `d659005`, committed 2026-10-07T14:16:21+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
 - Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `synapse-notes`: 40 uncommitted paths, README.md clean, 0 unpushed.
 - Local vs GitHub README diff: README matches GitHub; uncommitted frontend edits (SHIP 21:34)
+
+<!-- atlas-2236 -->
+## Promo plan (proposed, 2026-10-16 22:36)
+- SCOUT demand score 3.5/5 (rank 2). It is first in EO's launch order. Proposed slot: **Sat 31 Oct 2026 17:30**, pending release fixes; the pairing is inferred from the order.
+- Latest GitHub release: `v0.4.3` (2026-08-31 00:51 +02:00). Evidence: pending SCOUT handoff.

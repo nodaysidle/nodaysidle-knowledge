@@ -240,3 +240,16 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 
 <!-- atlas-2233 -->
 - [owner 2026-10-16 22:33] **Release decisions:** debug-signed APKs are OK; Mac apps are ad-hoc signed (no Developer ID); every release ships a `.sha256`; EO picks the rebuilds and launches from SCOUT's research. Alan's need is reach. Don't re-ask. See AGENTS.md.
+
+<!-- atlas-2236 -->
+### Next launches (proposed) (SCOUT 22:35, EO 22:36; ATLAS)
+| # | App (repo) | SCOUT score | Latest GitHub release (checked 22:36) | Proposed slot (17:30) | Snapshot |
+|---|---|---|---|---|---|
+| 1 | ClipRail (`nodaysidle/cliprail`) | 4/5 | `v1.2.0-dmg.20260727` (published 2026-07-27 02:39 +02:00) | Tue 3 Nov 2026 (2nd) | [[wiki/sources/cliprail-README]] |
+| 2 | Synapse Notes (`nodaysidle/synapse-notes`) | 3.5/5 | `v0.4.3` (2026-08-31 00:51 +02:00) | Sat 31 Oct 2026 (1st) | [[wiki/sources/synapse-notes-README]] |
+| 3 | ShareGuard (`nodaysidle/nodaysidle-shareguard`) | 3/5 | `v0.1.2` (2026-10-08 22:47 +02:00) | Thu 5 Nov 2026 (3rd) | [[wiki/sources/nodaysidle-shareguard-README]] |
+| 4 | BatchRename Pro (`nodaysidle/batchrename-pro`) | 2/5 | `v0.1.0` (2026-06-06 16:42 +02:00) | **DROPPED by EO** | [[wiki/sources/batchrename-pro-README]] |
+
+- EO launch order: Synapse Notes, then ClipRail, then ShareGuard. Slots are **proposed** and pending release fixes. The app-to-date pairing is **inferred from the launch order**; EO's handoff does not state it.
+- Evidence: pending SCOUT handoff.
+- Overview pages: synapse-notes exists. **No overview page** for cliprail, shareguard or batchrename-pro (README snapshots linked above).

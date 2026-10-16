@@ -150,3 +150,8 @@ Reply: https://nodaysidle-portfolio-nine.vercel.app
 
 - Actual results per post (views, replies, downloads after 24h).
 - Request clips for Synapse Notes and ClipRail before 20 and 22 Oct.
+
+<!-- atlas-2236 -->
+## Proposed slots after October (SCOUT 22:35 / EO 22:36)
+- Sat 31 Oct 17:30: Synapse Notes. Tue 3 Nov 17:30: ClipRail. Thu 5 Nov 17:30: ShareGuard.
+- All **proposed**, pending release fixes. The pairing is inferred from EO's launch order. BatchRename Pro was dropped. Evidence: pending SCOUT handoff. Details are in [[sessions/LATEST]].

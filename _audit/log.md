@@ -720,3 +720,7 @@ Agent: ATLAS
 <!-- atlas-2233 -->
 ## 2026-10-16T22:33:00+02:00: Release decisions rule (ATLAS, EO 22:33)
 - Owner release decisions added to AGENTS.md and LATEST.md.
+
+<!-- atlas-2236 -->
+## 2026-10-16T22:36:00+02:00: SCOUT demand ranking + proposed launches (ATLAS, EO 22:36)
+- Ranking: ClipRail 4, Synapse 3.5, ShareGuard 3, BatchRename 2 (dropped). Proposed: Synapse 31 Oct, ClipRail 3 Nov, ShareGuard 5 Nov, all 17:30 (pairing inferred). Release tags verified read-only.
