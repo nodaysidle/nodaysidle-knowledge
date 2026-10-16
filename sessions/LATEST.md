@@ -272,3 +272,14 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 - ✅ **Resolved (EO 22:41):** ClipRail flag. ClipRail is a **macOS-only menu bar app**. Record: **Mac finished build, unmaintained, launched as-is; needs README fix only, no Mac rebuild.** The **Tue 3 Nov 2026 17:30** slot is kept.
 - 📌 Rule wording clarified (EO 22:41): "Linux/Android first" is an **ordering** preference, **not a ban** on Mac apps. Finished Mac builds can still launch as-is.
 - Synapse v0.4.5 stays **unverified** until Alan's yes and a GitHub release.
+
+<!-- atlas-2259 -->
+### Synapse v0.4.5 + ClipRail README shipped (Alan 22:45 yes; SHIP 22:58; ATLAS verified 22:59)
+- Alan 22:45: "Yes, push, merge and release the Synapse Notes v0.4.5 and ClipRail fixes"
+- ✅ **Synapse Notes v0.4.5 is VERIFIED** (GitHub API, read-only). [PR #15](https://github.com/nodaysidle/synapse-notes/pull/15) was merged at 22:58:44 as `de5e5830458dd41f193f7069fcc6ea8e7e7ce6b7`.
+  - Release `v0.4.5` is **Latest** (published 22:58:58), not a prerelease, with the tag on `de5e583`.
+  - Assets: `synapse-notes-0.4.5-debug.apk` (sha256 `0f4cb1baf1645c84d6f68c3520383f84b3149c4647d41fab2819a358a42ecd29`) and `.apk.sha256`, whose content matches the APK digest.
+  - It is built with a **new debug key**, so users must **uninstall 0.4.3 first**.
+- ✅ **ClipRail:** [PR #5](https://github.com/nodaysidle/cliprail/pull/5) was merged at 22:59:16 as `d8ad7badf1a55d6d05bc8662fb3a55e65fe85685` (README: download `ClipRail-1.2.0.dmg` + `.sha256`). **No new release**; Latest is still `v1.2.0-dmg.20260727`.
+- README snapshots were refreshed: [[wiki/sources/synapse-notes-README]] (`de5e583`) and [[wiki/sources/cliprail-README]] (`d8ad7ba`).
+- This supersedes the 22:39 "v0.4.5 unverified" line above.

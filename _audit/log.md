@@ -736,3 +736,7 @@ Agent: ATLAS
 <!-- atlas-2241 -->
 ## 2026-10-16T22:41:00+02:00: ClipRail flag resolved (ATLAS, EO 22:41)
 - ClipRail is a macOS-only finished build, launched as-is (README fix only); the 3 Nov slot is kept. The Linux/Android-first rule is clarified as ordering, not a ban. Synapse v0.4.5 is still unverified.
+
+<!-- atlas-2259 -->
+## 2026-10-16T22:59:00+02:00: Synapse v0.4.5 + ClipRail README verified (ATLAS)
+- Alan 22:45 yes. Verified read-only: Synapse PR #15 is `de5e583`, v0.4.5 is Latest with APK + .sha256 (matching); ClipRail PR #5 is `d8ad7ba`, with no new release. Both README snapshots refreshed.

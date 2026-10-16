@@ -4,20 +4,20 @@ repo: "nodaysidle/cliprail"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "3db4a8b48e5de8e50d6e3e597fb1dd9210d28066"
-source_commit_date: "2026-09-18T01:24:53+02:00"
+source_commit: "d8ad7badf1a55d6d05bc8662fb3a55e65fe85685"
+source_commit_date: "2026-10-16T22:59:16+02:00"
 readme_path: "README.md"
-readme_blob_sha: "6402d7ac8cb8c2a24d32dbddfbe1ac4f04e083cc"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "d452ed5c8e8098aa7d62a004dfa3d01c79da272e"
+fetched: "2026-10-16T23:02:15+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/cliprail/blob/3db4a8b48e5de8e50d6e3e597fb1dd9210d28066/README.md"
+url: "https://github.com/nodaysidle/cliprail/blob/d8ad7badf1a55d6d05bc8662fb3a55e65fe85685/README.md"
 tags: [source, readme, cliprail]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/cliprail` at `3db4a8b` (2026-09-18T01:24:53+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/cliprail` at `d8ad7ba` (2026-10-16T22:59:16+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
-<img src="https://raw.githubusercontent.com/nodaysidle/cliprail/3db4a8b48e5de8e50d6e3e597fb1dd9210d28066/github/social-preview.png" alt="ClipRail — NODAYSIDLE" width="100%">
+<img src="https://raw.githubusercontent.com/nodaysidle/cliprail/d8ad7badf1a55d6d05bc8662fb3a55e65fe85685/github/social-preview.png" alt="ClipRail — NODAYSIDLE" width="100%">
 
 # ClipRail
 
@@ -59,21 +59,23 @@ If you need image history, cloud sync, universal clipboard, or automation hooks,
 
 ### Download
 
-Download **ClipRail-v1.2.0-macos.zip** from [Releases](https://github.com/nodaysidle/cliprail/releases).
+Download [`ClipRail-1.2.0.dmg`](https://github.com/nodaysidle/cliprail/releases/download/v1.2.0-dmg.20260727/ClipRail-1.2.0.dmg) ([SHA-256 checksum](https://github.com/nodaysidle/cliprail/releases/download/v1.2.0-dmg.20260727/ClipRail-1.2.0.dmg.sha256)) from the [v1.2.0-dmg.20260727 release](https://github.com/nodaysidle/cliprail/releases/tag/v1.2.0-dmg.20260727) (Latest, Apple Silicon).
 
 Verify your download:
 
 | | |
 |---|---|
-| Filename | `ClipRail-v1.2.0-macos.zip` |
-| Size | ~164 KB |
-| SHA256 | `b5c796a35795de3f247d5538292baedd5e64e595f28d6837f676c0e96d65a4d4` |
+| Filename | `ClipRail-1.2.0.dmg` |
+| Size | ~195 KB |
+| SHA256 | `a83120148c67d7a33fb191ae2a373f237c80313b4e584471db29aae464115c0d` |
 
 ```bash
-shasum -a 256 ClipRail-v1.2.0-macos.zip
+shasum -a 256 ClipRail-1.2.0.dmg
+# or, with the .sha256 file in the same folder:
+shasum -a 256 -c ClipRail-1.2.0.dmg.sha256
 ```
 
-Unzip and drag **ClipRail.app** to `/Applications`. On first launch, if macOS blocks the ad-hoc signed build, right-click the app in Finder → **Open**, or go to **System Settings → Privacy & Security** and click **Open Anyway**.
+Open the DMG and drag **ClipRail.app** to `/Applications`. On first launch, if macOS blocks the ad-hoc signed build, right-click the app in Finder → **Open**, or go to **System Settings → Privacy & Security** and click **Open Anyway**.
 
 ### Build from source
 
@@ -85,7 +87,7 @@ swift test
 ./Scripts/install_app.sh
 ```
 
-Full operator guide: [USERGUIDE.md](https://github.com/nodaysidle/cliprail/blob/3db4a8b48e5de8e50d6e3e597fb1dd9210d28066/USERGUIDE.md)
+Full operator guide: [USERGUIDE.md](https://github.com/nodaysidle/cliprail/blob/d8ad7badf1a55d6d05bc8662fb3a55e65fe85685/USERGUIDE.md)
 
 ## Usage
 

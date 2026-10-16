@@ -11,7 +11,7 @@ Owner source of truth (Alan 21:32/21:33). Visibility comes from the live GitHub 
 |---|---|---|---|---|
 | nodaysidle/batchrename-pro | public | `bff7b47` | 2026-09-18T01:17:37+02:00 | [[wiki/sources/batchrename-pro-README]] |
 | nodaysidle/BrewLedger | public | `0a0d5b4` | 2026-07-24T00:31:19+02:00 | [[wiki/sources/BrewLedger-README]] |
-| nodaysidle/cliprail | public | `3db4a8b` | 2026-09-18T01:24:53+02:00 | [[wiki/sources/cliprail-README]] |
+| nodaysidle/cliprail | public | `d8ad7ba` | 2026-10-16T22:59:16+02:00 (refreshed 22:59) | [[wiki/sources/cliprail-README]] |
 | nodaysidle/cursorpad | public | `0347fbf` | 2026-09-21T23:39:32+02:00 | [[wiki/sources/cursorpad-README]] |
 | nodaysidle/excalidays | public | `2e3a41a` | 2026-09-18T00:56:39+02:00 | [[wiki/sources/excalidays-README]] |
 | nodaysidle/F1-nodaysidle | public | `f3ff0a5` | 2026-10-16T10:09:44+02:00 | [[wiki/sources/F1-nodaysidle-README]] |
@@ -46,5 +46,5 @@ Owner source of truth (Alan 21:32/21:33). Visibility comes from the live GitHub 
 | nodaysidle/scribeflowpro | public | `f14bd55` | 2026-09-18T01:24:45+02:00 | [[wiki/sources/scribeflowpro-README]] |
 | nodaysidle/skill-gallery | public | `e035a2e` | 2026-10-07T09:37:45+02:00 | [[wiki/sources/skill-gallery-README]] |
 | nodaysidle/small-count | public | `414942c` | 2026-09-18T01:20:57+02:00 | [[wiki/sources/small-count-README]] |
-| nodaysidle/synapse-notes | public | `d659005` | 2026-10-07T14:16:21+02:00 | [[wiki/sources/synapse-notes-README]] |
+| nodaysidle/synapse-notes | public | `de5e583` | 2026-10-16T22:58:44+02:00 (refreshed 22:59) | [[wiki/sources/synapse-notes-README]] |
 | nodaysidle/whisper-bar | public | `2108144` | 2026-10-08T22:58:02+02:00 | [[wiki/sources/whisper-bar-README]] |

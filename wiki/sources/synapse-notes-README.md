@@ -4,18 +4,18 @@ repo: "nodaysidle/synapse-notes"
 visibility: "public"
 fork: false
 default_branch: "main"
-source_commit: "d65900515d2c4d4ad41fbcd167a40e59bbe59a71"
-source_commit_date: "2026-10-07T14:16:21+02:00"
+source_commit: "de5e5830458dd41f193f7069fcc6ea8e7e7ce6b7"
+source_commit_date: "2026-10-16T22:58:44+02:00"
 readme_path: "README.md"
-readme_blob_sha: "943f51f0d632750affc6d784267001c94e770de5"
-fetched: "2026-10-16T21:43:33+02:00"
+readme_blob_sha: "c675b4f5cd87daff785c0b3e291ff4f6945b5cde"
+fetched: "2026-10-16T23:02:15+02:00"
 verified: "git blob sha1 of fetched bytes == GitHub tree blob at source_commit"
 authority: "owner source of truth (Alan 21:32/21:33)"
-url: "https://github.com/nodaysidle/synapse-notes/blob/d65900515d2c4d4ad41fbcd167a40e59bbe59a71/README.md"
+url: "https://github.com/nodaysidle/synapse-notes/blob/de5e5830458dd41f193f7069fcc6ea8e7e7ce6b7/README.md"
 tags: [source, readme, synapse-notes]
 ---
 
-> Verbatim copy of `README.md` from **public** repo `nodaysidle/synapse-notes` at `d659005` (2026-10-07T14:16:21+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
+> Verbatim copy of `README.md` from **public** repo `nodaysidle/synapse-notes` at `de5e583` (2026-10-16T22:58:44+02:00). Relative links were rewritten to absolute GitHub URLs pinned to this commit. **Owner source of truth (Alan 21:32/21:33).** Refresh on every release. The local checkout may differ (uncommitted or unpushed work); check before stating facts.
 
                                              
                                =%%#%=              +%@@#. 
@@ -45,16 +45,16 @@ tags: [source, readme, synapse-notes]
 </p>
 
 <p align="center">
-  <a href="https://github.com/nodaysidle/synapse-notes/releases/download/v0.4.3/synapse-notes-0.4.3-debug.apk"><strong>Download v0.4.3 debug APK</strong></a>
+  <a href="https://github.com/nodaysidle/synapse-notes/releases/download/v0.4.5/synapse-notes-0.4.5-debug.apk"><strong>Download v0.4.5 debug APK</strong></a>
   ·
-  <a href="https://github.com/nodaysidle/synapse-notes/releases/tag/v0.4.3">v0.4.3 release</a>
+  <a href="https://github.com/nodaysidle/synapse-notes/releases/tag/v0.4.5">v0.4.5 release</a>
   ·
   <a href="https://github.com/nodaysidle/synapse-notes/releases">All releases</a>
 </p>
 
 <p align="center">
   <img alt="Android" src="https://img.shields.io/badge/Android-24%2B-C8FF00?style=flat-square&logo=android&logoColor=0A0A0F">
-  <img alt="Version" src="https://img.shields.io/badge/v0.4.3-debug-6B6B80?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/v0.4.5-debug-6B6B80?style=flat-square">
   <img alt="React" src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black">
   <img alt="Supabase" src="https://img.shields.io/badge/Backend-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
   <img alt="OpenRouter" src="https://img.shields.io/badge/AI-OpenRouter-6467F2?style=flat-square">
@@ -94,7 +94,7 @@ Statuses while the pipeline runs: Home, Notes, and note detail show **Queued** �
 
 Android only (`com.synapse.notes`). Debug APK sideload — no iOS, no Play Store. First launch: anonymous auth and an auto-created **My Notes** space. No join or workspace onboarding.
 
-## What’s on screen (v0.4.3)
+## What’s on screen (v0.4.5)
 
 Phone-tested on a **Xiaomi M2007J3SY** (Android 12). Notes and Gallery are compact single-column layouts (no sideways scroll). Bottom nav (**Capture** / **Notes** / **Gallery** / **Graph**) stays visible and tappable. Android Back pops in-app history and only exits the app from Home; the Capture tab stays `/` (Home).
 
@@ -120,7 +120,7 @@ All of the journey’s AI steps run in Supabase Edge Functions. The OpenRouter k
 | Image | `krea/krea-2-medium-turbo` | `google/gemini-3.1-flash-lite-image` |
 | Ask notes (no UI) | `openai/gpt-5.6-luna` | `google/gemini-2.5-flash-lite` |
 
-Overrides: [`supabase/.env.example`](https://github.com/nodaysidle/synapse-notes/blob/d65900515d2c4d4ad41fbcd167a40e59bbe59a71/supabase/.env.example). Keep embeddings at 768 dimensions unless you migrate the schema and re-embed every note.
+Overrides: [`supabase/.env.example`](https://github.com/nodaysidle/synapse-notes/blob/de5e5830458dd41f193f7069fcc6ea8e7e7ce6b7/supabase/.env.example). Keep embeddings at 768 dimensions unless you migrate the schema and re-embed every note.
 
 ## Stack
 
@@ -136,9 +136,21 @@ Overrides: [`supabase/.env.example`](https://github.com/nodaysidle/synapse-notes
 
 The APK is how you walk the journey on a phone.
 
-1. Download [`synapse-notes-0.4.3-debug.apk`](https://github.com/nodaysidle/synapse-notes/releases/download/v0.4.3/synapse-notes-0.4.3-debug.apk) from the [v0.4.3 release](https://github.com/nodaysidle/synapse-notes/releases/tag/v0.4.3).
+1. Download [`synapse-notes-0.4.5-debug.apk`](https://github.com/nodaysidle/synapse-notes/releases/download/v0.4.5/synapse-notes-0.4.5-debug.apk) from the [v0.4.5 release](https://github.com/nodaysidle/synapse-notes/releases/tag/v0.4.5).
 2. Sideload on Android 24+. Allow install from unknown sources for your file manager/browser.
 3. Debug-signed testing build — not a Play Store release.
+
+Verify the download ([SHA-256 checksum](https://github.com/nodaysidle/synapse-notes/releases/download/v0.4.5/synapse-notes-0.4.5-debug.apk.sha256)):
+
+| Asset | SHA256 |
+|-------|--------|
+| `synapse-notes-0.4.5-debug.apk` | `0f4cb1baf1645c84d6f68c3520383f84b3149c4647d41fab2819a358a42ecd29` |
+
+```bash
+sha256sum -c synapse-notes-0.4.5-debug.apk.sha256
+```
+
+Upgrading from v0.4.3: this build is signed with a different debug key, so uninstall v0.4.3 first (local notes on the device are removed; notes in Supabase are kept).
 
 Sideloaded and phone-tested on a **Xiaomi M2007J3SY** (Android 12).
 
@@ -218,4 +230,4 @@ synapse-notes/
 
 ## License
 
-[MIT](https://github.com/nodaysidle/synapse-notes/blob/d65900515d2c4d4ad41fbcd167a40e59bbe59a71/LICENSE)
+[MIT](https://github.com/nodaysidle/synapse-notes/blob/de5e5830458dd41f193f7069fcc6ea8e7e7ce6b7/LICENSE)
