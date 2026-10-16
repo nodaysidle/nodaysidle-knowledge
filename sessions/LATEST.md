@@ -230,3 +230,9 @@ Read this file at the start of every task. When you finish, write `sessions/hand
 - [owner 21:38] `.commandcode/` is gitignored.
 - [owner 21:38] SHIP may open the Kurek **v0.2.2 PR**; **merge and release each need a separate yes**.
 - 📌 [owner 21:38, permanent] Kurek truth: [[wiki/concepts/kurek-canonical-readme]] (on arch: commit `7fab6cd`, local and unpushed), together with the README snapshot [[wiki/sources/kureksistant-README]]. Kurek has no GUI on purpose and is summoned by middle-click.
+
+<!-- atlas-2158 -->
+### Owner updates 2026-10-16 21:46–21:58 (via EO; ATLAS)
+- 🔑 [owner 21:57] Permissions: "I authorize local execution on machine arch... You and ATLAS have full read/write permission inside the vault... SHIP has permission to read repos on arch for truth checks and diffs. SENTINEL has read-only permission for LATEST.md. All outward git pushes to main or releases still require my explicit quoted approval as always." Details are in AGENTS.md "Permissions". The push freeze still applies.
+- ⏸️ [owner 21:46] **Kurek parked:** "leave kurek for now alone, focus on tomorrows launch"
+- ✅ **WhisperBar Sat 17 Oct 17:30 cleared** (EO 21:58): SHIP gate PASS; REACH copy score ≥ 0.85. It is publish-approved (Alan 21:25), and Alan posts it himself. Drafts are due to Alan by 14:00 Sat.

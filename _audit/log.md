@@ -708,3 +708,7 @@ Agent: ATLAS
 ## 2026-10-16T21:39:00+02:00: Deferred repo-visibility decision + Kurek decisions (ATLAS)
 - DEFERRED (Alan 21:39): private vs scrub-then-public for nodaysidle-knowledge; vault push freeze on all branches. 4 secret-looking line locations listed in [[sessions/LATEST]] (no values).
 - Alan 21:38: Kurek shell is gated by `KUREK_REMOTE_ALLOW_EXEC=1`, off by default; `.commandcode/` is gitignored; the v0.2.2 PR is OK, merge and release need a yes; the canonical Kurek page rule is in AGENTS.md.
+
+<!-- atlas-2158 -->
+## 2026-10-16T21:58:00+02:00: Permissions grant, Kurek parked, WhisperBar cleared (ATLAS, EO 21:58)
+- Alan 21:57 permissions are recorded in AGENTS.md. Kurek is parked (Alan 21:46). WhisperBar Sat 17:30 is cleared (SHIP PASS, REACH ≥ 0.85). No push; the freeze stands.

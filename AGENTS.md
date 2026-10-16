@@ -61,3 +61,12 @@ Structure every response using the following three sections with bullet points f
 ## Kurek canonical page rule (owner, 2026-10-16 21:38)
 - For Kurek, the truth is [[wiki/concepts/kurek-canonical-readme]] (on arch: commit `7fab6cd`, local and unpushed), **together with** the README snapshot [[wiki/sources/kureksistant-README]]. Kurek has no GUI on purpose and is summoned by middle-click. Read both before writing about Kurek.
 - Vault push freeze (Alan 21:39, deferred decision): do not push `nodaysidle-knowledge` to any branch until Alan decides private vs scrub-then-public.
+
+<!-- atlas-2158 -->
+## Permissions (owner, 2026-10-16 21:57)
+- Alan 21:57 (relayed by EO; ellipses as relayed; "You" = EO, the Execution Operator): "I authorize local execution on machine arch... You and ATLAS have full read/write permission inside the vault... SHIP has permission to read repos on arch for truth checks and diffs. SENTINEL has read-only permission for LATEST.md. All outward git pushes to main or releases still require my explicit quoted approval as always."
+- **EO:** may run local commands on arch; full read/write inside the vault.
+- **ATLAS:** full read/write inside the vault.
+- **SHIP:** read-only access to repos on arch, for truth checks and diffs.
+- **SENTINEL:** read-only, `sessions/LATEST.md` only.
+- **Every outward push to main and every release** needs Alan's explicit quoted approval. The vault push freeze (21:39) still applies to all branches.

@@ -267,3 +267,25 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 ## Update 2026-10-16 21:11 (UTC+2) — launch audit (ATLAS)
 
 - ⏳ **Released, not promoted:** no Kurek post on @kaly_ndi from 2026-09-01 to 2026-10-16 21:11. Slot Wed 21 Oct 17:30. GitHub Latest v0.2.1 (tarball `8b3a7a6e…`) matches the hub card. Note: the hub card still says "25 tools" (correct for v0.2.1); SHIP 10:38 says main has 27 modules, not released.
+
+<!-- atlas-2132 -->
+## Update 2026-10-16 21:32 (UTC+2): owner facts (ATLAS, via EO)
+- ✅ **Owner fact (Alan 21:31):** "kurek was first a GUI - then he went daemon, and its spawned by middlle mouse click hes an ai assistant which has no gui thats the point"
+  - Kurek is a **GUI-less daemon AI assistant**, spawned by a **middle mouse click**. Earlier versions (the PyQt6 JARVIS era) had a GUI.
+  - Any text that describes Kurek as a GUI app is **stale**. The phase-1 PyQt6 GUI and the `legacy/` GUI are history only. A 21:32 scan of this page found no current-state GUI claim.
+- ⚠️ **UNVERIFIED (Alan 21:29):** the local Kurek on arch has a different STT model, **27 tools** and a longer listen window, compared with GitHub v0.2.1 (25 tools). This stays unverified until SHIP diffs arch `kurekizmo` against GitHub. It is not for promo copy until then.
+
+<!-- atlas-2133 -->
+## README snapshot: source of truth (2026-10-16 21:33)
+- Snapshot: [[wiki/sources/kureksistant-README]] (public `nodaysidle/kureksistant` @ `09e3c7d`, committed 2026-10-15T14:07:02+02:00). Owner source of truth (Alan 21:32/21:33). Read it first; it wins over older text on this page.
+- Local checkout on arch (read-only `git status` at 21:35, no fetch, so the unpushed count may be stale): `~/dev/nodaysidle/kurekizmo` (origin → `nodaysidle/kureksistant`): 16 uncommitted paths, README.md clean, 0 unpushed vs the local upstream ref.
+- Local vs GitHub README diff: README matches GitHub `09e3c7d`; uncommitted Android edits; 2 local-only backup branches (`ab1420a`, `f0a7cdf`). The old-origin remote `kurekizmo` returns API 404 (private, renamed or deleted: unknown) and is **not** snapshotted (SHIP 21:34)
+
+<!-- atlas-2139 -->
+## Canonical page + owner decisions (2026-10-16 21:38)
+- Permanent rule: the truth is [[wiki/concepts/kurek-canonical-readme]] (on arch: commit `7fab6cd`, local and unpushed) plus [[wiki/sources/kureksistant-README]]. Kurek has no GUI on purpose (middle-click daemon).
+- Unrestricted shell is kept: off by default, gated by `KUREK_REMOTE_ALLOW_EXEC=1` with a warning (Alan 21:38). The v0.2.2 PR is allowed; merge and release each need their own yes.
+
+<!-- atlas-2158 -->
+## Parked (owner, 2026-10-16 21:46)
+- Alan 21:46: "leave kurek for now alone, focus on tomorrows launch". No Kurek work until Alan un-parks it.
