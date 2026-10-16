@@ -4,7 +4,7 @@ note_kind: concept
 topic_slug: x-promo
 status: draft
 created: 2026-10-08
-updated: 2026-10-08
+updated: 2026-10-16
 tags:
   - wiki
   - x-promo
@@ -62,12 +62,19 @@ All posts go out first-person from Adlof's personal X account, which has X Premi
 
 - Research on comparable indie posts (2026-10-06): a video-demo app launch reached ~358k impressions, while text-only DMG drops stayed around 200–500. First-person framing plus media performed best. Worldwide trends were not useful (mostly sports).
 
+### Launch tiers (2026-10-16)
+
+- **Cascade is the big launch, held for later.** Owner decision 2026-10-16 10:26: "No, cascade will be the big launch later on the strategy of launches, put that in the vault." Until then: no Cascade Reddit post and no regular Cascade X launch. The Thu 15 Oct Cascade X post did **not** go live, so don't cite it as posted. Plan (draft): [[briefs/launch/cascade-big-launch-PLAN]].
+- **Regular rotation continues** for the other apps: Sonora (Fri 16 Oct 17:30), the apps hub (Fri 16 Oct 20:30), WhisperBar (Sat 17 Oct 17:30, a regular catalog post, not a launch, so "avoid weekends for launches" still applies), and Kurek (Wed 21 Oct 17:30). No second X post on Sunday 18 Oct.
+- **Alan posts to X himself every time** (2026-10-16). The team delivers ready-to-paste drafts plus a GIF or MP4. Every post needs its own publish yes.
+
 ## Related
 
 - [[wiki/MOC/moc-x-promo]]
 - [[wiki/concepts/x-promo-calendar-2026-10]]
 - [[wiki/concepts/x-promo-strategy-2026-10-12]] (revision from 12 Oct: cadence, times table incl. clock changes, rotation, week-1 drafts)
 - [[wiki/concepts/reel-clip-workflow]]
+- [[briefs/launch/cascade-big-launch-PLAN]]
 
 ## Open questions
 
