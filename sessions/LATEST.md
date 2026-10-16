@@ -166,6 +166,7 @@ Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `da
 - Source: GitHub `pushed_at` checked 2026-10-15.
 
 ## Team rules (AGENTS.md `b586c41`, from 2026-10-15 01:24)
+0b. (2026-10-16 22:00, owner via EO 22:01) **Autonomy & Zero Noise:** no process narration to Alan; he only gets finished results (the 14:00 post package; one clean final message) or hard blockers. See AGENTS.md. <!-- atlas-2201 -->
 0. (2026-10-16 20:04/20:49) Everything important goes in the vault. After every downstream completion, EO asks ATLAS to fold into LATEST.md and `_audit/log.md`.
 1. Sign every commit with an `Agent: <NAME>` trailer.
 2. Every relayed approval quotes the owner's exact words and the time.

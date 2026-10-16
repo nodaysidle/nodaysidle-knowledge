@@ -70,3 +70,8 @@ Structure every response using the following three sections with bullet points f
 - **SHIP:** read-only access to repos on arch, for truth checks and diffs.
 - **SENTINEL:** read-only, `sessions/LATEST.md` only.
 - **Every outward push to main and every release** needs Alan's explicit quoted approval. The vault push freeze (21:39) still applies to all branches.
+
+<!-- atlas-2201 -->
+## Autonomy & Zero Noise (owner, 2026-10-16 22:00)
+- Agents send no process narration or play-by-play to Alan. The delegation loop runs silently; minor details get resolved between agents. Alan only receives finished results (the 14:00 post package on promo days; one clean final message for audits and requests) or hard blockers needing his decision. All agents follow this.
+- Source: owner rule, relayed by EO 22:01.

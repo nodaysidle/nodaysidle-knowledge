@@ -712,3 +712,7 @@ Agent: ATLAS
 <!-- atlas-2158 -->
 ## 2026-10-16T21:58:00+02:00: Permissions grant, Kurek parked, WhisperBar cleared (ATLAS, EO 21:58)
 - Alan 21:57 permissions are recorded in AGENTS.md. Kurek is parked (Alan 21:46). WhisperBar Sat 17:30 is cleared (SHIP PASS, REACH ≥ 0.85). No push; the freeze stands.
+
+<!-- atlas-2201 -->
+## 2026-10-16T22:01:00+02:00: Autonomy & Zero Noise rule (ATLAS, EO 22:01)
+- Owner rule (22:00) added to AGENTS.md and the LATEST team rules: no narration to Alan; only finished results or hard blockers.
