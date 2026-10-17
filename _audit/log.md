@@ -834,3 +834,5 @@ Agent: ATLAS
 - **Actor:** agent (Antigravity), owner-approved in chat (2026-10-17: "Yes please, my whole life ive been striving towards optimizing making agents deterministic and trushworthy"). [vault]
 - **Rule enacted:** Added `Atomic Catalog Sync (Eliminating the Two-Speed Vault)` under `## Vault-first rule` in [[AGENTS.md]]. Mandates that any app version, launch date, or lifecycle status change in `sessions/LATEST.md` must be accompanied by an update to `_system/templates/catalog/<app>.md` and `_system/templates/CATALOG.md` in the exact same turn and commit. Updates without matching catalog cards are strictly incomplete.
 - Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).
+
+- 2026-10-17 15:02 ATLAS: logged Alan's 14:59/15:01 subagent-exec execution rule in AGENTS.md (source EO 15:02). Local commit, no push.

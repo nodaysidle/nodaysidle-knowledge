@@ -135,3 +135,8 @@ re-read whole files.
 After big code changes, refresh the graph with `trail build` (deterministic,
 no API key, $0).
 <!-- trail:end -->
+
+## Execution rule: subagent-exec (Alan, 2026-10-17 14:59 CEST, via EO)
+Verbatim: "Mandatory execution rule starting immediately: 1. Grok context freeze on generation: Neither you, SHIP, REEL, nor REACH may write code diffs, large file rewrites, or long multi-page copy inside Grok chat. 2. Delegate all heavy execution to our local subscription runner on arch: Use `subagent-exec claude "<task prompt>" <repo_path>` (or `subagent-exec commandcode`). 3. Your role in Grok Bot is strictly: Command dispatch (running subagent-exec), Checking brief exit codes and `git status`, Handoff logging in HANDOFF.md, Presenting final concise options to Alan."
+15:01 CEST: "Yes, send the rule to ATLAS and SCOUT as well so the entire team operates under subagent-exec."
+Run via fish: `fish -lic 'subagent-exec claude "<task>" <repo_path>'`. ATLAS uses repo_path = this vault only (EO-confirmed 15:02). Approvals and the vault push freeze are unchanged.
