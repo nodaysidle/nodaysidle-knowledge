@@ -497,6 +497,8 @@ Append-only record of promotions and significant vault edits. Agents may append;
   - **Auto-Hide / Typing Detection**: Fast 200ms debounce on leaving text fields; auto-hides on launcher/home; auto-pops on text focus (`findFocus`, `FOCUS_INPUT`, `rootInActiveWindow`).
   - **Audio & STT Resiliency**: Solved Android `MediaRecorder` stop error `-1007` with frame encoding buffer guarantee; filtered sub-300ms false error triggers.
 - **Created / Edited:**
+  - *(Not recorded: this list was cut off when the entry was written, commit `93cd4fe`. Noted 2026-10-17 audit; nothing was removed.)*
+
 ## 2026-10-10T21:05:00+02:00 — Decision Intelligence: Microsoft-Decision-1 vs TypeSafe Jev integration
 
 - **Actor:** agent (Antigravity), per user request.
@@ -577,9 +579,11 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - **Committed:** the 2026-10-14 prompt-optimizer notes left uncommitted by OpenCode. `.obsidian/` UI/theme changes left uncommitted (owner's personal settings). No push.
 
 ## 2026-10-15T02:22:00+02:00: REACH filed X draft (standing format)
+- **Actor:** REACH (work); entry written by ATLAS (commit `712ad5b`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - **Created:** [[briefs/x-drafts/2026-10-15-cascade]] in the owner's new X draft format (relayed by EO 02:17). Main post trimmed from 316 to 266 chars. No commit.
 
 ## 2026-10-15T02:30:00+02:00: ATLAS logged README sweep batch 1
+- **Actor:** ATLAS (commit `712ad5b`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Merged (owner 02:29): cascade-v3 #5 `3edd3cc`, sonora #3 `f8b45ba`, browser-linux #5 `ca1bc3e`, nodaysrammar #3 `1de303b`. Open: kureksistant #23 (`b8d18f0`, gate PASS). Local commit only.
 
 ## 2026-10-15T02:31:00+02:00: Operative Code Access added to Kurek (codebase + run tools)
@@ -596,14 +600,17 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - 2026-10-15 02:32: kureksistant #23 merged as `e5341b7` (Alan 02:30, "yes to both"). Batch 1 5/5. ATLAS redacted Tailscale IPs from 3 vault files.
 
 ## 2026-10-15T06:40:00+02:00: REACH filed X drafts for Fri 16 + Sat 17 Oct (standing format)
+- **Actor:** REACH (work); entry written by ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - **Created:** [[briefs/x-drafts/2026-10-16-sonora]], [[briefs/x-drafts/2026-10-16-apps-hub]], [[briefs/x-drafts/2026-10-17-poll]] (owner via EO, 06:34). Drafts only, no commit.
 
 ## 2026-10-15T11:47:00+02:00: REACH closed the Cascade clip media sign-off (docs only)
+- **Actor:** REACH (work); entry written by ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - **Updated:** [[briefs/x-drafts/2026-10-15-cascade]] (`signoff.media` now PASS with one open item; header media line, §4 media note, new claim-check row, §9 checklist), [[sessions/handoffs/2026-10-15-REACH]] (new media-sign-off entry + three stale "Kali did not answer / sign-off open" lines pointed at it).
 - **Not changed:** post copy, char counts, pick, first reply, Reddit draft, slot. Nothing posted, nothing committed to git (vault is ATLAS's).
 - **KALI's findings (11:45 UTC):** verified copy `/home/arch/Videos/nodaysidle/cascade-v3.1.0.mp4`, 2,184,964 B, sha256 `11f8d9a5e72d7cfb67c0b16f73dc829c2d72d22971dbaa99b27165d0b9e6489f` — same size and hash as the `cascade-v2.mp4` recorded at 02:11. Caption is v2 ("Five doc tabs → PRD · ARD · TRD · TASKS · AGENTS"), pipeline 0/11, no Generate click, no doc contents. v1 `cascade.mp4` "Five docs out" appears nowhere in v2 and is retired. Open: exact box-path hash, else text-only fallback.
 
 ## 2026-10-15T14:05:00+02:00: REEL confirmed the Cascade clip box-path hash (media verification only)
+- **Actor:** REEL (work); entry written by ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - **Closed:** the one open media item on [[briefs/x-drafts/2026-10-15-cascade]]. `/home/arch/Videos/nodaysidle/clips/cascade/cascade-v2.mp4` = 2,184,964 B, sha256 `11f8d9a5e72d7cfb67c0b16f73dc829c2d72d22971dbaa99b27165d0b9e6489f` — exact match to the value the draft expected. GIF pair `0e0f1e56…70b97`, 960x540, 137 frames.
 - **New fact for the record:** the host has no `/workspace`; the connection aliases it to `/home/arch/Videos/nodaysidle/`. The box path is a symlink (created 11:50:36 UTC) to the same inode as the disk copy (18931369) — one file, two names, not two copies.
 - **Re-verified independently:** caption "Five doc tabs → PRD · ARD · TRD · TASKS · AGENTS" (OCR of all 23 frames), pipeline 0/11, "Waiting for input", no Generate click, no document content, and no "Five docs out" anywhere.
@@ -611,6 +618,7 @@ Append-only record of promotions and significant vault edits. Agents may append;
 - **Updated:** [[briefs/x-drafts/2026-10-15-cascade]] (front-matter `signoff.media`, §1, §4, §9 — verification lines only) and [[sessions/handoffs/2026-10-15-REEL]]. No copy, char count, pick or link changed. Nothing posted, nothing committed.
 
 ## 2026-10-15T14:45:00+02:00: ATLAS second correction pass — stale claims in LATEST, handoffs, catalog and wiki media pointers
+- **Actor:** ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - **Task:** MASTER_ALAN's urgent relay, on SHIP's returned stale-claim list: correct the remaining stale claims minimally and accurately, change no blockers, imply no push and no post, and commit nothing.
 - **Corrected (markers only; no history rewritten, owner words untouched):** the `ab1420a` "unpushed / pending SHIP's gate" class wherever it still read as live — [[sessions/LATEST]] lines 50, 51, 94, 95 and the 12:45 fold-log entry; [[sessions/handoffs/2026-10-15-ATLAS]] (02:32/02:34/02:36 sections and their needs lines); [[sessions/handoffs/2026-10-15-AGY]] line 28 ("working tree is clean", now false) and line 33 ("decide when to push … or open a PR"); [[_system/templates/catalog/kurekizmo]] lines 39 (v0.2.0 no longer Latest), 60 (checkout now synced) and 62 (local `ab1420a` superseded). [[_system/templates/CATALOG]] line 15 now reads v0.2.1 Latest.
 - **Media pointers:** the retired v1 `cascade.mp4`/`cascade.gif` now read as absent or renamed in [[sessions/handoffs/2026-10-15-REACH]] lines 73, 148 and 150 (the box-path item closed at 12:03–12:05 UTC), [[wiki/concepts/x-promo-strategy-2026-10-12]] lines 74 and 174, [[wiki/concepts/x-promo-calendar-2026-10]] line 30 and [[wiki/concepts/reel-clip-workflow]] line 38.
@@ -664,9 +672,11 @@ Append-only record of promotions and significant vault edits. Agents may append;
 Agent: ATLAS
 
 ## 2026-10-16T10:42:00+02:00: ATLAS folded 2026-10-16 handoffs onto branch atlas/fold-2026-10-16
+- **Actor:** ATLAS (commit `dd0cf15`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Installed sessions/LATEST.md; launch tiers added to [[wiki/concepts/x-promo-strategy]]; EO/SHIP/REEL/REACH/ATLAS handoffs and briefs added and marked `folded: true`. Alan 10:42: "Yes, proceed with the branch." Branch only, main untouched.
 
 ## 2026-10-16T20:04:00+02:00: Vault-first rule + launch status
+- **Actor:** ATLAS (commit `dd0cf15`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Alan 20:04: "everything important goes in the vault". Added to AGENTS.md and LATEST. Launched: browser-linux v0.2.0, Sonora v0.1.1 (18:32). Not launched: Cascade, WhisperBar, Kurek. Repo status pages updated; [[wiki/concepts/whisper-bar-overview]] created (20:06).
 
 ## 2026-10-16T20:49:00+02:00: ATLAS folded EO evening log + permanent EO rules
@@ -676,75 +686,107 @@ Agent: ATLAS
 - Git: merged remote `c135653` into the local branch (same tree as local `68debae`, a duplicate EO commit). No force push, no reset.
 
 ## 2026-10-16T21:11:00+02:00: ATLAS launch audit (Alan 21:11 via EO)
+- **Actor:** ATLAS (commit `19cc732`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Read-only checks of GitHub Latest (tags + digests), the live hub (200) and X (@kaly_ndi). All six hub cards match GitHub.
 - Launched: nodaysrammar (10-13), browser-linux (10-14, vault said 10-15), Sonora (10-16). Released, not promoted: WhisperBar, Kurek, Cascade. The corrected hub post is not live.
+- Updated [[sessions/LATEST]], six overview pages and [[_system/templates/CATALOG]] (Kurek row marked stale). *(Moved back into this entry on 2026-10-17: commit `19cc732` wrote it here; the 21:25 part 1 entry had been inserted above it.)*
 
-## 2026-10-16T21:25:00+02:00: Promo draft lead-time rule & Kurek hub card check (Alan 21:25)
+## 2026-10-16T21:25:00+02:00: Promo draft lead-time rule & Kurek hub card check (Alan 21:25) — part 1 of 2
+- **Actor:** ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - **Draft timing locked:** For any X post scheduled at 17:30, REACH/EO must deliver the final draft packet to Alan by **14:00** (3.5 hours before slot time) for review.
 - **Kurek hub check:** SHIP directed to re-check the Kurek hub card against live v0.2.1 assets before Wednesday Oct 21.
 - **Cascade plan:** Full draft plan presented to Alan from [[briefs/launch/cascade-big-launch-PLAN]].
-
-- Updated [[sessions/LATEST]], six overview pages and [[_system/templates/CATALOG]] (Kurek row marked stale).
+  - ⚠️ *Correction 2026-10-17 (audit):* this contradicts part 2 below ("The Cascade plan had not been shown to Alan; EO is presenting it at 21:25") and [[sessions/LATEST]] ("outcome **unknown**"). Read it as: presented by EO at 21:25, outcome not recorded.
 
 <!-- atlas-2125 -->
-## 2026-10-16T21:25:00+02:00: Owner decisions folded (ATLAS)
+## 2026-10-16T21:25:00+02:00: Owner decisions folded (ATLAS) — part 2 of 2
+- **Actor:** ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - WhisperBar Sat 17:30 publish-approved (Alan posts it). New standing rule: drafts by 14:00 for every 17:30 post. SHIP re-checks the Kurek v0.2.1 card before Wed 21. The Cascade plan had not been shown to Alan; EO is presenting it at 21:25.
 - Written to [[sessions/LATEST]], [[wiki/concepts/x-promo-strategy]] and [[wiki/concepts/whisper-bar-overview]].
 
 <!-- atlas-2132 -->
 ## 2026-10-16T21:32:00+02:00: Kurek owner facts (ATLAS, via EO 21:32)
+- **Actor:** ATLAS (commit `7fab6cd`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Alan 21:31: Kurek is a GUI-less daemon spawned by a middle click; GUI descriptions are stale. Alan 21:29 (unverified): the local build has a different STT model, 27 tools and a longer listen window; SHIP to diff.
 - Written to [[wiki/concepts/kureksistant-overview]] and [[sessions/LATEST]].
 
 <!-- atlas-2133 -->
 ## 2026-10-16T21:35:00+02:00: README snapshots of all public repos (ATLAS, Alan 21:32–21:34)
+- **Actor:** ATLAS (commit `867db75`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Snapshotted 39 public repos (visibility from the live API) to `wiki/sources/`, with full SHAs and blob-hash checks. Added the rules to AGENTS.md, linked the 9 overview pages, and left the diff placeholder for SHIP.
 
 <!-- atlas-2136 -->
 ## 2026-10-16T21:36:00+02:00: Push freeze + secret scan (ATLAS, EO 21:36)
+- **Actor:** ATLAS (commit `867db75`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Push freeze recorded. The README snapshots were scanned for secrets: 3 placeholder hits, no real values. Located 4 secret-looking added lines in arch's 14 unpushed commits (locations only, in the ATLAS handoff); history unchanged. SHIP 21:34 README diffs added to 9 overview pages.
 
 <!-- atlas-2139 -->
 ## 2026-10-16T21:39:00+02:00: Deferred repo-visibility decision + Kurek decisions (ATLAS)
+- **Actor:** ATLAS (commit `867db75`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - DEFERRED (Alan 21:39): private vs scrub-then-public for nodaysidle-knowledge; vault push freeze on all branches. 4 secret-looking line locations listed in [[sessions/LATEST]] (no values).
 - Alan 21:38: Kurek shell is gated by `KUREK_REMOTE_ALLOW_EXEC=1`, off by default; `.commandcode/` is gitignored; the v0.2.2 PR is OK, merge and release need a yes; the canonical Kurek page rule is in AGENTS.md.
 
 <!-- atlas-2158 -->
 ## 2026-10-16T21:58:00+02:00: Permissions grant, Kurek parked, WhisperBar cleared (ATLAS, EO 21:58)
+- **Actor:** ATLAS (commit `f52dcb9`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Alan 21:57 permissions are recorded in AGENTS.md. Kurek is parked (Alan 21:46). WhisperBar Sat 17:30 is cleared (SHIP PASS, REACH ≥ 0.85). No push; the freeze stands.
 
 <!-- atlas-2201 -->
 ## 2026-10-16T22:01:00+02:00: Autonomy & Zero Noise rule (ATLAS, EO 22:01)
+- **Actor:** ATLAS (commit `d216249`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Owner rule (22:00) added to AGENTS.md and the LATEST team rules: no narration to Alan; only finished results or hard blockers.
 
 <!-- atlas-2233 -->
 ## 2026-10-16T22:33:00+02:00: Release decisions rule (ATLAS, EO 22:33)
+- **Actor:** ATLAS (commit `858df31`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Owner release decisions added to AGENTS.md and LATEST.md.
 
 <!-- atlas-2236 -->
 ## 2026-10-16T22:36:00+02:00: SCOUT demand ranking + proposed launches (ATLAS, EO 22:36)
+- **Actor:** ATLAS (commit `b3d9b17`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Ranking: ClipRail 4, Synapse 3.5, ShareGuard 3, BatchRename 2 (dropped). Proposed: Synapse 31 Oct, ClipRail 3 Nov, ShareGuard 5 Nov, all 17:30 (pairing inferred). Release tags verified read-only.
 
 <!-- atlas-2237 -->
 ## 2026-10-16T22:37:00+02:00: SCOUT handoff folded (ATLAS)
+- **Actor:** ATLAS (commit `4062ec6`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Copied SCOUT's handoff unchanged (adding `folded: true` frontmatter only) to [[sessions/handoffs/2026-10-16-SCOUT]]. Replaced the evidence placeholders. Recorded the open flags: the ShareGuard dmg version, the missing BatchRename `.sha256`, and no Linux AppImage. No conflicts with EO.
 
 <!-- atlas-2239 -->
 ## 2026-10-16T22:39:00+02:00: Launch slots confirmed, ShareGuard parked (ATLAS, EO 22:39)
+- **Actor:** ATLAS (commit `090d055`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Confirmed Synapse 31 Oct and ClipRail 3 Nov. ShareGuard is parked (its 5 Nov slot marked stale); BatchRename is dropped. The Mac-unmaintained / Linux-Android-first rule was added to AGENTS.md. v0.4.5 is not on GitHub. WhisperBar is marked as an unmaintained Mac build.
 
 <!-- atlas-2241 -->
 ## 2026-10-16T22:41:00+02:00: ClipRail flag resolved (ATLAS, EO 22:41)
+- **Actor:** ATLAS (commit `16bdc59`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - ClipRail is a macOS-only finished build, launched as-is (README fix only); the 3 Nov slot is kept. The Linux/Android-first rule is clarified as ordering, not a ban. Synapse v0.4.5 is still unverified.
 
 <!-- atlas-2259 -->
 ## 2026-10-16T22:59:00+02:00: Synapse v0.4.5 + ClipRail README verified (ATLAS)
+- **Actor:** ATLAS (commit `abd3228`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Alan 22:45 yes. Verified read-only: Synapse PR #15 is `de5e583`, v0.4.5 is Latest with APK + .sha256 (matching); ClipRail PR #5 is `d8ad7ba`, with no new release. Both README snapshots refreshed.
 
 <!-- atlas-2303 -->
 ## 2026-10-16T23:03:00+02:00: SHIP catalog audit folded (ATLAS, EO 23:03)
+- **Actor:** ATLAS (commit `0a5cfe7`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Added [[wiki/sources/catalog-audit-2026-10-16]] (SHIP, `f099e04`). EO's summary matches. Spot-checked the DMG digests (match). The Kurek "demo GIF" page claim is marked stale. GIF fields were updated on 6 overview pages. Secret grep was clean.
 
 <!-- atlas-2327 -->
 ## 2026-10-16T23:27:00+02:00: 8 README PR merges verified, snapshots refreshed (ATLAS)
+- **Actor:** ATLAS (commit `9014a70`). *(back-filled 2026-10-17 from the heading and the commit's `Agent:` trailer)*
 - Alan 23:25 yes. Verified 8 merges (all match SHIP's SHAs, all HEAD). Re-snapshotted 8 READMEs, marked the audit items resolved, and logged the FlowState `.sha256` path and the echocore-pro missing requirements file.
+
+## 2026-10-17T03:40:00+02:00: Vault and Grok Bot audit; P0/P1 fixes (Claude Opus)
+- **Actor:** agent (Claude Opus), per owner request in chat (2026-10-17). [vault]
+- **Audit:** read-only audit of the vault, the ledger entries labelled Grok Bot/ATLAS/REACH/EO, the catalog and the sibling folders (local git only; no GitHub, X or Vercel calls). Report: [[artifacts/2026-10-17-vault-and-grokbot-audit]]. Scores: vault health 6/10, Grok Bot compliance 8/10. No breach of the promotion gate or the `sources/raw/` rule was found.
+- **Fixed:**
+  - YAML frontmatter in [[briefs/x-drafts/2026-10-16-sonora]], [[briefs/x-drafts/2026-10-16-apps-hub]] and [[briefs/x-drafts/2026-10-15-cascade]] (content unchanged).
+  - [[_system/reference/github-org-repositories]]: added `F1-nodaysidle` and `openidle`; `public_repo_count` 38 → 40, sourced from the 2026-10-16 21:43 snapshot index, not re-checked live.
+  - `VAULT_GUIDE.md` and `README.md` now say 40 public repos.
+- **Ledger cleanup (owner-requested, so this is an exception to append-only; nothing deleted):**
+  - The truncated 2026-10-10 18:25 entry is closed with a note.
+  - The duplicate 21:25 headings are labelled part 1 of 2 and part 2 of 2, and the contradicted Cascade line has a correction marker.
+  - The stray 21:11 line was moved back into its entry.
+  - 25 missing `Actor` fields were back-filled from the headings and the commits' `Agent:` trailers.
+  - The out-of-order timestamps were left in place.
+- **Committed locally only. Push freeze stands** (Alan 21:39).

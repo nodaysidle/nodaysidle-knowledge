@@ -26,7 +26,7 @@
 
 Team research operating system for [nodaysidle](https://github.com/nodaysidle): wikilinks, YAML frontmatter, catalog templates for every portfolio repo, and an append-only `_audit/log.md`. Application code stays in sibling repositories; this repo holds **evidence, notes, and handoffs**.
 
-**Vault:** https://github.com/nodaysidle/nodaysidle-knowledge · **Org index (36 public repos):** [_system/reference/github-org-repositories.md](_system/reference/github-org-repositories.md)
+**Vault:** https://github.com/nodaysidle/nodaysidle-knowledge · **Org index (40 public repos, as of 2026-10-16):** [_system/reference/github-org-repositories.md](_system/reference/github-org-repositories.md)
 
 ## Pipeline
 

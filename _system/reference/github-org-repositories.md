@@ -2,7 +2,7 @@
 type: reference
 source_url: https://github.com/nodaysidle?tab=repositories
 synced: 2026-10-11
-public_repo_count: 38
+public_repo_count: 40
 tags:
   - reference
   - github
@@ -24,6 +24,7 @@ curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" 
 - [cliprail](https://github.com/nodaysidle/cliprail)
 - [cursorpad](https://github.com/nodaysidle/cursorpad)
 - [excalidays](https://github.com/nodaysidle/excalidays)
+- [F1-nodaysidle](https://github.com/nodaysidle/F1-nodaysidle)
 - [hermes-agent](https://github.com/nodaysidle/hermes-agent) — https://hermes-agent.nousresearch.com
 - [hermes-gpt](https://github.com/nodaysidle/hermes-gpt) — https://hermes-gpt.tonysimons.dev
 - [kureksistant](https://github.com/nodaysidle/kureksistant) — https://github.com/nodaysidle/kureksistant
@@ -50,6 +51,7 @@ curl -s "https://api.github.com/users/nodaysidle/repos?per_page=100&type=owner" 
 - [nodaysrammar](https://github.com/nodaysidle/nodaysrammar)
 - [nodaysrecording](https://github.com/nodaysidle/nodaysrecording)
 - [nodaystypst](https://github.com/nodaysidle/nodaystypst)
+- [openidle](https://github.com/nodaysidle/openidle)
 - [pocket-drafts](https://github.com/nodaysidle/pocket-drafts)
 - [Portfolio](https://github.com/nodaysidle/Portfolio) — https://nodaysidle-portfolio-nine.vercel.app
 - [scribeflowpro](https://github.com/nodaysidle/scribeflowpro)
@@ -125,3 +127,12 @@ Append-only. Verified with `gh api users/nodaysidle` (`public_repos: 38`) and `/
 - Frontmatter `public_repo_count` set to **38** (was 36 at 2026-10-07; Update sections already noted 37 then 38).
 - Added missing bullets to the Published list: [nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps), [nodaysrammar](https://github.com/nodaysidle/nodaysrammar). Earlier Update sections (2026-10-08 23:41, 2026-10-09 10:32) already recorded them; the bullet list was out of sync.
 - Weekly reconcile: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
+
+## Update 2026-10-17 (UTC+2): public list now 40 (F1-nodaysidle, openidle)
+
+Append-only; earlier entries unchanged. Source: the README snapshot index [[wiki/sources/README]] (ATLAS, fetched 2026-10-16T21:43:33+02:00), which took visibility from the live GitHub API at fetch time. It has 39 public repos; `nodaysidle-knowledge` (this vault) is public but not snapshotted, so the total is **40**.
+
+- Added to the Published list: [F1-nodaysidle](https://github.com/nodaysidle/F1-nodaysidle) (public, `f3ff0a5`, 2026-10-16T10:09:44+02:00, [[wiki/sources/F1-nodaysidle-README]]) and [openidle](https://github.com/nodaysidle/openidle) (public, `a623d5f`, 2026-10-14T07:52:13+02:00, [[wiki/sources/openidle-README]]). Both have local clones under `~/dev/nodaysidle/` (same folder names). Neither has a catalog entry yet.
+- Frontmatter `public_repo_count` 38 → **40**. `synced` stays 2026-10-11 (the last direct API sync); this count was not re-checked against the live API on 2026-10-17.
+- The private count (12, per the owner on 2026-10-07) is still unverified, so the 48 total is stale: 40 public + 12 private would be 52, also unverified.
+- Recorded by Claude Opus during the 2026-10-17 vault audit ([[artifacts/2026-10-17-vault-and-grokbot-audit]]).
