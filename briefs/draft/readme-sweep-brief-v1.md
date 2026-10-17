@@ -2,7 +2,7 @@
 type: brief
 topic_slug: "readme-sweep"
 version: 1
-status: draft
+status: closed-executed
 review_status: completed
 reviewer: "owner (closure requested in chat 2026-10-17)"
 reviewed_at: 2026-10-17

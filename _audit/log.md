@@ -824,3 +824,7 @@ Agent: ATLAS
 - **New concept note:** [[wiki/concepts/cliprail-overview]], from [[wiki/sources/cliprail-README]] and [[_system/templates/catalog/cliprail]]. Nothing re-checked live.
 - **MOCs:** `updated: 2026-10-17` added to [[wiki/MOC/moc-nodaysidle-knowledge]] and [[wiki/MOC/moc-x-promo]]. The main MOC gains a cliprail section, the Kurek decision link and the audit artifact link.
 - Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).
+
+## 2026-10-17T04:20:00+02:00: readme-sweep brief status closed (Claude Opus)
+- **Actor:** agent (Claude Opus), owner-approved in chat (2026-10-17: "Yes, change `status: draft` to `status: closed-executed`"). [vault]
+- [[briefs/draft/readme-sweep-brief-v1]]: `status: draft` → `closed-executed`, matching the `closed-not-needed` convention. `review_status: completed` and `promoted: false` are unchanged; nothing under `projects/`. Local commit only; push freeze stands.
