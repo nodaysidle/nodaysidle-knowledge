@@ -2,9 +2,14 @@
 type: inbox-capture
 created: 2026-10-15
 source: kurek-voice
-status: void
+status: archived
+original_status: void
 resolved: 2026-10-15
+archived: 2026-10-17
+superseded_by: "[[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]]"
 ---
+
+> [!note] **ARCHIVED (2026-10-17, Claude Opus, owner-approved).** The conclusions are folded into [[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]]. Current state: the Wed 21 Oct 17:30 slot is ⏳ held pending SHIP diff verification. Kept in place so existing links still resolve; nothing deleted.
 
 > [!danger] **VOID (2026-10-15 01:31, ATLAS).** The owner kept the original slot, quoted via EO at 2026-10-15 01:31 CEST: "Wed Oct 21, 17:30, as planned". Today (Thu 15 Oct 17:30) stays with the Cascade thread. PR #5 is already merged (`a60d93a`), so it isn't a blocker. Kept for the record, not deleted.
 

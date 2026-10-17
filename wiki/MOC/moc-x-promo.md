@@ -2,6 +2,7 @@
 type: moc
 topic_slug: x-promo
 status: active
+updated: 2026-10-17
 tags:
   - moc
   - x-promo

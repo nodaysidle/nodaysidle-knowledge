@@ -14,7 +14,7 @@ tags:
   - catalog
   - native
   - ai-tools
-status_note: "Parked 2026-10-16 21:46 (owner: \"leave kurek for now alone, focus on tomorrows launch\"). Whether the Wed 21 Oct 17:30 X slot still holds after parking is not recorded."
+status_note: "Parked 2026-10-16 21:46 (owner: \"leave kurek for now alone, focus on tomorrows launch\"). Wed 21 Oct 17:30 X slot: held pending SHIP diff verification (owner 2026-10-17)."
 updated: 2026-10-17
 ---
 

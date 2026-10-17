@@ -2,6 +2,7 @@
 type: moc
 topic_slug: nodaysidle-knowledge
 status: active
+updated: 2026-10-17
 tags:
   - moc
   - meta
@@ -31,6 +32,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 - **Canonical (read first):** [[wiki/concepts/kurek-canonical-readme]] + README snapshot [[wiki/sources/kureksistant-README]] (owner rule 2026-10-16 21:38)
 - [[wiki/concepts/kureksistant-overview]]
 - [[wiki/concepts/kureksistant-source-discrepancies]]
+- Decision: [[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]] (Wed 21 Oct X slot, ⏳ held pending SHIP diff, 2026-10-17)
 - [[_system/templates/catalog/kurekizmo]] · sources: see [[sources/README]]
 - [[artifacts/kureksistant/audit-2026-10-08]] (C−; release re-cut, PRs #2/#3 merged 2026-10-08) · [[sessions/2026-10-08-kureksistant-session]] · [[artifacts/kureksistant/perf-ipc-check-2026-10-10]] (2026-10-10 perf/IPC code check)
 
@@ -45,6 +47,10 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 - [[wiki/concepts/whisper-bar-overview]] (status page, 2026-10-16)
 - [[_system/templates/catalog/whisper-bar]] · [[_system/templates/catalog/nodaysidle-shareguard]] (catalog only; no sources ingested yet)
 - [[wiki/concepts/nodaysidle-voice-anywhere-overview]] (Android accessibility dictation, Superwhisper interaction, hold-to-talk, auto typing detection)
+
+## cliprail
+
+- [[wiki/concepts/cliprail-overview]] · [[_system/templates/catalog/cliprail]] · snapshot [[wiki/sources/cliprail-README]] (macOS menu bar, unmaintained finished build; X launch Tue 3 Nov 17:30)
 
 ## nodaysrammar
 
@@ -92,6 +98,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 ## Artifacts
 
 - (create under `artifacts/vault-operations/` on demand)
+- [[artifacts/2026-10-17-vault-and-grokbot-audit]] (vault + Grok Bot audit, 2026-10-17)
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
 - [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]]
 - [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]]

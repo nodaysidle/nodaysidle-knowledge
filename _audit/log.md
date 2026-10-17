@@ -811,3 +811,16 @@ Agent: ATLAS
 - **[[wiki/MOC/moc-nodaysidle-knowledge]]:** Kurek section now leads with [[wiki/concepts/kurek-canonical-readme]] + [[wiki/sources/kureksistant-README]]. [[wiki/concepts/kureksistant-overview]] was already linked.
 - **Not done:** `wiki/concepts/nodaysidle-browser-linux-overview.md:69` still says "Oct 15" (launch was 2026-10-14; the line below it already corrects this).
 - Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).
+
+## 2026-10-17T04:12:00+02:00: Final audit cleanups: Kurek slot on hold, inbox archived, brief closed, ClipRail overview (Claude Opus)
+- **Actor:** agent (Claude Opus), owner-approved in chat (2026-10-17: "Approved. Let's finish the remaining minor audit cleanups in one final local commit"). [vault]
+- **Owner decision (in chat, 2026-10-17 04:09):** "The Wed 21 Oct 17:30 slot is ON HOLD / PENDING until SHIP completes the diff verification of the local `arch` build against GitHub." Recorded as `⏳ Held pending SHIP diff verification` in:
+  - [[sessions/LATEST]]: launch-audit row, audit section, and a marker on the 2026-10-15 "CONFIRMED" line;
+  - [[_system/templates/catalog/kurekizmo]];
+  - [[wiki/concepts/kureksistant-overview]].
+- **New decision note:** [[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]] (new folder `wiki/decisions/`). It folds both 2026-10-15 inbox slot captures together with the slot timeline and the post plan, and lists what lifts the hold.
+- **Inbox:** both captures set to `status: archived` (`original_status`, `archived`, `superseded_by` added; archive callout added). They stay in place so the existing `[[inbox/...]]` links resolve. Nothing deleted.
+- **Brief closed:** [[briefs/draft/readme-sweep-brief-v1]] now has `review_status: completed`, `reviewed_at: 2026-10-17`, and a `completion_note` listing the 5 merges. `status: draft` and `promoted: false` are unchanged; nothing under `projects/`.
+- **New concept note:** [[wiki/concepts/cliprail-overview]], from [[wiki/sources/cliprail-README]] and [[_system/templates/catalog/cliprail]]. Nothing re-checked live.
+- **MOCs:** `updated: 2026-10-17` added to [[wiki/MOC/moc-nodaysidle-knowledge]] and [[wiki/MOC/moc-x-promo]]. The main MOC gains a cliprail section, the Kurek decision link and the audit artifact link.
+- Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).

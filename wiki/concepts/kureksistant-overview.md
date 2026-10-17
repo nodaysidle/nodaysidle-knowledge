@@ -292,3 +292,6 @@ Checked by Grok Bot (ATLAS) against `main` @ `02382f2` and the running service. 
 
 <!-- atlas-2303 -->
 - **README demo GIF:** **no**, at HEAD `09e3c7d` (icon `desktop/kurek.png` only) (SHIP 23:00, [[wiki/sources/catalog-audit-2026-10-16]]). ⚠️ The 2026-10-10 "real demo GIF" section above is **stale** for the current README.
+
+## X slot on hold (owner, 2026-10-17 04:09)
+- The Wed 21 Oct 17:30 v0.2.1 X slot is ⏳ **held pending SHIP diff verification** of the local `arch` build (`kurekizmo`) against GitHub (`kureksistant`). Full slot history and what lifts the hold: [[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]].

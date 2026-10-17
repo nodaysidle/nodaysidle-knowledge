@@ -3,9 +3,10 @@ type: brief
 topic_slug: "readme-sweep"
 version: 1
 status: draft
-review_status: pending
-reviewer: ""
-reviewed_at: ""
+review_status: completed
+reviewer: "owner (closure requested in chat 2026-10-17)"
+reviewed_at: 2026-10-17
+completion_note: "Batch 1 executed 5/5 on 2026-10-15 (cascade-v3 #5 3edd3cc, sonora #3 f8b45ba, browser-linux #5 ca1bc3e, nodaysrammar #3 1de303b, kureksistant #23 e5341b7). Closed per [[artifacts/2026-10-17-vault-and-grokbot-audit]]. Not promoted; nothing under projects/."
 promoted: false
 project_slug: ""
 tags:

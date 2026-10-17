@@ -19,6 +19,7 @@ Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 ### Vault audit 2026-10-17 (Claude Opus, owner-requested)
 - Report: [[artifacts/2026-10-17-vault-and-grokbot-audit]]. Vault health 6/10, Grok Bot compliance 8/10. No breach of the promotion gate or of `sources/raw/`.
 - Fixed (local commits only, push freeze stands): x-draft YAML (sonora, apps-hub, cascade); org reference now **40 public repos** (+ `F1-nodaysidle`, `openidle`); `_audit/log.md` cleanup (nothing deleted); stale catalog entries reconciled (ShareGuard and Kurek **parked**, Synapse v0.4.5, WhisperBar/ClipRail unmaintained Mac builds, launch dates, `local_path`, Portfolio `repo_url`); new [[_system/templates/catalog/cliprail]]; Kurek canonical page linked from the MOC.
+- ⏳ **Kurek Wed 21 Oct 17:30 slot: Held pending SHIP diff verification** (owner in chat, 2026-10-17 04:09: "The Wed 21 Oct 17:30 slot is ON HOLD / PENDING until SHIP completes the diff verification of the local `arch` build against GitHub."). Decision note: [[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]]. The two 2026-10-15 inbox slot captures are archived into it.
 - ⚠️ Still open: the WhisperBar 17:30 draft is not in the vault yet (REACH scored the copy at 21:58; where the file lives is not recorded; due to Alan by 14:00). [[briefs/x-drafts/2026-10-17-poll]] is slotted Sat 17:00, 30 min before WhisperBar; **@EO confirm whether the poll runs today.**
 
 <!-- atlas-2132 -->
@@ -43,7 +44,7 @@ Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `da
 | browser-linux v0.2.0 | ✅ launched 2026-10-14 17:48 | https://x.com/kaly_ndi/status/2110397251071750195 |
 | Sonora v0.1.1 | ✅ launched 2026-10-16 18:32 | https://x.com/kaly_ndi/status/2111133123421352217 |
 | WhisperBar v1.1.2 | ⏳ released, not promoted; pending Sat 17 Oct 17:30 | no X post |
-| Kurek v0.2.1 | ⏳ released, not promoted; pending Wed 21 Oct 17:30 | no X post |
+| Kurek v0.2.1 | ⏳ released, not promoted; ⏳ **Held pending SHIP diff verification** (owner 2026-10-17 04:09; was: pending Wed 21 Oct 17:30) | no X post |
 | Cascade v3.1.0 | ⏳ released, not promoted; held for the big launch | no X post |
 | Apps hub post (corrected) | ⏳ **not live** as of 21:11 | no original post after 18:32 |
 
@@ -106,7 +107,7 @@ Sources: GitHub Releases API (tags + asset digests), the live hub (HTTP 200, `da
 - [vault] **Sandbox decision: NO sandbox.** Owner decided 2026-10-15. Do not re-propose sandboxing agent commands.
 - [vault] Still pending owner: 2 skipped tests, 08:30 morning summary schedule, merge-gate `--comment` on PRs, idle watchdog schedule.
 
-- [handoff 2026-10-15] **X post slot: Wed 2026-10-21 17:30 Europe/Ljubljana: CONFIRMED by owner (01:01).** REACH's v0.2.1 draft replaces the planned Kurek launch copy in that slot. Main post has no link; first reply links the v0.2.1 release and the apps card. See [[sessions/handoffs/2026-10-15-REACH]].
+- [handoff 2026-10-15] *(⏳ 2026-10-17: now **held pending SHIP diff verification**, see [[wiki/decisions/2026-10-15-kurek-v0-2-1-x-slot]].)* **X post slot: Wed 2026-10-21 17:30 Europe/Ljubljana: CONFIRMED by owner (01:01).** REACH's v0.2.1 draft replaces the planned Kurek launch copy in that slot. Main post has no link; first reply links the v0.2.1 release and the apps card. See [[sessions/handoffs/2026-10-15-REACH]].
 - [owner 2026-10-15 01:31] ✅ **Slot conflict resolved:** Adlof, via EO: "Wed Oct 21, 17:30, as planned". The Kurek v0.2.1 post stays on **Wed 21 Oct 17:30**. Thu 15 Oct 17:30 stays with the Cascade v3.1.0 thread. [[inbox/2026-10-15-kurek-v0-2-1-x-launch-moved-to-today-thu]] is marked `status: void`, and [[inbox/2026-10-15-x-launch-locked-kurek-v0-2-1-wed-21-oct-]] is marked `status: confirmed`. PR #5 is merged (`a60d93a`), so it isn't a blocker.
 - [owner 2026-10-15 01:33] Owner's words, via EO: "1 soften to observed, 2 yes open the PR, 3 merge #6, 4 yes push all three."
 - [handoff 2026-10-15] ✅ **Card claims fixed:** [nodaysidle-apps PR #6](https://github.com/nodaysidle/nodaysidle-apps/pull/6) was merged as `85eaf50` by EO and deployed to prod. ATLAS checked the live card at 01:41: it shows '25 tools' once, with no '24 tools' and no '0.8ms'.
