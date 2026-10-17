@@ -836,3 +836,4 @@ Agent: ATLAS
 - Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).
 
 - 2026-10-17 15:02 ATLAS: logged Alan's 14:59/15:01 subagent-exec execution rule in AGENTS.md (source EO 15:02). Local commit, no push.
+- 2026-10-17 15:15 ATLAS: committed wiki/sources/desktop-audit-test.md (SHIP via subagent-exec claude, 5 desktop repos). Local commit, no push.
