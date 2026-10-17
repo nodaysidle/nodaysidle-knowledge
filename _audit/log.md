@@ -838,3 +838,4 @@ Agent: ATLAS
 - 2026-10-17 15:02 ATLAS: logged Alan's 14:59/15:01 subagent-exec execution rule in AGENTS.md (source EO 15:02). Local commit, no push.
 - 2026-10-17 15:15 ATLAS: committed wiki/sources/desktop-audit-test.md (SHIP via subagent-exec claude, 5 desktop repos). Local commit, no push.
 - 2026-10-17 15:37 ATLAS: pinned Alan's 15:36 QUOTA FREEZE (until ~Fri 23 Oct) verbatim in AGENTS.md and top of LATEST.md (source EO). Local commit, no push.
+- 2026-10-17 15:40 ATLAS: vault push halted at pre-push scan (62 home-path lines, 13 key-name mentions, no values); reported to EO.
