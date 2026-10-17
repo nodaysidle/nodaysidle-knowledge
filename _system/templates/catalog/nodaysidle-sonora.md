@@ -5,13 +5,14 @@ status: in-progress
 short_description: Native desktop player unifying local audio, Spotify, and YouTube Music.
 repo_url: https://github.com/nodaysidle/nodaysidle-sonora
 site_url: https://github.com/nodaysidle/nodaysidle-sonora
-local_path: "[PLACEHOLDER: ../nodaysidle-sonora when cloned locally]"
+local_path: ../nodaysidle-sonora
 stack:
   - Tauri
 tags:
   - catalog
   - native
   - media
+updated: 2026-10-17
 ---
 
 # Sonora
@@ -30,3 +31,4 @@ Portfolio group: **Native apps** (`nodaysidle-sonora`).
   - Visibility-history conflict with SWEEP Oct 8 remains **open** (unchanged).
   - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
 - 2026-10-15 02:30 (ATLAS, README sweep batch 1): README #3 merged as `f8b45ba` (SHA-256 table + direct Linux links, v0.1.1).
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): ✅ **Launched on X 2026-10-16 18:32** (v0.1.1): https://x.com/kaly_ndi/status/2111133123421352217 (ATLAS verified via X API 20:04). `local_path` set (cloned on arch).

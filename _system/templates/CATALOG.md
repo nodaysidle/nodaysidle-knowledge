@@ -9,17 +9,18 @@ Index of `_system/templates` entries. All paths are relative to the vault root.
 | [[catalog/nodaysidle-prompt-optimizer]] | Prompt Optimizer | completed | [repo](https://github.com/nodaysidle/nodaysidle-prompt-optimizer) |
 | [[catalog/markdown-helper]] | AI Rules Builder | completed | https://github.com/nodaysidle/markdown-helper |
 | [[catalog/skill-gallery]] | Agent Gallery | completed | https://github.com/nodaysidle/skill-gallery |
-| [[catalog/portfolio-site]] | Portfolio / showcase | completed | [Portfolio](https://github.com/nodaysidle/Portfolio) + [project-pages](https://github.com/nodaysidle/nodaysidle-project-pages) |
+| [[catalog/portfolio-site]] | Portfolio / showcase | completed | [Portfolio](https://github.com/nodaysidle/Portfolio) *(project-pages is stale, not canonical)* |
 | [[catalog/nodaysidle-apps]] | NODAYSIDLE Apps (downloads showcase) | completed | [nodaysidle-apps](https://github.com/nodaysidle/nodaysidle-apps) → https://nodaysidle-apps.vercel.app |
 | [[catalog/nodaysidle-browser-linux]] | nodaysidle (Linux browser) | in-progress | https://github.com/nodaysidle/nodaysidle-browser-linux |
-| [[catalog/kurekizmo]] | Kureksistant (Kurek) | in-progress | https://github.com/nodaysidle/kureksistant | *(v0.2.0 Latest; card 06 on nodaysidle-apps since 2026-10-10 07:35)* ⚠️ **stale 2026-10-16 21:11:** GitHub Latest is **v0.2.1** (ATLAS audit)
+| [[catalog/kurekizmo]] | Kureksistant (Kurek) | parked (2026-10-16 21:46) | https://github.com/nodaysidle/kureksistant | *(v0.2.1 Latest; headless daemon, no GUI; card 06 on nodaysidle-apps. Fixed 2026-10-17: the row said v0.2.0, stale since the 21:11 audit.)* |
 | [[catalog/nodaysidle-browser]] | NODAYSIDLE Browser (macOS) | completed | https://github.com/nodaysidle/nodaysidle-browser |
 | [[catalog/cascade-v3]] | Cascade v3 | in-progress | https://github.com/nodaysidle/nodaysidle-cascade-v3 |
-| [[catalog/whisper-bar]] | WhisperBar | completed | https://github.com/nodaysidle/whisper-bar |
-| [[catalog/nodaysidle-shareguard]] | ShareGuard | completed | https://github.com/nodaysidle/nodaysidle-shareguard |
+| [[catalog/whisper-bar]] | WhisperBar | completed (unmaintained Mac build) | https://github.com/nodaysidle/whisper-bar | *(v1.1.2 Latest; X post Sat 17 Oct 17:30)* |
+| [[catalog/nodaysidle-shareguard]] | ShareGuard | parked (2026-10-16 22:39) | https://github.com/nodaysidle/nodaysidle-shareguard | *(v0.1.2 ships a stale 0.1.0 DMG; no Mac rebuild)* |
 | [[catalog/nodaysidle-sonora]] | Sonora | in-progress | https://github.com/nodaysidle/nodaysidle-sonora |
-| [[catalog/synapse-notes]] | Synapse Notes | in-progress | https://github.com/nodaysidle/synapse-notes |
-| [[catalog/nodaysrammar]] | nodaysrammar | active / released v1.0.1 (2026-10-09 11:56; was needs-work from 10:35 until the v1.0.1 fixes in `ce2cbd7`: release had no assets, false ONNX claim, private path) | [chrome-extension](../chrome-extension) · https://github.com/nodaysidle/nodaysrammar (public, v1.0.0, MIT; checked 2026-10-09) | *(v1.0.1 Latest; card 05 on nodaysidle-apps)*
+| [[catalog/synapse-notes]] | Synapse Notes | in-progress | https://github.com/nodaysidle/synapse-notes | *(v0.4.5 Latest, 2026-10-16; X launch Sat 31 Oct 17:30)* |
+| [[catalog/cliprail]] | ClipRail | completed (unmaintained Mac build) | https://github.com/nodaysidle/cliprail | *(v1.2.0, release `v1.2.0-dmg.20260727`; X launch Tue 3 Nov 17:30)* |
+| [[catalog/nodaysrammar]] | nodaysrammar | active / released v1.0.1 (2026-10-09 11:56; was needs-work from 10:35 until the v1.0.1 fixes in `ce2cbd7`: release had no assets, false ONNX claim, private path) | [chrome-extension](../chrome-extension) · https://github.com/nodaysidle/nodaysrammar (public, MIT) | *(v1.0.1 Latest; card 05 on nodaysidle-apps; launched on X 2026-10-13 15:17)* |
 
 > ⚠️ **2026-10-08:** the owner confirmed https://nodaysidle-portfolio-nine.vercel.app (Vercel project `nodaysidle-portfolio`) as the official showcase. `nodaysidle-project-pages` / showcase-v2 in the Portfolio row is stale, not canonical. Status for whisper-bar, cascade-v3, sonora, shareguard and browser-linux: [[artifacts/vault-operations/repo-status-reconcile-2026-10-08]]. ⚠️ **(Superseded in part 2026-10-11 20:10):** ShareGuard and browser-linux portfolio absence from that Oct 8 note is outdated — both are on portfolio-nine as of Portfolio PR #1; see [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
 

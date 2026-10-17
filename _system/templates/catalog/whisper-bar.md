@@ -12,6 +12,8 @@ tags:
   - catalog
   - native
   - macos
+status_note: "Finished macOS build, unmaintained (owner 2026-10-16 22:39: no Mac, no rebuilds). v1.1.2 is Latest."
+updated: 2026-10-17
 ---
 
 # WhisperBar
@@ -29,3 +31,4 @@ Portfolio group: **Native apps**. Research angles: speech APIs, privacy, on-devi
 - ## Update 2026-10-11 20:10 (UTC+2) — weekly reconcile (ATLAS)
   - SWEEP Oct 11: Oct 8 SHIP install gap **cleared** and re-verified (README Installation → v1.1.2 `WhisperBar.dmg`). Still on portfolio (02/09) and apps site (card 03).
   - [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): Latest **v1.1.2** (hub card PASS, SHIP via EO 03:39). Mac app = **unmaintained finished build**. **Sat 17 Oct 2026 17:30:** regular catalog post (not a launch), publish-approved (Alan 21:25; Alan posts it himself); drafts are due to Alan by 14:00. No local checkout on arch. See [[wiki/concepts/whisper-bar-overview]].

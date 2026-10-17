@@ -22,6 +22,7 @@ tags:
   - on-device-ai
   - nlp
   - privacy
+updated: 2026-10-17
 ---
 
 # nodaysrammar
@@ -65,3 +66,4 @@ Real-time, private, zero-cloud multilingual grammar and spell checker browser ex
 
 - 2026-10-12 03:32 decision: Owner decisions 2026-10-12 (via Execution Operator): (1) macOS NODAYSIDLE Browser card to be hidden from the portfolio (no Macs available); (2) nodaysrammar stays off the Chrome Web Store for now (cost, no ROI; sideload only); (3) Kurek security fixes (unauthenticated HTTP :8790, exec() in actions/desktop.py) parked while the owner tests; he is prototyping phone-based remote control of Kurek. ⚠️ Risk: remote control would expose the unauthenticated control API and model-generated exec() beyond localhost; fix auth before exposing it.
 - 2026-10-15 02:30 (ATLAS, README sweep batch 1): README #3 merged as `1de303b` (direct v1.0.1 links + SHA-256).
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): ✅ **Launched on X 2026-10-13 15:17** (v1.0.1): https://x.com/kaly_ndi/status/2109996918763856216 (ATLAS launch audit 21:11).

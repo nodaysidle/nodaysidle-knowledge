@@ -1,17 +1,25 @@
 ---
 type: session-pointer
-updated: 2026-10-16 21:11
-note: Folded by ATLAS on branch atlas/fold-2026-10-16 (not main yet).
+updated: 2026-10-17 04:04
+note: On local main (push freeze since 2026-10-16 21:39). Last ATLAS fold 2026-10-16 23:27; 2026-10-17 audit maintenance by Claude Opus.
 ---
 
 # Active session — read this first
 
-Resume here: [[2026-10-08-kureksistant-session]] (primary thread: Kurek)
-Umbrella for vault-wide work: [[2026-10-07-vault-operations-session]]
+Resume here: **the "Current true state" sections below** (newest first). They are newer than any session file.
+Umbrella session (vault-wide work, primary thread while Kurek is parked): [[2026-10-07-vault-operations-session]]
+Kurek thread: [[2026-10-08-kureksistant-session]]: **parked** since 2026-10-16 21:46 ("leave kurek for now alone, focus on tomorrows launch"). It was the primary pointer until 2026-10-17.
+Today's focus (2026-10-17): WhisperBar v1.1.2 regular catalog post at 17:30; drafts due to Alan by 14:00.
 Handoffs between agents: `sessions/handoffs/` (see [[sessions/handoffs/README]])
 2026-10-16 handoffs: [[sessions/handoffs/2026-10-16-EO]], [[sessions/handoffs/2026-10-16-SHIP]], [[sessions/handoffs/2026-10-16-REEL]], [[sessions/handoffs/2026-10-16-REACH]], [[sessions/handoffs/2026-10-16-ATLAS]]. Weekend proposals (REACH/SHIP/REEL) are box-only at `/workspace/vault-handoffs/weekend/`, not copied.
 
-## Current true state (2026-10-16)
+## Current true state (2026-10-16 → 2026-10-17)
+
+<!-- audit-20261017 -->
+### Vault audit 2026-10-17 (Claude Opus, owner-requested)
+- Report: [[artifacts/2026-10-17-vault-and-grokbot-audit]]. Vault health 6/10, Grok Bot compliance 8/10. No breach of the promotion gate or of `sources/raw/`.
+- Fixed (local commits only, push freeze stands): x-draft YAML (sonora, apps-hub, cascade); org reference now **40 public repos** (+ `F1-nodaysidle`, `openidle`); `_audit/log.md` cleanup (nothing deleted); stale catalog entries reconciled (ShareGuard and Kurek **parked**, Synapse v0.4.5, WhisperBar/ClipRail unmaintained Mac builds, launch dates, `local_path`, Portfolio `repo_url`); new [[_system/templates/catalog/cliprail]]; Kurek canonical page linked from the MOC.
+- ⚠️ Still open: the WhisperBar 17:30 draft is not in the vault yet (REACH scored the copy at 21:58; where the file lives is not recorded; due to Alan by 14:00). [[briefs/x-drafts/2026-10-17-poll]] is slotted Sat 17:00, 30 min before WhisperBar; **@EO confirm whether the poll runs today.**
 
 <!-- atlas-2132 -->
 ### Kurek owner facts 2026-10-16 21:31/21:29 (via EO 21:32; folded by ATLAS)

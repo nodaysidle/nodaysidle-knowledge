@@ -1,7 +1,7 @@
 ---
 type: catalog-entry
 name: ShareGuard
-status: completed
+status: parked
 short_description: Local-first macOS privacy scanner that checks files for secrets, contact details and local paths before you share them.
 github_status: published
 repo_url: https://github.com/nodaysidle/nodaysidle-shareguard
@@ -13,6 +13,8 @@ tags:
   - catalog
   - native
   - macos
+status_note: "Parked 2026-10-16 22:39 (owner via EO): the v0.1.2 release ships a stale ShareGuard-0.1.0.dmg and the Mac app cannot be rebuilt (no Mac since Sep 2026). The Thu 5 Nov launch slot is stale."
+updated: 2026-10-17
 ---
 
 # ShareGuard
@@ -32,3 +34,4 @@ Portfolio group: **Native apps** (`nodaysidle-shareguard`). Research angles: sec
   - Still **not** on the downloads showcase ([[_system/templates/catalog/nodaysidle-apps]]).
   - Latest release still [v0.1.2](https://github.com/nodaysidle/nodaysidle-shareguard/releases/tag/v0.1.2) with `ShareGuard-0.1.0.dmg` + `.sha256`; README Installation links the v0.1.2 DMG (Oct 8 SHIP clear re-verified).
   - Details: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]].
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): status `completed` → **parked** (EO 22:39). Release v0.1.2 still attaches `ShareGuard-0.1.0.dmg` (SCOUT 22:35; reconfirmed by ATLAS 23:03 via GitHub digests). Mac apps are unmaintained finished builds; no rebuild. Snapshot: [[wiki/sources/nodaysidle-shareguard-README]].

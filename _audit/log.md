@@ -790,3 +790,24 @@ Agent: ATLAS
   - 25 missing `Actor` fields were back-filled from the headings and the commits' `Agent:` trailers.
   - The out-of-order timestamps were left in place.
 - **Committed locally only. Push freeze stands** (Alan 21:39).
+
+## 2026-10-17T04:05:00+02:00: Audit maintenance: drafts committed, LATEST pointer, catalog reconcile, ClipRail, MOC (Claude Opus)
+- **Actor:** agent (Claude Opus), owner-approved in chat (2026-10-17: "Approved. Please execute the remaining maintenance tasks in one clean local commit, keeping the push freeze in place"). [vault]
+- **Committed (were untracked since 2026-10-15):** [[briefs/draft/nodaysidle-browser-linux-ux-findings-brief-v1]] (still `review_status: pending`) and [[briefs/x-drafts/2026-10-17-poll]] (`status: draft`). Contents unchanged.
+- **[[sessions/LATEST]]:**
+  - Frontmatter `updated: 2026-10-17 04:04`; the stale "branch, not main yet" note is replaced.
+  - "Resume here" now points to the Current-true-state sections and the vault-operations umbrella. The Kurek session is marked parked (Alan 2026-10-16 21:46).
+  - New audit note, with the open WhisperBar-draft and 17:00-poll questions for @EO.
+- **Catalog reconcile (`_system/templates/catalog/`):** a dated line was appended to each file and frontmatter fields set; earlier lines left as written.
+  - `nodaysidle-shareguard` and `kurekizmo`: `status` → `parked`. Kurek's short description and stack now say headless daemon, no GUI.
+  - `synapse-notes`: v0.4.5 Latest, slot Sat 31 Oct.
+  - `whisper-bar`: unmaintained Mac build, Sat 17 Oct post.
+  - `cascade-v3`: released, not promoted, held for the big launch.
+  - `nodaysidle-sonora`, `nodaysidle-browser-linux`, `nodaysrammar`: X launch dates and URLs.
+  - `portfolio-site`: `repo_url` → Portfolio, old value kept as `stale_repo_url`.
+  - `local_path` set for cascade-v3, sonora and synapse-notes.
+- **New:** [[_system/templates/catalog/cliprail]], built from [[wiki/sources/cliprail-README]] and [[sessions/LATEST]]; nothing re-checked live.
+- **[[_system/templates/CATALOG]]:** rows updated for Portfolio, Kurek, WhisperBar, ShareGuard, Synapse and nodaysrammar; ClipRail row added.
+- **[[wiki/MOC/moc-nodaysidle-knowledge]]:** Kurek section now leads with [[wiki/concepts/kurek-canonical-readme]] + [[wiki/sources/kureksistant-README]]. [[wiki/concepts/kureksistant-overview]] was already linked.
+- **Not done:** `wiki/concepts/nodaysidle-browser-linux-overview.md:69` still says "Oct 15" (launch was 2026-10-14; the line below it already corrects this).
+- Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).

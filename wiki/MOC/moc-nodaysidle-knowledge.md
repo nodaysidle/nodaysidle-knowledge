@@ -28,6 +28,7 @@ How do we research, cite, review, and promote work across the nodaysidle portfol
 
 ## kureksistant
 
+- **Canonical (read first):** [[wiki/concepts/kurek-canonical-readme]] + README snapshot [[wiki/sources/kureksistant-README]] (owner rule 2026-10-16 21:38)
 - [[wiki/concepts/kureksistant-overview]]
 - [[wiki/concepts/kureksistant-source-discrepancies]]
 - [[_system/templates/catalog/kurekizmo]] · sources: see [[sources/README]]

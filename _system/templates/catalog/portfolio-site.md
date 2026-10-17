@@ -4,7 +4,8 @@ name: NODAYSIDLE Portfolio
 status: completed
 short_description: Dependency-free editorial portfolio site; build-time HTML from profile + presentation JSON; Vercel static deploy.
 github_status: mixed
-repo_url: https://github.com/nodaysidle/nodaysidle-project-pages
+repo_url: https://github.com/nodaysidle/Portfolio
+stale_repo_url: https://github.com/nodaysidle/nodaysidle-project-pages
 site_url: https://nodaysidle-portfolio-nine.vercel.app
 showcase_url: https://nodaysidle-showcase-v2.vercel.app
 profile_index_repo: https://github.com/nodaysidle/nodaysidle
@@ -18,6 +19,7 @@ tags:
   - catalog
   - web
   - portfolio
+updated: 2026-10-17
 ---
 
 # Portfolio site
@@ -64,3 +66,4 @@ Canonical **presentation** layer for featured GitHub projects (`data/presentatio
 - Full catalog reconcile: [[artifacts/vault-operations/repo-status-reconcile-2026-10-11]]. SWEEP portfolio-missing rows marked superseded in [[artifacts/vault-operations/sweep-2026-10-11-sunday-catalog]].
 
 - 2026-10-12 03:50 (ATLAS): Portfolio PR #2 merged as 4a542d0: macOS NODAYSIDLE Browser card hidden per owner decision 2026-10-12; portfolio now 8 projects (closes reconcile 2026-10-11 conflict 3 for the portfolio).
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): `repo_url` → **Portfolio** (the repo that deploys portfolio-nine, resolved 2026-10-08 23:41). `nodaysidle-project-pages` / showcase-v2 kept as `stale_repo_url` and `showcase_url` for history; not canonical.

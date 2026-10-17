@@ -16,6 +16,7 @@ tags:
   - catalog
   - native
   - linux
+updated: 2026-10-17
 ---
 
 # nodaysidle-browser-linux
@@ -40,3 +41,4 @@ Focused browsing surface for Omarchy/Hyprland workflows. Research topics: packag
 - 2026-10-12 03:50 (ATLAS): browser-linux PR #2 merged as 31ede82: README install now links the AppImage directly (closes reconcile 2026-10-11 conflict 5).
 - 2026-10-15 01:55 (ATLAS): owner confirmed at 01:50 CEST: "i did reoptimize it and today i posted it on X the newest version". Reinstall resolved. The local WIP (`a813e70` + 20 uncommitted entries) is still open.
 - 2026-10-15 02:30 (ATLAS, README sweep batch 1): README #5 merged as `ca1bc3e` (v0.2.0 AppImage SHA-256).
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): ✅ **Launched on X 2026-10-14 17:48** (v0.2.0): https://x.com/kaly_ndi/status/2110397251071750195 (ATLAS launch audit 21:11; any "Oct 15" launch date is stale). PR #7 merged as `7310f28`; PR #8 (bundled AppImage) open, merge needs a yes.

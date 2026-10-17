@@ -1,19 +1,21 @@
 ---
 type: catalog-entry
 name: Kureksistant (Kurek)
-status: in-progress
-short_description: Personal AI assistant (~450MB peak RAM observed with faster-whisper; 25 tools in v0.2.1, 27 on main) with screen vision, Grok voice, clipboard manager, Jev cognition, Muse Memory; v0.2.1 Linux bundle (debug APK attached to the release).
+status: parked
+short_description: Headless Python daemon AI assistant with no GUI by design, summoned by middle-click (`mouse:274`), hotkey or CLI (owner 2026-10-16 21:31/21:32; earlier GUI versions are dead) — ~450MB peak RAM observed with faster-whisper; 25 tools in v0.2.1, 27 on main) with screen vision, Grok voice, clipboard manager, Jev cognition, Muse Memory; v0.2.1 Linux bundle (debug APK attached to the release).
 repo_url: https://github.com/nodaysidle/kureksistant
 site_url: https://github.com/nodaysidle/kureksistant/releases/tag/v0.2.1
 local_path: ../kurekizmo
 stack:
   - Python
-  - desktop integration
+  - headless daemon (no GUI)
   - Hyprland / Omarchy
 tags:
   - catalog
   - native
   - ai-tools
+status_note: "Parked 2026-10-16 21:46 (owner: \"leave kurek for now alone, focus on tomorrows launch\"). Whether the Wed 21 Oct 17:30 X slot still holds after parking is not recorded."
+updated: 2026-10-17
 ---
 
 # Kureksistant (`kurekizmo` local tree)
@@ -60,3 +62,4 @@ Autonomous assistant and workstation radar. Local folder name `kurekizmo`; upstr
 - 2026-10-15 01:45 (ATLAS): ✅ PR #22 merged as `149d2c5` (docs: 25 tools, no 0.8ms). The local kurekizmo checkout is not yet synced. *(Corrected 2026-10-15 12:45 UTC, ATLAS: the local checkout is now synced — `main` = `origin/main` = `09e3c7d`.)*
 - 2026-10-15 02:30 (ATLAS, README sweep batch 1): README PR #23 is open (head `b8d18f0`, gate PASS after the `--ignore-missing` fix). Waiting on Alan's merge. The v0.2.1 release notes line 108 still uses `--ignore-missing` (owner decides on a fix).
 - 2026-10-15 02:32 (ATLAS): README #23 merged as `e5341b7` (Alan 02:30). ⚠️ Local `ab1420a` (not pushed) adds `codebase` + `run` (27 tools) and set `KUREK_REMOTE_ALLOW_EXEC=1` on the live service. Owner decision pending. *(Corrected 2026-10-15 12:45 UTC, ATLAS: superseded — the work in `ab1420a` reached the remote `main` as part of [PR #24](https://github.com/nodaysidle/kureksistant/pull/24), **merged** 2026-10-15T04:33:03Z, squash `fc94620`; `origin/main` = local main = `09e3c7d`. The owner's 02:33 decision is closed and the flag stays ON by his choice.)*
+- 2026-10-17 (Claude Opus, catalog reconcile against [[sessions/LATEST]] and [[artifacts/2026-10-17-vault-and-grokbot-audit]]): status `in-progress` → **parked** (Alan 21:46). Identity: headless daemon, **no GUI on purpose**; read [[wiki/concepts/kurek-canonical-readme]] together with [[wiki/sources/kureksistant-README]] before writing about Kurek. Latest release **v0.2.1** (`3761c78`). `ab1420a` (tools #26/#27) reached `main` via PR #24 (squash `fc94620`, 2026-10-15); README PR #25 merged as `0da42af` (2026-10-16 23:27). Remote exec: `KUREK_REMOTE_ALLOW_EXEC=1` gate kept, off by default with a warning (owner 21:38). v0.2.2 PR may be opened; merge and release each need a separate yes.
