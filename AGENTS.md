@@ -136,6 +136,9 @@ After big code changes, refresh the graph with `trail build` (deterministic,
 no API key, $0).
 <!-- trail:end -->
 
+## QUOTA FREEZE (Alan, Sat 2026-10-17 15:36 CEST, via EO), runs until about Fri 23 Oct 2026
+Verbatim: "QUOTA FREEZE (Next 6 Days): With ~38% Grok Bot weekly quota remaining, all bots (EO, SHIP, REEL, REACH, ATLAS, SCOUT) are strictly forbidden from writing multi-file edits, long text generation, or large diffs directly in Grok chat. All heavy generation, code audits, copy drafts, and file editing MUST be routed through our local subscriptions via `subagent-exec claude` or `subagent-exec commandcode` on arch. Grok Bot is strictly restricted to command dispatch, status checks, and concise final summaries."
+
 ## Execution rule: subagent-exec (Alan, 2026-10-17 14:59 CEST, via EO)
 Verbatim: "Mandatory execution rule starting immediately: 1. Grok context freeze on generation: Neither you, SHIP, REEL, nor REACH may write code diffs, large file rewrites, or long multi-page copy inside Grok chat. 2. Delegate all heavy execution to our local subscription runner on arch: Use `subagent-exec claude "<task prompt>" <repo_path>` (or `subagent-exec commandcode`). 3. Your role in Grok Bot is strictly: Command dispatch (running subagent-exec), Checking brief exit codes and `git status`, Handoff logging in HANDOFF.md, Presenting final concise options to Alan."
 15:01 CEST: "Yes, send the rule to ATLAS and SCOUT as well so the entire team operates under subagent-exec."

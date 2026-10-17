@@ -6,6 +6,9 @@ note: On local main (push freeze since 2026-10-16 21:39). Last ATLAS fold 2026-1
 
 # Active session — read this first
 
+## QUOTA FREEZE (Alan, Sat 2026-10-17 15:36 CEST, via EO), runs until about Fri 23 Oct 2026
+Verbatim: "QUOTA FREEZE (Next 6 Days): With ~38% Grok Bot weekly quota remaining, all bots (EO, SHIP, REEL, REACH, ATLAS, SCOUT) are strictly forbidden from writing multi-file edits, long text generation, or large diffs directly in Grok chat. All heavy generation, code audits, copy drafts, and file editing MUST be routed through our local subscriptions via `subagent-exec claude` or `subagent-exec commandcode` on arch. Grok Bot is strictly restricted to command dispatch, status checks, and concise final summaries."
+
 Resume here: **the "Current true state" sections below** (newest first). They are newer than any session file.
 Umbrella session (vault-wide work, primary thread while Kurek is parked): [[2026-10-07-vault-operations-session]]
 Kurek thread: [[2026-10-08-kureksistant-session]]: **parked** since 2026-10-16 21:46 ("leave kurek for now alone, focus on tomorrows launch"). It was the primary pointer until 2026-10-17.
