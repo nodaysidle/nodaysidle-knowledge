@@ -828,3 +828,9 @@ Agent: ATLAS
 ## 2026-10-17T04:20:00+02:00: readme-sweep brief status closed (Claude Opus)
 - **Actor:** agent (Claude Opus), owner-approved in chat (2026-10-17: "Yes, change `status: draft` to `status: closed-executed`"). [vault]
 - [[briefs/draft/readme-sweep-brief-v1]]: `status: draft` → `closed-executed`, matching the `closed-not-needed` convention. `review_status: completed` and `promoted: false` are unchanged; nothing under `projects/`. Local commit only; push freeze stands.
+
+
+## 2026-10-17T04:32:00+02:00: Atomic Catalog Sync rule added to AGENTS.md (Antigravity)
+- **Actor:** agent (Antigravity), owner-approved in chat (2026-10-17: "Yes please, my whole life ive been striving towards optimizing making agents deterministic and trushworthy"). [vault]
+- **Rule enacted:** Added `Atomic Catalog Sync (Eliminating the Two-Speed Vault)` under `## Vault-first rule` in [[AGENTS.md]]. Mandates that any app version, launch date, or lifecycle status change in `sessions/LATEST.md` must be accompanied by an update to `_system/templates/catalog/<app>.md` and `_system/templates/CATALOG.md` in the exact same turn and commit. Updates without matching catalog cards are strictly incomplete.
+- Local commit only. **Push freeze stands** (Alan 2026-10-16 21:39).

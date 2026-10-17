@@ -49,6 +49,7 @@ Structure every response using the following three sections with bullet points f
 - **Everything important goes in the vault.** Alan's hard rule as of 2026-10-16 20:04: "everything important goes in the vault".
 - **ATLAS folds** every important decision, launch, correction and handoff into the vault (`sessions/LATEST.md`, the relevant `wiki/concepts/` page, and `sessions/handoffs/`). Other agents write a handoff; ATLAS makes sure it lands in the vault.
 - **Proactive Continuous Vault Logging.** EO must log every new task in `sessions/handoffs/<date>-EO.md` immediately upon receiving it. ATLAS holds explicit write authority inside the vault root to maintain notes, `sessions/LATEST.md`, catalog pages, and `_audit/log.md`. ATLAS actively folds open handoffs as soon as agents complete tasks, without waiting for manual sweeps.
+- **Atomic Catalog Sync (Eliminating the Two-Speed Vault).** Whenever an app's release version, launch date, or lifecycle status is updated in `sessions/LATEST.md`, the agent must update the corresponding card in `_system/templates/catalog/<app>.md` and the overview row in `_system/templates/CATALOG.md` in the exact same turn and commit. An update to `sessions/LATEST.md` that leaves the catalog card untouched is an incomplete task.
 
 <!-- atlas-2133 -->
 ## README source-of-truth rules (owner, 2026-10-16 21:32–21:34)
